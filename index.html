@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" name="viewport">
     <title>Guilherme Saracura</title>
-    
+        
     <link href="../img/icon.png" rel="icon">
     <link href="../img/icon.png" rel="apple-touch-icon">
     
@@ -42,13 +42,53 @@
             <div id="links">
               <a class="btn btn-primary" href="https://www.linkedin.com/in/guilhermesaracura" target="_blank" style="background-color: #0082ca;" role="button"><i class="bx bxl-linkedin"></i></a>
               <a class="btn btn-primary" href="https://github.com/GuilhermeSaracura" target="_blank" style="background-color: #333333;" role="button"><i class="bx bxl-github"></i></a>
-              <a class="btn btn-primary" href="https://www.instagram.com/guisaracura/" target="_blank" style="background-color: #ac2bac;" role="button"><i class="bx bxl-instagram"></i></a>
               <a class="btn btn-primary" href="mailto:guilhermesaracura@gmail.com" target="_blank" style="background-color: #dd4b39;" role="button"><i class="bx bx-envelope"></i></a>
             </div>
         </div>
     </header>
-    <main>
-
+        <section id="home" class="d-flex flex-column justify-content-center align-items-center">
+            <i class="bi bi-list mobile-nav-toggle d-xl-none"></i>
+            <table>
+                <tr>
+                <td><img src="../img/profile_pic.JPG" class="section-img"/></td>
+                  
+                    <td><div class="homecontainer">
+                    <h1 class="homename">Guilherme L. G. Saracura</h1>
+                    <br>
+                    <p class="typed-script">Sou estudante de Engenharia da Computação, Desenvolvedor de Software, Desenvolvedor Web e Mobile.</p>
+                  </div></td>
+                </tr>
+              </table>
+        </section>
+        
+    <main id="main">
     </main>
+
+    <script src="../css/purecounter/purecounter.js"></script>
+    <script src="../css/aos/aos.js"></script>
+    <script src="../css/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="../css/glightbox/js/glightbox.min.js"></script>
+    <script src="../css/isotope-layout/isotope.pkgd.min.js"></script>
+    <script src="../css/swiper/swiper-bundle.min.js"></script>
+    <script src="../css/typed.js/typed.min.js"></script>
+    <script src="../css/waypoints/noframework.waypoints.js"></script>
+    <script src="../css/php-email-form/validate.js"></script>
+    <script src="../js/main.js"></script>
+
+    <script>
+
+    function typeWrite(element){
+        const textArray = element.innerHTML.split('')
+        element.innerHTML='';
+        textArray.forEach((letter, i) =>{
+            setTimeout(function(){
+                element.innerHTML+=letter;
+            },100*i)
+        });
+    }
+        const script = document.querySelector('.typed-script');
+        typeWrite(script);
+
+    </script>
 </body>
 </html>

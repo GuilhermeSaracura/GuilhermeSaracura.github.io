@@ -21,8 +21,8 @@
 
 #header #links a {
     margin-bottom: 20px;
-    margin-left: 7px;
-    margin-right: 7px;
+    margin-left: 15px;
+    margin-right: 15px;
     border-color: #000000;
     color: #fff;
     text-decoration: none;
@@ -58,5 +58,66 @@
 #navbar a:hover, #navbar li:hover > a i{
     text-decoration: none;
     color: #fff;
+}
+#home{
+    width: 100%;
+    height: 100vh;
+    background: url("../img/background.jpg") top center;
+    background-size: cover;
+    margin-left: 100px;
+}
+
+#home .homecontainer {
+    float: left;
+    position: relative;
+    z-index: 2;
+    width: 1000px;
+    height: 300px;
+}
+
+#home table{
+    border-radius: 200px;
+    background:rgba(0,0,0, 0.7);
+}
+
+#home .homename {
+    margin: 0 0 10px 0;
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 56px;
+    color: #fff;
+}
+
+#home p {
+    color: #fff;
+    margin-bottom: 50px;
+    font-size: 40px;
+    font-family: "Special Elite", monospace;
+  }
+
+.section-img {
+    max-height: 300px;
+    margin: 40px;
+    border-radius: 100%;
+}
+
+.typed-script{
+    width: 950px;
+}
+
+.typed-script::after{
+    content: '|';
+    margin-left: 0px;
+    opacity: 1;
+    animation: pipe .9s infinite;
+}
+
+@keyframes pipe {
+    0%,100%{
+        opacity: 1;
+    }
+    50%{
+        opacity: 0;
+    }
 }
   
