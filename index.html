@@ -30,8 +30,8 @@
         </div>
         <nav id="navbar">
             <ul>
-              <li><a class="nav-link scrollto"><i class="bx bx-home"></i><span>Home</span></a></li>
-              <li><a class="nav-link scrollto"><i class="bx bx-user"></i><span>Sobre</span></a></li>
+              <li><a href="#home" class="nav-link scrollto"><i class="bx bx-home"></i><span>Home</span></a></li>
+              <li><a href="#about" class="nav-link scrollto"><i class="bx bx-user"></i><span>Sobre</span></a></li>
               <li><a class="nav-link scrollto"><i class="bx bx-file-blank"></i><span>Resumo</span></a></li>
               <li><a class="nav-link scrollto"><i class="bx bx-book-content"></i><span>Portfólio</span></a></li>
               <li><a class="nav-link scrollto"><i class="bx bx-envelope"></i><span>Contatos</span></a></li>
@@ -47,7 +47,7 @@
         </div>
     </header>
         <section id="home" class="d-flex flex-column justify-content-center align-items-center">
-            <i class="bi bi-list mobile-nav-toggle d-xl-none"></i>
+            <i class="bi bi-list d-xl-none"></i>
             <table>
                 <tr>
                 <td><img src="../img/profile_pic.JPG" class="section-img"/></td>
@@ -55,17 +55,45 @@
                     <td><div class="homecontainer">
                     <h1 class="homename">Guilherme L. G. Saracura</h1>
                     <br>
-                    <p class="typed-script">Sou estudante de Engenharia da Computação, Desenvolvedor de Software, Desenvolvedor Web e Mobile.</p>
+                    <p class="typed-script">Sou estudante de Engenharia da Computação, buscando me tornar Desenvolvedor de Software e Desenvolvedor Web e Mobile.</p>
                   </div></td>
                 </tr>
               </table>
         </section>
         
-    <main id="main">
+    <main>
+      <section id="about" class="about">
+          <div class="container">
+                <h2 class="section-title">Sobre</h2>
+                <div class="row">
+                        <h3 class="objective">Objetivo Profissional: Atuar no mercado como Desenvolvedor de Software e como Desenvolvedor Web e Mobile.</h3>
+
+                        <h2 class="description">  Atualmente cursando o curso de graduação em Engenharia da Computação na FACENS. Atuando como estagiário em Desenvolvimento de Software na FIT-Instituto de Tecnologia, onde participo do desenvolvimento de softwares utilizando C#.NET e WPF. Um ano e seis meses de experiência na área de TI, exercendo como atividades gestão, manutenção e montagem de equipamentos, suporte aos usuários do sistema operacional Windows e manutenção e suporte a infraestrutura de redes.</h2>
+
+                        <div class="row">
+                          <div class="col-lg-6 pt-4 pt-lg-0 content">
+                            <ul>
+                              <li><i class="bi bi-calendar-date-fill"></i> <strong>Data de Nascimento:</strong> <span>27 Maio 1996</span></li>
+                              <li><i class="bi bi-phone-fill"></i></bi> <strong>Celular:</strong> <span>15 99759-7680</span></li>
+                              <li><i class="bi bi-map-fill"></i> <strong>Cidade:</strong> <span>Sorocaba, SP</span></li>
+                              <li><i class="bi bi-person-workspace"></i> <strong>Grau:</strong> <span>Estagiário/Trainee</span></li>
+                            </ul>
+                          </div>
+                          <div class="col-lg-6 pt-lg-0 content">
+                            <ul>
+                              <li><i class="bi bi-activity"></i> <strong>Idade:</strong> <span>25 anos</span></li>
+                              <li><i class="bi bi-link"></i> <strong>Linkedin:</strong> <a class="bi bi-linkedin button-link" href="https://www.linkedin.com/in/guilhermesaracura" target="_blank"></a></li>
+                              <li><i class="bi bi-envelope-fill"></i> <strong>Email:</strong> <span>guilhermesaracura@gmail.com</span></li>
+                            </ul>
+                          </div>
+                        </div>
+                </div>
+            </div>
+        </section>
     </main>
 
     <script src="../css/purecounter/purecounter.js"></script>
-    <script src="../css/aos/aos.js"></script>
+    <script src="css/aos/aos.js"></script>
     <script src="../css/bootstrap/js/bootstrap.bundle.min.js"></script>
     <script src="../css/glightbox/js/glightbox.min.js"></script>
     <script src="../css/isotope-layout/isotope.pkgd.min.js"></script>
@@ -77,17 +105,21 @@
 
     <script>
 
-    function typeWrite(element){
+    function typeWrite(element,time){
         const textArray = element.innerHTML.split('')
         element.innerHTML='';
         textArray.forEach((letter, i) =>{
             setTimeout(function(){
                 element.innerHTML+=letter;
-            },100*i)
+            },time*i)
         });
     }
         const script = document.querySelector('.typed-script');
-        typeWrite(script);
+        const obj = document.querySelector('.objective');
+        const desc = document.querySelector('.description');
+        typeWrite(script,50);
+        typeWrite(obj,60);
+        typeWrite(desc,10);
 
     </script>
 </body>

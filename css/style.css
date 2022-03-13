@@ -64,7 +64,6 @@
     height: 100vh;
     background: url("../img/background.jpg") top center;
     background-size: cover;
-    margin-left: 100px;
 }
 
 #home .homecontainer {
@@ -77,6 +76,7 @@
 
 #home table{
     border-radius: 200px;
+    margin-left: 200px;
     background:rgba(0,0,0, 0.7);
 }
 
@@ -120,4 +120,94 @@
         opacity: 0;
     }
 }
+
+main {
+    margin-left: 300px;
+}
   
+@media (max-width: 1199px) {
+    #header {
+        left: -300px;
+    }
+  
+    main {
+        margin-left: 0;
+    }
+  }
+
+section {
+    padding: 80px 0;
+    overflow: hidden;
+}
+  
+.section-bg_grey {
+    background: #a8a8a8;
+}
+
+.section-bg_white {
+    background: #ffffff;
+}
+  
+.section-title {
+    padding-bottom: 10px;
+    font-size: 40px;
+    font-weight: bold;
+    font-family: "Special Elite", monospace;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    position: relative;
+    color: #1f1f1f;
+}
+.section-title::after {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 250px;
+    height: 3px;
+    background: #1d1d1d;
+}
+.objective {
+    padding-bottom: 10px;
+    font-size: 35px;
+    font-weight: bold;
+    font-family: "Special Elite", monospace;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    position: relative;
+    color: #1f1f1f;
+}
+
+.description{
+    padding-bottom: 10px;
+    font-size: 20px;
+    text-align:justify;
+    font-weight: bold;
+    font-family: "Special Elite", monospace;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    position: relative;
+    color: #1f1f1f;
+}
+
+.about .content ul {
+    list-style: none;
+    padding: 0;
+}
+.about .content ul li {
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+}
+.about .content ul strong {
+    margin-right: 10px;
+}
+.about .content ul i {
+    margin-right: 10px;
+}
+
+.button-link{
+    border-color: transparent;
+    background-color: transparent;
+    color: #0082ca;
+    size-adjust: 90px;
+}
