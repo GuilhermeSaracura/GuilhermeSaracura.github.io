@@ -113,7 +113,7 @@
     }
 }
 main {
-    margin-left: 300px;
+    margin-left: 250px;
 }
 @media (max-width: 1199px) {
     #header {
@@ -129,7 +129,7 @@ section {
     overflow: hidden;
 }
 .section-bg_grey {
-    background: #a8a8a8;
+    background: #bdbdbd;
 }
 .section-bg_white {
     background: #ffffff;
@@ -188,9 +188,71 @@ section {
 .about .content ul i {
     margin-right: 10px;
 }
-.button-link{
+.button-link-linkedin{
     border-color: transparent;
     background-color: transparent;
     color: #0082ca;
     size-adjust: 90px;
+}
+.resume-containers{
+    padding: 0 0 20px 20px;
+    width: 550px;
+    margin-top: -2px;
+    border-left: 5px solid #1f1f1f;
+    position: relative;
+}
+.resume-containers h5{
+    font-family: "Special Elite", monospace;
+    color:  #1f1f1f;
+    font-size: 18px;
+    font-weight: bold;
+}
+.resume-containers::before{
+    width: 25px;
+    height: 25px;
+    border-radius: 100%;
+    content: "";
+    position: absolute;
+    left: -15px;
+    top: 0;
+    border: 4px solid #bdbdbd;
+    background: #1f1f1f;
+}
+.section-subtitle {
+    padding-bottom: 10px;
+    font-size: 33px;
+    font-weight: bold;
+    font-family: "Special Elite", monospace;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    color: #1f1f1f;
+}
+
+.resume-container-title{
+    font-size: 25px;
+    color: #1f1f1f;
+    font-family: "Special Elite", monospace;
+}
+
+.resume-container-date{
+    color: #1f1f1f;
+    font-weight: bold;
+    font-family: 'Courier New';
+    font-size: 13px;
+}
+
+.resume-container-localization{
+    color: #1f1f1f;
+    font-weight: bold;
+    font-family: 'Courier New';
+    font-size: 18px;
+}
+
+.description-resume{
+    font-size: 14px;
+    color: #1f1f1f;
+    font-weight: bold;
+    margin-top: 15px;
+    font-family: "Special Elite", monospace;
+    text-align:justify;
 }
