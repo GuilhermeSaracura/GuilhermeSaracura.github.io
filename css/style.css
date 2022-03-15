@@ -139,7 +139,7 @@ section {
     font-size: 40px;
     font-weight: bold;
     font-family: "Special Elite", monospace;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     padding-bottom: 20px;
     position: relative;
     color: #1f1f1f;
@@ -148,7 +148,7 @@ section {
     content: "";
     position: absolute;
     display: block;
-    width: 250px;
+    width: 300px;
     height: 3px;
     background: #1d1d1d;
 }
@@ -196,7 +196,7 @@ section {
 }
 .resume-containers{
     padding: 0 0 20px 20px;
-    width: 550px;
+    max-width: 550px;
     margin-top: -2px;
     border-left: 5px solid #1f1f1f;
     position: relative;
@@ -220,6 +220,7 @@ section {
 }
 .section-subtitle {
     padding-bottom: 10px;
+    margin-top: 30px;
     font-size: 33px;
     font-weight: bold;
     font-family: "Special Elite", monospace;
@@ -255,4 +256,69 @@ section {
     margin-top: 15px;
     font-family: "Special Elite", monospace;
     text-align:justify;
+}
+li::marker{
+    color: transparent;
+}
+.skills-countainers{
+    padding: 0 0 20x 0;
+    max-width: 100%;
+    margin-top: 10px;
+    position: relative;
+}
+
+.skills-container-title{
+    font-size: 25px;
+    margin-right: 5px;
+    color: #1f1f1f;
+    font-family: "Special Elite", monospace;
+}
+
+.skills-countainers .content{
+    align-content: space-between;
+}
+
+.skills-countainers ul li{
+    margin-bottom: 40px;
+}
+
+.percent{
+    font-size: 20px;
+    font-family: "Special Elite", monospace;
+    color: #949494;
+}
+
+.skills-progress{
+    width: 500px;
+    height: 12px;
+    background-color:#bdbdbd;
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+}
+
+.skills-progress-bar{
+    width: 500px;
+    height: 12px;
+    background-color: #3a3a3a;
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+}
+
+.skills-itens{
+    display: flex;
+}
+
+.skills-icon{
+    width: 25px;
+    height: 25px;
+    display:inline;
+    margin-right: 5px;
+}
+
+.skills-line{
+    width: 700px;
 }
