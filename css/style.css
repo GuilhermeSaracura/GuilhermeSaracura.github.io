@@ -1,7 +1,8 @@
 #header{
     position: fixed;
     background-color: #000000;
-    width: 250px;
+    max-width: 250px;
+    min-width: 100px;
     top: 0;
     bottom: 0;
     left: 0;
@@ -244,6 +245,7 @@ section {
 
 .resume-container-localization{
     color: #1f1f1f;
+    border-bottom: #1f1f1f;
     font-weight: bold;
     font-family: 'Courier New';
     font-size: 18px;
@@ -321,4 +323,50 @@ li::marker{
 
 .skills-line{
     width: 700px;
+}
+
+.project-link{
+    display: flex;
+    align-items: center;
+    max-width: 900px;
+    min-width: 200px;
+    height: 60px;
+    font-size: 27px;
+    background-color: #3a3a3a;
+    border-radius: 30px;
+    border: 2px #bdbdbd;
+    display: flex;
+    text-align:center;
+}
+
+.project-icon{
+    display: flex;
+    align-items: center;
+    width: 120px;
+    border-radius: 50%;
+    height: 120px;
+}
+
+.portfolio-button{
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color:#bdbdbd;
+    font-size: 30px;
+    margin-bottom: 0px;
+    font-family: "Special Elite", monospace;
+    
+}
+
+.portfolio-button:hover{
+    font-family: "Special Elite", monospace;
+    background-color: #3a3a3a;
+    color:#bdbdbd;
+    font-size: 27px;
+    text-decoration: none;
+}
+
+a:-webkit-any-link{
+    text-decoration:none;
 }
