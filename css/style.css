@@ -125,9 +125,13 @@ section {
 }
 .section-bg_grey {
     background: #bdbdbd;
+    padding-right: 30px;
+    padding-left: 30px;
 }
 .section-bg_white {
     background: #ffffff;
+    padding-right: 30px;
+    padding-left: 30px;
 }
 .section-title {
     padding-bottom: 10px;
@@ -271,7 +275,10 @@ li::marker{
 }
 
 .skills-countainers .content{
-    align-content: space-between;
+    display:block;
+    width: 500px;
+    margin-right: 30px;
+    margin-left: 30px;
 }
 
 .skills-countainers ul li{
