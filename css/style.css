@@ -70,10 +70,10 @@ body{
     background: url("../img/background.jpg") top center;
     background-size: cover;
 }
-#home .homecontainer {
+.homecontainer {
     display: flex;
     align-items: center;
-    max-width: 1150px;
+    width: 1150px;
     height: 500px;
     border-radius: 200px;
     margin-left: 200px;
@@ -437,12 +437,16 @@ form li{
     border-radius: 5px;
 }
 
-.description_item{
-    height: 360px;
+.description_port{
     border-width: 2px;
     border-style: solid;
     border-color: #3a3a3a;
     border-radius: 10px;
     margin-left: 20px;
     padding: 10px;
+}
+
+.description_item{
+    text-align: justify;
+    font-family: "Special Elite", monospace;
 }
