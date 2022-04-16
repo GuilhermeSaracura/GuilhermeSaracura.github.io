@@ -539,7 +539,7 @@ main {
 
 #navbar > ul > li > .nav-link {
     padding: 5px;
-    font-size: 10px;
+    font-size: 8px;
 }
 
 #navbar a, #navbar a:focus {
@@ -581,8 +581,6 @@ main {
     text-align: center;
     margin-top: 20px;
     font-size: 20px;
-    font-weight: 700;
-    text-size-adjust: 30%;
     color: #fff;
 }
 #home p {
