@@ -417,12 +417,18 @@ form li{
 .item_portfolio{
     width: 1200px;
     height: 465px;
+    justify-content:flex-start;
     background-color: #ffffff;
     border-radius: 50px;
     padding-top: 20px;
     padding-bottom: 30px;
     padding-left: 15px;
     padding-right: 15px;
+}
+
+.content_portfolio{
+    display:flex;
+    justify-content:flex-start;
 }
 
 .item_name{
@@ -860,7 +866,7 @@ a:-webkit-any-link{
 .title_portfolio h1{
     color: #ffffff;
     font-family: "Special Elite", monospace;
-    font-size: 50px;
+    font-size: 45px;
 }
 
 form li{
@@ -870,14 +876,25 @@ form li{
 }
 
 .item_portfolio{
-    width: 1200px;
-    height: 465px;
+    max-width: 1200px;
+    min-height: 465px;
+    height: auto;
+    width: auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
     background-color: #ffffff;
     border-radius: 50px;
     padding-top: 20px;
     padding-bottom: 30px;
     padding-left: 15px;
     padding-right: 15px;
+}
+
+.content_portfolio{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
 }
 
 .item_name{
@@ -887,16 +904,21 @@ form li{
 }
 
 .portfolio_img{
-    max-width: 700px;
+    min-width: 500px;
+    width: 100%;
     border-radius: 5px;
+    margin-bottom: 10px;
 }
 
 .description_port{
+    min-width: 500px;
+    width: 100%;
     border-width: 2px;
     border-style: solid;
     border-color: #3a3a3a;
     border-radius: 10px;
     margin-left: 20px;
+    margin-right: 20px;
     padding: 10px;
 }
 
