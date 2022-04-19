@@ -15,6 +15,13 @@ main {
     overflow-y: auto;
 }
 
+.language_button, .language_button> a{
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+    color: #fff;
+}
+
 .text-light{
     margin-left: 20px;
     font-size: px;
@@ -268,6 +275,8 @@ li::marker{
 }
 
 .skills-container-title{
+    display: flex;
+    text-align: center;
     font-size: 25px;
     margin-right: 5px;
     color: #1f1f1f;
@@ -726,6 +735,8 @@ li::marker{
 }
 
 .skills-container-title{
+    display: flex;
+    text-align: center;
     font-size: 25px;
     margin-right: 5px;
     color: #1f1f1f;

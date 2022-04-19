@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -22,7 +22,11 @@
 <body>
     <header id="header">
         <div class="d-flex flex-column">
-            <br>
+          <div class="language_button">
+            <a href="" class="br">pt-BR</a>
+            <p>&nbsp;|&nbsp;</p>
+            <a href="index_en-US.html" class="en">en-US</a>
+          </div>
             <br>
             <h1 class="text-light">Guilherme Saracura</h1>
         </div>
@@ -52,7 +56,7 @@
                   <div>
                     <h1 class="home_name">Guilherme L. G. Saracura</h1>
                     <br>
-                    <p class="typed-script">Sou estudante de Engenharia da Computação, buscando me tornar Desenvolvedor de Software e Web.</p>
+                    <p class="typed-script">Estudante de Engenharia da Computação, buscando me tornar Desenvolvedor de Software e Web.</p>
                   </div>
               </div>
         </section>
@@ -61,7 +65,7 @@
                 <h2 class="section-title">Sobre</h2>
                 <div class="row">
                         <h3 class="objective">Objetivo Profissional: Atuar no mercado como Desenvolvedor de Software e Web.</h3>
-                        <h2 class="description">  Atualmente cursando o curso de graduação em Engenharia da Computação na FACENS. Atuando como estagiário em Desenvolvimento de Software na FIT-Instituto de Tecnologia, onde participo do desenvolvimento de softwares utilizando C#.NET e WPF. Um ano e seis meses de experiência na área de TI, exercendo como atividades gestão, manutenção e montagem de equipamentos, suporte aos usuários do sistema operacional Windows e manutenção e suporte a infraestrutura de redes.</h2>
+                        <h2 class="description">  Atualmente cursando graduação em Engenharia da Computação na FACENS. Atuando como estagiário em Desenvolvimento de Software na FIT-Instituto de Tecnologia, onde participo do desenvolvimento de softwares utilizando C#.NET e WPF. Um ano e seis meses de experiência na área de TI, exercendo como atividades gestão, manutenção e montagem de equipamentos, suporte aos usuários do sistema operacional Windows e manutenção e suporte a infraestrutura de redes.</h2>
                         <div class="row about-topics">
                           <div class="col-lg-6 pt-4 pt-lg-0 content">
                             <ul>
@@ -387,20 +391,5 @@
     <script src="../css/waypoints/noframework.waypoints.js"></script>
     <script src="../css/php-email-form/validate.js"></script>
     <script src="../js/main.js"></script>
-
-    <script>
-
-    function typeWrite(element,time){
-        const textArray = element.innerHTML.split('')
-        element.innerHTML='';
-        textArray.forEach((letter, i) =>{
-            setTimeout(function(){
-                element.innerHTML+=letter;
-            },time*i)
-        });
-    }
-        const script = document.querySelector('.typed-script');
-        typeWrite(script,50);
-    </script>
 </body>
 </html>
