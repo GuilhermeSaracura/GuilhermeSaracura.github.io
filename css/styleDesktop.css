@@ -483,6 +483,15 @@ main {
     overflow-y: auto;
 }
 
+.language_button, .language_button> button{
+    border: 0px;
+    background-color: transparent;
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+    color: #fff;
+}
+
 .text-light{
     margin-left: 10px;
     font-size: 30px;
