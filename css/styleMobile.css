@@ -104,11 +104,11 @@ main {
     border-radius: 100%;
 }
 
-.typed-script{
+#typed-script{
     margin-right: 30px;
 }
 
-.typed-script::after{
+#typed-script::after{
     content: '|';
     margin-left: 0px;
     opacity: 1;
@@ -608,12 +608,12 @@ main {
     border-radius: 100%;
 }
 
-.typed-script{
+#typed-script{
     margin-right: 20px;
     margin-left: 20px;
 }
 
-.typed-script::after{
+#typed-script::after{
     content: '|';
     margin-left: 0px;
     opacity: 1;

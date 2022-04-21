@@ -15,7 +15,9 @@ main {
     overflow-y: auto;
 }
 
-.language_button, .language_button> a{
+.language_button, .language_button> button{
+    border: 0px;
+    background-color: transparent;
     font-size: 12px;
     display: flex;
     justify-content: center;
@@ -110,11 +112,11 @@ main {
     margin: 40px;
     border-radius: 100%;
 }
-.typed-script{
+#typed-script{
     margin-right: 30px;
 }
 
-.typed-script::after{
+#typed-script::after{
     content: '|';
     margin-left: 0px;
     opacity: 1;
@@ -569,11 +571,11 @@ main {
     border-radius: 100%;
 }
 
-.typed-script{
+#typed-script{
     margin-right: 30px;
 }
 
-.typed-script::after{
+#typed-script::after{
     content: '|';
     margin-left: 0px;
     opacity: 1;

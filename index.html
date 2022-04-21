@@ -23,21 +23,21 @@
     <header id="header">
         <div class="d-flex flex-column">
           <div class="language_button">
-            <a href="" class="br">pt-BR</a>
+            <button class="br">pt-BR</button>
             <p>&nbsp;|&nbsp;</p>
-            <a href="index_en-US.html" class="en">en-US</a>
+            <button class="en">en-US</button>
           </div>
             <br>
             <h1 class="text-light">Guilherme Saracura</h1>
         </div>
         <nav id="navbar">
             <ul>
-              <li><a href="#home" class="nav-link scrollto"><i class="bx bx-home"></i><span>Home</span></a></li>
-              <li><a href="#about" class="nav-link scrollto"><i class="bx bx-user"></i><span>Sobre</span></a></li>
-              <li><a href="#resume" class="nav-link scrollto"><i class="bx bx-file-blank"></i><span>Resumo</span></a></li>
-              <li><a href="#skills" class="nav-link scrollto"><i class="bi bi-bar-chart"></i><span>Habilidades</span></a></li>
-              <li><a href="#portfolio" class="nav-link scrollto"><i class="bx bx-book-content"></i><span>Portfólio</span></a></li>
-              <li><a href="#contact"class="nav-link scrollto"><i class="bx bx-envelope"></i><span>Contatos</span></a></li>
+              <li><a href="#home" class="nav-link scrollto"><i class="bx bx-home"></i><span id="navbar-home">Início</span></a></li>
+              <li><a href="#about" class="nav-link scrollto"><i class="bx bx-user"></i><span id="navbar-about">Sobre</span></a></li>
+              <li><a href="#resume" class="nav-link scrollto"><i class="bx bx-file-blank"></i><span id="navbar-resume">Resumo</span></a></li>
+              <li><a href="#skills" class="nav-link scrollto"><i class="bi bi-bar-chart"></i><span id="navbar-skills">Habilidades</span></a></li>
+              <li><a href="#portfolio" class="nav-link scrollto"><i class="bx bx-book-content"></i><span id="navbar-portfolio">Portfólio</span></a></li>
+              <li><a href="#contact"class="nav-link scrollto"><i class="bx bx-envelope"></i><span id="navbar-contacts">Contatos</span></a></li>
             </ul>
         </nav>
         <br>
@@ -56,29 +56,29 @@
                   <div>
                     <h1 class="home_name">Guilherme L. G. Saracura</h1>
                     <br>
-                    <p class="typed-script">Estudante de Engenharia da Computação, buscando me tornar Desenvolvedor de Software e Web.</p>
+                    <p id="typed-script">Estudante de Engenharia da Computação, buscando me tornar Desenvolvedor de Software e Web.</p>
                   </div>
               </div>
         </section>
       <section id="about" class="about section-bg_white">
           <div class="container">
-                <h2 class="section-title">Sobre</h2>
+                <h2 class="section-title" id="about-title">Sobre</h2>
                 <div class="row">
-                        <h3 class="objective">Objetivo Profissional: Atuar no mercado como Desenvolvedor de Software e Web.</h3>
-                        <h2 class="description">  Atualmente cursando graduação em Engenharia da Computação na FACENS. Atuando como estagiário em Desenvolvimento de Software na FIT-Instituto de Tecnologia, onde participo do desenvolvimento de softwares utilizando C#.NET e WPF. Um ano e seis meses de experiência na área de TI, exercendo como atividades gestão, manutenção e montagem de equipamentos, suporte aos usuários do sistema operacional Windows e manutenção e suporte a infraestrutura de redes.</h2>
+                        <h3 class="objective" id="about-objective">Objetivo Profissional: Atuar no mercado como Desenvolvedor de Software e Web.</h3>
+                        <h2 class="description" id="about-description">Atualmente cursando graduação em Engenharia da Computação na FACENS. Atuando como estagiário em Desenvolvimento de Software na FIT-Instituto de Tecnologia, onde participo do desenvolvimento de softwares utilizando C#.NET e WPF. Um ano e seis meses de experiência na área de TI, exercendo como atividades gestão, manutenção e montagem de equipamentos, suporte aos usuários do sistema operacional Windows e manutenção e suporte a infraestrutura de redes.</h2>
                         <div class="row about-topics">
                           <div class="col-lg-6 pt-4 pt-lg-0 content">
                             <ul>
-                              <li><i class="bi bi-calendar-date-fill"></i> <strong>Data de Nascimento:</strong> <span>27 de Maio de 1996</span></li>
-                              <li><i class="bi bi-phone-fill"></i></bi> <strong>Celular:</strong><span>+55 (15) 99759-7680</span></li>
-                              <li><i class="bi bi-map-fill"></i> <strong>Cidade:</strong> <span>Sorocaba, SP</span></li>
+                              <li><i class="bi bi-calendar-date-fill"></i> <strong id="about-birth-date">Data de Nascimento:</strong> <span id="about-date">27 de Maio de 1996</span></li>
+                              <li><i class="bi bi-phone-fill"></i></bi> <strong id="about-cellphone">Celular:</strong><span>+55 (15) 99759-7680</span></li>
+                              <li><i class="bi bi-map-fill"></i> <strong id="about-city">Cidade:</strong> <span id="about-city-info">Sorocaba-SP Brasil</span></li>
                             </ul>
                           </div>
                           <div class="col-lg-6 pt-lg-0 content">
                             <ul>
-                              <li><i class="bi bi-person-square"></i> <strong>Formação:</strong> <span>Engenharia da Computação</span></li>
+                              <li><i class="bi bi-person-square"></i> <strong id="about-degree">Formação:</strong> <span id="about-degree-info">Engenharia da Computação</span></li>
                               <li><i class="bi bi-link"></i> <strong>Linkedin:</strong> <a class="bi bi-linkedin button-link-linkedin" href="https://www.linkedin.com/in/guilhermesaracura" target="_blank"></a></li>
-                              <li><i class="bi bi-envelope-fill"></i> <strong>Email:</strong> <span>guilhermesaracura@gmail.com</span></li>
+                              <li><i class="bi bi-envelope-fill"></i> <strong>E-mail:</strong> <span>guilhermesaracura@gmail.com</span></li>
                             </ul>
                           </div>
                         </div>
@@ -389,7 +389,7 @@
     <script src="../css/swiper/swiper-bundle.min.js"></script>
     <script src="../css/typed.js/typed.min.js"></script>
     <script src="../css/waypoints/noframework.waypoints.js"></script>
-    <script src="../css/php-email-form/validate.js"></script>
-    <script src="../js/main.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js" type="text/javascript"></script>
+    <script src="../js/index.js"></script>
 </body>
 </html>
