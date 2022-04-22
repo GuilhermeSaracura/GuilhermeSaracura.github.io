@@ -49,7 +49,9 @@ const englishLanguage = {
     RESUME_CHEMICAL_ENGINEERING_lOCALIZATION: { id: "#resume-degree-qe-localization", value: "Sorocaba-SP Brazil" },
     RESUME_COURSES: { id: "#resume-courses", value: "Courses" },
     RESUME_COURSES_CSHARP_HOURS: { id: "#resume-courses-csharp_hours", value: "(37 hours)" },
+    RESUME_COURSES_CSHARP_CERTIFICATE: { id: "#resume-courses-csharp-certificate", value: " Certificate" },
     RESUME_COURSES_LINUX_HOURS: { id: "#resume-courses-linux_hours", value: "(8,5 hours)" },
+    RESUME_COURSES_LINUX_CERTIFICATE: { id: "#resume-courses-linux-certificate", value: " Certificate" },
 
     //Skills section
     SKILLS_TITLE: { id: "#skills-title", value: "Skills" },
@@ -85,7 +87,11 @@ const englishLanguage = {
     CONTACTS_LOCALIZATION_INFO: { id: "#contacts-localization-info", value: "Sorocaba-SP Brazil" },
     CONTACTS_CELLPHONE: { id: "#contacts-cellphone", value: "Cell phone:" },
 
-    
+    //Software Portfolio
+    P_SOFTWARE_TITLE: { id: "#software-portfolio-title", value: "Software Projects" },
+    P_SOFTWARE_CHESS: { id: "#software-portfolio-chess", value: "Chess Project" },
+    P_SOFTWARE_CHESS_DESCRIPTION: { id: "#software-portfolio-chess-description", value: "Project developed during the C# COMPLETO Programação Orientada a Objetos + Projetos course, simulating the classic chess game. Applying the knowledge of encapsulation, inheritance, polymorphism, enumeration and exception handling." },
+    P_SOFTWARE_CHESS_DIRECTORY: { id: "#software-portfolio-directory", value: "Directory" },    
 
 }
 
@@ -141,8 +147,9 @@ const portugueseLanguage = {
     RESUME_CHEMICAL_ENGINEERING_lOCALIZATION: { id: "#resume-degree-qe-localization", value: "Sorocaba-SP Brasil" },
     RESUME_COURSES: { id: "#resume-courses", value: "Cursos" },
     RESUME_COURSES_CSHARP_HOURS: { id: "#resume-courses-csharp_hours", value: "(37 horas)" },
+    RESUME_COURSES_CSHARP_CERTIFICATE: { id: "#resume-courses-csharp-certificate", value: " Certificado" },
     RESUME_COURSES_LINUX_HOURS: { id: "#resume-courses-linux_hours", value: "(8,5 horas)" },
-
+    RESUME_COURSES_LINUX_CERTIFICATE: { id: "#resume-courses-linux-certificate", value: " Certificado" },
     
     //Skills section
     SKILLS_TITLE: { id: "#skills-title", value: "Habilidades" },
@@ -177,8 +184,85 @@ const portugueseLanguage = {
     CONTACTS_LOCALIZATION: { id: "#contacts-localization", value: "Localização:" },
     CONTACTS_LOCALIZATION_INFO: { id: "#contacts-localization-info", value: "Sorocaba-SP Brasil" },
     CONTACTS_CELLPHONE: { id: "#contacts-cellphone", value: "Celular:" },
-
 }
+
+const englishLanguagesoft = {
+
+    //Navbar texts
+    NAVBAR_HOME: { id: "#navbar-home", value: "Home" },
+    NAVBAR_ABOUT: { id: "#navbar-about", value: "About" },
+    NAVBAR_RESUME: { id: "#navbar-resume", value: "Resume" },
+    NAVBAR_SKILLS: { id: "#navbar-skills", value: "Skills" },
+    NAVBAR_PORTFOLIO: { id: "#navbar-portfolio", value: "Portfolio" },
+    NAVBAR_CONTACTS: { id: "#navbar-contacts", value: "Contacts" },
+
+    //Software Portfolio
+    P_SOFTWARE_TITLE: { id: "#software-portfolio-title", value: "Software Projects" },
+    P_SOFTWARE_CHESS: { id: "#software-portfolio-chess", value: "Chess Project" },
+    P_SOFTWARE_CHESS_DESCRIPTION: { id: "#software-portfolio-chess-description", value: "Project developed during the C# COMPLETO Programação Orientada a Objetos + Projetos course, simulating the classic chess game. Applying the knowledge of encapsulation, inheritance, polymorphism, enumeration and exception handling." },
+    P_SOFTWARE_CHESS_DIRECTORY: { id: "#software-portfolio-directory", value: "Directory" },   
+}
+const portugueseLanguagesoft = {
+    //Navbar texts
+    NAVBAR_HOME: { id: "#navbar-home", value: "Início" },
+    NAVBAR_ABOUT: { id: "#navbar-about", value: "Sobre" },
+    NAVBAR_RESUME: { id: "#navbar-resume", value: "Resumo" },
+    NAVBAR_SKILLS: { id: "#navbar-skills", value: "Habilidades" },
+    NAVBAR_PORTFOLIO: { id: "#navbar-portfolio", value: "Portfólio" },
+    NAVBAR_CONTACTS: { id: "#navbar-contacts", value: "Contatos" },
+    
+    //Software Portfolio
+    P_SOFTWARE_TITLE: { id: "#software-portfolio-title", value: "Projetos de Software" },
+    P_SOFTWARE_CHESS: { id: "#software-portfolio-chess", value: "Projeto de Xadrez" },
+    P_SOFTWARE_CHESS_DESCRIPTION: { id: "#software-portfolio-chess-description", value: "Projeto desenvolvido durante o curso de C# COMPLETO Programação Orientada a Objetos + Projetos, simulando o jogo de xadrez clássico. Aplicando os conhecimentos de encapsulamento, herança, polimorfismo, enumeração e tratamento de exceptions." },
+    P_SOFTWARE_CHESS_DIRECTORY: { id: "#software-portfolio-directory-chess", value: "Directório" },   
+}
+
+const englishLanguageweb = {
+
+    //Navbar texts
+    NAVBAR_HOME: { id: "#navbar-home", value: "Home" },
+    NAVBAR_ABOUT: { id: "#navbar-about", value: "About" },
+    NAVBAR_RESUME: { id: "#navbar-resume", value: "Resume" },
+    NAVBAR_SKILLS: { id: "#navbar-skills", value: "Skills" },
+    NAVBAR_PORTFOLIO: { id: "#navbar-portfolio", value: "Portfolio" },
+    NAVBAR_CONTACTS: { id: "#navbar-contacts", value: "Contacts" },
+
+    //Web Portfolio
+    P_WEB_TITLE: { id: "#web-portfolio-title", value: "Web Application Projects" },
+    P_WEB_CV: { id: "#web-portfolio-cv", value: "Website Project with personal CV" },
+    P_WEB_CV_DESCRIPTION: { id: "#web-portfolio-cv-description", value: "This project was set up to put into practice my knowledge in Web development and also to be able to share the repositories of works and projects carried out from courses, personal projects and Computer Engineering course subjects." },
+    P_WEB_CV_DIRECTORY: { id: "#web-portfolio-directory-cv", value: " Directory" },
+    P_WEB_CSHARP: { id: "#web-portfolio-csharp", value: "Web application development project with ASP.NET Core MVC" },
+    P_WEB_CSHARP_DESCRIPTION: { id: "#web-portfolio-csharp-description", value: "Project developed during Udemy's C# COMPLETO Programação Orientada a Objetos + Projetos course, simulating a sales website. The intent was to learn the fundamentals and use the ASP.NET Core MVC Framework." },
+    P_WEB_CSHARP_DIRECTORY: { id: "#web-portfolio-directory-csharp", value: " Directory" },
+    P_WEB_VUE: { id: "#web-portfolio-vue", value: "Front-end application development project using Vue Framework" },
+    P_WEB_VUE_DESCRIPTION: { id: "#web-portfolio-vue-description", value: "Project developed in the Web Development subject using the Vue Framework." },
+    P_WEB_VUE_DIRECTORY: { id: "#web-portfolio-directory-vue", value: " Directory" },
+}
+
+const portugueseLanguageweb = {
+    //Navbar texts
+    NAVBAR_HOME: { id: "#navbar-home", value: "Início" },
+    NAVBAR_ABOUT: { id: "#navbar-about", value: "Sobre" },
+    NAVBAR_RESUME: { id: "#navbar-resume", value: "Resumo" },
+    NAVBAR_SKILLS: { id: "#navbar-skills", value: "Habilidades" },
+    NAVBAR_PORTFOLIO: { id: "#navbar-portfolio", value: "Portfólio" },
+    NAVBAR_CONTACTS: { id: "#navbar-contacts", value: "Contatos" },
+   
+    //Web Portfolio
+    P_WEB_TITLE: { id: "#web-portfolio-title", value: "Projetos de Aplicações Web" },
+    P_WEB_CV: { id: "#web-portfolio-cv", value: "Projeto de site com CV pessoal" },
+    P_WEB_CV_DESCRIPTION: { id: "#web-portfolio-cv-description", value: "Este projeto foi montado para colocar em prática meus conhecimentos em desenvolvimento Web e de também poder compartilhar os repositórios de trabalhos e projetos realisados a partir de cursos, projetos pessoais e matérias do curso de Engenharia da Computação." },
+    P_WEB_CV_DIRECTORY: { id: "#web-portfolio-directory-cv", value: " Diretório" },
+    P_WEB_CSHARP: { id: "#web-portfolio-csharp", value: "Projeto de desenvolvimento de aplicação web com ASP.NET Core MVC" },
+    P_WEB_CSHARP_DESCRIPTION: { id: "#web-portfolio-csharp-description", value: "Projeto desenvolvido durante o curso da Udemy de C# COMPLETO Programação Orientada a Objetos + Projetos, simulando um site de vendas. O intuito foi de conhecer os fundamentos e utilizar o Framework ASP.NET Core MVC." },
+    P_WEB_CSHARP_DIRECTORY: { id: "#web-portfolio-directory-csharp", value: " Diretório" },
+    P_WEB_VUE: { id: "#web-portfolio-vue", value: "Projeto de desenvolvimento de aplicação front utilizando Framework Vue" },
+    P_WEB_VUE_DESCRIPTION: { id: "#web-portfolio-vue-description", value: "Projeto desenvolvido na matéria de Desenvolvimento Web utilizando o Framework Vue." },
+    P_WEB_VUE_DIRECTORY: { id: "#web-portfolio-directory-vue", value: " Diretório" },
+}
+
 
 $(function() {
     $(".br").click(function() {
@@ -190,6 +274,34 @@ $(function() {
 $(function() {
     $(".en").click(function() {
         const language = englishLanguage
+        Object.values(language).forEach(field => { document.querySelector(field.id).textContent = field.value })
+    });
+});
+
+$(function() {
+    $(".br-software").click(function() {
+        const language = portugueseLanguagesoft
+        Object.values(language).forEach(field => { document.querySelector(field.id).textContent = field.value })
+    });
+});
+
+$(function() {
+    $(".en-software").click(function() {
+        const language = englishLanguagesoft
+        Object.values(language).forEach(field => { document.querySelector(field.id).textContent = field.value })
+    });
+});
+
+$(function() {
+    $(".br-web").click(function() {
+        const language = portugueseLanguageweb
+        Object.values(language).forEach(field => { document.querySelector(field.id).textContent = field.value })
+    });
+});
+
+$(function() {
+    $(".en-web").click(function() {
+        const language = englishLanguageweb
         Object.values(language).forEach(field => { document.querySelector(field.id).textContent = field.value })
     });
 });
