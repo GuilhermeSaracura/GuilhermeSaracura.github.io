@@ -20,7 +20,7 @@ main {
     background-color: transparent;
     font-size: 12px;
     display: flex;
-    justify-content: center;
+    justify-content: baseline;
     color: #fff;
 }
 
@@ -372,7 +372,7 @@ li::marker{
 .portfolio-button:hover{
     font-family: "Special Elite", monospace;
     background-color: #3a3a3a;
-    color:#0d6efd;
+    color:#ffffff;
     font-size: 200%;
     text-decoration: none;
 }
@@ -488,7 +488,7 @@ main {
     background-color: transparent;
     font-size: 12px;
     display: flex;
-    justify-content: center;
+    justify-content: baseline;
     color: #fff;
 }
 
@@ -841,7 +841,7 @@ li::marker{
 .portfolio-button:hover{
     font-family: "Special Elite", monospace;
     background-color: #3a3a3a;
-    color:#0d6efd;
+    color:#ffffff;
     font-size: 150%;
     text-decoration: none;
 }

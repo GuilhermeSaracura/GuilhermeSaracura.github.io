@@ -8,7 +8,7 @@ main {
     position: fixed;
     background-color: #000000;
     width: 110px;
-    height: 100%;
+    height: 120%;
     top: 0;
     bottom: 0;
     left: 0;
@@ -20,7 +20,7 @@ main {
     background-color: transparent;
     font-size: 12px;
     display: flex;
-    justify-content: center;
+    justify-content: baseline;
     color: #fff;
 }
 
@@ -389,7 +389,7 @@ li::marker{
 .portfolio-button:hover{
     font-family: "Special Elite", monospace;
     background-color: #3a3a3a;
-    color:#0d6efd;
+    color:#ffffff;
     font-size: 115%;
     text-decoration: none;
 }
@@ -513,7 +513,7 @@ main {
     position: fixed;
     background-color: #000000;
     width: 80px;
-    height: 100%;
+    height: 120%;
     top: 0;
     bottom: 0;
     left: 0;
@@ -526,7 +526,7 @@ main {
     padding: 2px;
     font-size: 12px;
     display: flex;
-    justify-content: center;
+    justify-content: baseline;
     color: #fff;
 }
 
@@ -902,7 +902,7 @@ li::marker{
 .portfolio-button:hover{
     font-family: "Special Elite", monospace;
     background-color: #3a3a3a;
-    color:#0d6efd;
+    color:#ffffff;
     font-size: 100%;
     text-decoration: none;
 }
@@ -1021,9 +1021,4 @@ form li{
     text-align: justify;
     font-family: "Special Elite", monospace;
 }
-}
-
-
-body{
-    background-color: #bdbdbd;
 }
