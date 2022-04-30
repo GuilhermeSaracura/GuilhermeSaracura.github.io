@@ -109,7 +109,7 @@ export const englishLanguagesoft = {
     P_SOFTWARE_TITLE: { id: "#software-portfolio-title", value: "Software Projects" },
     P_SOFTWARE_CHESS: { id: "#software-portfolio-chess", value: "Chess Project" },
     P_SOFTWARE_CHESS_DESCRIPTION: { id: "#software-portfolio-chess-description", value: "Project developed during the C# COMPLETO Programação Orientada a Objetos + Projetos course, simulating the classic chess game. Applying the knowledge of encapsulation, inheritance, polymorphism, enumeration and exception handling." },
-    P_SOFTWARE_CHESS_DIRECTORY: { id: "#software-portfolio-directory", value: "Directory" },   
+    P_SOFTWARE_CHESS_DIRECTORY: { id: "#software-portfolio-directory-chess", value: "Directory" },   
 }
 
 export const englishLanguageweb = {

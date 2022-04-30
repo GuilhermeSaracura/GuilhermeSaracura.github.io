@@ -17,16 +17,22 @@
     <link href="../css/swiper/swiper-bundle.min.css" rel="stylesheet">
     <link href="../css/styleDesktop.css" rel="stylesheet">
     <link href="../css/styleMobile.css" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js" type="text/javascript"></script>
     <script type="module" src="../js/index.js"></script>
+    <script>
+    $(document).ready(function(){
+      Object.values(JSON.parse(window.localStorage.getItem("index"))).forEach(field => { $(field.id).text(field.value) });
+    })
+    </script>
 
 </head>
 <body>
     <header id="header">
         <div class="d-flex flex-column">
           <div class="language_button">
-            <button class="br">BR</button>
+            <button class="br"><img id="flag-icon" src="../img/icon/BR-flag.png"></img>&nbsp;BR</button>
             <p>|</p>
-            <button class="en">US</button>
+            <button class="en"><img id="flag-icon" src="../img/icon/US-flag.jpg"></img>&nbsp;US</button>
           </div>
             <br>
             <h1 class="text-light">Guilherme Saracura</h1>
@@ -57,7 +63,7 @@
                   <div>
                     <h1 class="home_name">Guilherme L. G. Saracura</h1>
                     <br>
-                    <p id="typed-script">Estudante de Engenharia da Computação, buscando me tornar Desenvolvedor de Software e Web.</p>
+                    <p id="typed-script"></p>
                   </div>
               </div>
         </section>
@@ -390,6 +396,5 @@
     <script src="../css/swiper/swiper-bundle.min.js"></script>
     <script src="../css/typed.js/typed.min.js"></script>
     <script src="../css/waypoints/noframework.waypoints.js"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js" type="text/javascript"></script>
 </body>
 </html>

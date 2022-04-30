@@ -24,6 +24,14 @@ main {
     color: #fff;
 }
 
+#flag-icon{
+    display: flex;
+    vertical-align: middle;
+    border-radius: 50%;
+    width: 18px;
+    height: 18px;
+}
+
 .text-light{
     margin-left: 10px;
     font-size: 20px;
@@ -524,10 +532,18 @@ main {
     border: 0px;
     background-color: transparent;
     padding: 2px;
-    font-size: 12px;
+    font-size: 10px;
     display: flex;
     justify-content: baseline;
     color: #fff;
+}
+
+#flag-icon{
+    display: flex;
+    vertical-align: middle;
+    border-radius: 50%;
+    width: 14px;
+    height: 14px;
 }
 
 .text-light{

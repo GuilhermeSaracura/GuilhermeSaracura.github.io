@@ -18,10 +18,18 @@ main {
 .language_button, .language_button> button{
     border: 0px;
     background-color: transparent;
-    font-size: 12px;
+    font-size: 16px;
     display: flex;
     justify-content: baseline;
     color: #fff;
+}
+
+#flag-icon{
+    display: flex;
+    vertical-align: middle;
+    border-radius: 50%;
+    width: 24px;
+    height: 24px;
 }
 
 .text-light{
@@ -490,6 +498,14 @@ main {
     display: flex;
     justify-content: baseline;
     color: #fff;
+}
+
+#flag-icon{
+    display: flex;
+    vertical-align: middle;
+    border-radius: 50%;
+    width: 18px;
+    height: 18px;
 }
 
 .text-light{

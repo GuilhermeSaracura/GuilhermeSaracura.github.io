@@ -8,19 +8,19 @@ export const portugueseLanguage = {
     NAVBAR_CONTACTS: { id: "#navbar-contacts", value: "Contatos" },
 
     //Home Script
-    TYPED_SCRIPT: { id: "#typed-script", value: "Estudante de Engenharia da Computação, buscando me tornar Desenvolvedor de Software e Web." },
+    TYPED_SCRIPT: { id: "#typed-script", value: "Estudante de Engenharia de Computação, buscando me tornar Desenvolvedor de Software e Web." },
 
     //About Section
     ABOUT_TITTLE: { id: "#about-title", value: "Sobre" },
     ABOUT_OBJECTIVE: { id: "#about-objective", value: "Objetivo Profissional: Atuar no mercado como Desenvolvedor de Software e Web." },
-    ABOUT_DESCRIPTION: { id: "#about-description", value: "Atualmente cursando graduação em Engenharia da Computação na FACENS. Atuando como estagiário em Desenvolvimento de Software na FIT-Instituto de Tecnologia, onde participo do desenvolvimento de softwares utilizando C#.NET e WPF. Um ano e seis meses de experiência na área de TI, exercendo como atividades gestão, manutenção e montagem de equipamentos, suporte aos usuários do sistema operacional Windows e manutenção e suporte a infraestrutura de redes." },
+    ABOUT_DESCRIPTION: { id: "#about-description", value: "Atualmente cursando graduação em Engenharia de Computação na FACENS. Atuando como estagiário em Desenvolvimento de Software na FIT-Instituto de Tecnologia, onde participo do desenvolvimento de softwares utilizando C#.NET e WPF. Um ano e seis meses de experiência na área de TI, exercendo como atividades gestão, manutenção e montagem de equipamentos, suporte aos usuários do sistema operacional Windows e manutenção e suporte a infraestrutura de redes." },
     ABOUT_BIRTH_DATE: { id: "#about-birth-date", value: "Data de Nascimento:" },
     ABOUT_DATE: { id: "#about-date", value: "27 de Maio de 1996" },
     ABOUT_CELLPHONE: { id: "#about-cellphone", value: "Celular:" },
     ABOUT_CITY: { id: "#about-city", value: "Cidade:" },
     ABOUT_CITY_INFO: { id: "#about-city-info", value: "Sorocaba-SP Brasil" },
     ABOUT_DEGREE: { id: "#about-degree", value: "Formação:" },
-    ABOUT_DEGREE_INFO: { id: "#about-degree-info", value: "Engenharia da Computação" },
+    ABOUT_DEGREE_INFO: { id: "#about-degree-info", value: "Engenharia de Computação" },
 
     //Resume section
     RESUME_TITLE: { id: "#resume-title", value: "Resumo" },
@@ -38,7 +38,7 @@ export const portugueseLanguage = {
     RESUME_IT_INTERN_DATE: { id: "#resume-it-intern-date", value: "Nov/2019 - Jan/2020" },
     RESUME_IT_INTERN_DESCRIPTION: { id: "#resume-it-intern-description", value: "Auxílio técnico em sistemas, suporte ao usuário e apoio à equipe de TI." },
     RESUME_ACADEMIC_BACKGROUND: { id: "#resume-academic-background", value: "Formação Acadêmica" },
-    RESUME_COMPUTER_ENGINEERING: { id: "#resume-degree-ce", value: "Graduação em Engenharia da Computação - FACENS" },
+    RESUME_COMPUTER_ENGINEERING: { id: "#resume-degree-ce", value: "Graduação em Engenharia de Computação - FACENS" },
     RESUME_COMPUTER_ENGINEERING_DATE: { id: "#resume-degree-ce-date", value: "Jun/2019 - Previsão de conclusão: Dez/2023" },
     RESUME_COMPUTER_ENGINEERING_lOCALIZATION: { id: "#resume-degree-ce-localization", value: "Sorocaba-SP Brasil" },
     RESUME_LEAN_SIX_SIGMA: { id: "#resume-degree-lss", value: "Pós-Graduação em Especialização em Lean Six Sigma com certificação Black Belt - FACENS" },
@@ -76,7 +76,7 @@ export const portugueseLanguage = {
 
     //Portfolio section
     PORTFOLIO_TITLE: { id: "#portfolio-title", value: "Portfólio" },
-    PORTFOLIO_SUBTITLE: { id: "#portfolio-subtitle", value: "Projetos e trabalhos realisados a partir de cursos, projetos pessoais e matérias do curso de Engenharia da Computação." },
+    PORTFOLIO_SUBTITLE: { id: "#portfolio-subtitle", value: "Projetos e trabalhos realisados a partir de cursos, projetos pessoais e matérias do curso de Engenharia de Computação." },
     PORTFOLIO_SOFTWARES: { id: "#portfolio-softwares", value: "-Projetos de Software" },
     PORTFOLIO_WEB: { id: "#portfolio-web", value:"-Projetos de Aplicações Web" },
 
@@ -101,7 +101,7 @@ export const portugueseLanguagesoft = {
     P_SOFTWARE_TITLE: { id: "#software-portfolio-title", value: "Projetos de Software" },
     P_SOFTWARE_CHESS: { id: "#software-portfolio-chess", value: "Projeto de Xadrez" },
     P_SOFTWARE_CHESS_DESCRIPTION: { id: "#software-portfolio-chess-description", value: "Projeto desenvolvido durante o curso de C# COMPLETO Programação Orientada a Objetos + Projetos, simulando o jogo de xadrez clássico. Aplicando os conhecimentos de encapsulamento, herança, polimorfismo, enumeração e tratamento de exceptions." },
-    P_SOFTWARE_CHESS_DIRECTORY: { id: "#software-portfolio-directory-chess", value: "Directório" },   
+    P_SOFTWARE_CHESS_DIRECTORY: { id: "#software-portfolio-directory-chess", value: "Diretório" },   
 }
 
 export const portugueseLanguageweb = {
@@ -116,7 +116,7 @@ export const portugueseLanguageweb = {
     //Web Portfolio
     P_WEB_TITLE: { id: "#web-portfolio-title", value: "Projetos de Aplicações Web" },
     P_WEB_CV: { id: "#web-portfolio-cv", value: "Projeto de site com CV pessoal" },
-    P_WEB_CV_DESCRIPTION: { id: "#web-portfolio-cv-description", value: "Este projeto foi montado para colocar em prática meus conhecimentos em desenvolvimento Web e de também poder compartilhar os repositórios de trabalhos e projetos realisados a partir de cursos, projetos pessoais e matérias do curso de Engenharia da Computação." },
+    P_WEB_CV_DESCRIPTION: { id: "#web-portfolio-cv-description", value: "Este projeto foi montado para colocar em prática meus conhecimentos em desenvolvimento Web e de também poder compartilhar os repositórios de trabalhos e projetos realisados a partir de cursos, projetos pessoais e matérias do curso de Engenharia de Computação." },
     P_WEB_CV_DIRECTORY: { id: "#web-portfolio-directory-cv", value: " Diretório" },
     P_WEB_CSHARP: { id: "#web-portfolio-csharp", value: "Projeto de desenvolvimento de aplicação web com ASP.NET Core MVC" },
     P_WEB_CSHARP_DESCRIPTION: { id: "#web-portfolio-csharp-description", value: "Projeto desenvolvido durante o curso da Udemy de C# COMPLETO Programação Orientada a Objetos + Projetos, simulando um site de vendas. O intuito foi de conhecer os fundamentos e utilizar o Framework ASP.NET Core MVC." },
