@@ -20,7 +20,7 @@ main {
     background-color: transparent;
     font-size: 12px;
     display: flex;
-    justify-content: baseline;
+    justify-content: center;
     color: #fff;
 }
 
@@ -534,7 +534,7 @@ main {
     padding: 2px;
     font-size: 10px;
     display: flex;
-    justify-content: baseline;
+    justify-content: center;
     color: #fff;
 }
 
