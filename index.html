@@ -21,7 +21,7 @@
     <script type="module" src="../js/index.js"></script>
     <script>
     $(document).ready(function(){
-      Object.values(JSON.parse(window.localStorage.getItem("index"))).forEach(field => { $(field.id).text(field.value) });
+      Object.values(JSON.parse(window.sessionStorage.getItem("index"))).forEach(field => { $(field.id).text(field.value) });
     })
     </script>
 
