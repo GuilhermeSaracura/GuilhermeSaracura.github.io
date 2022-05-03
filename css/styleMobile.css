@@ -511,6 +511,62 @@ form li{
     font-family: "Special Elite", monospace;
 }
 }
+@media(max-height: 550px) and (max-width: 900px) {
+main {
+    margin-left: 130px;
+}
+#header{
+    width: 130px;
+    height: 120%;
+}
+#navbar {
+    padding: 0px;
+}
+#navbar * {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+#navbar > ul > li {
+    position: relative;
+    white-space: nowrap;
+}
+#navbar a, #navbar a:focus {
+    display: flex;
+    align-items: center;
+    color: #a8a9b4;
+    padding: 4px 5px;
+    margin-bottom: 4px;
+    transition: 0.3s;
+    font-size: 12px;
+}
+#navbar a i, #navbar a:focus i {
+    font-size: 12px;
+    padding-right: 8px;
+    color: #6f7180;
+}
+#navbar a:hover, #navbar li:hover > a i{
+    text-decoration: none;
+    color: #fff;
+}
+#header #links{
+    position:fixed;
+    align-items: center;
+    width: 130px;
+    bottom: 0;
+}
+
+#header #links a {
+    margin-bottom: 10px;
+    margin-left: 0px;
+    margin-right: 0px;
+    border-color: #000000;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 25%;
+    font-size: 10px;
+}
+}
 
 /*********************************************************************************************************/
 @media(max-width: 500px){
@@ -1040,5 +1096,8 @@ form li{
 .description_item{
     text-align: justify;
     font-family: "Special Elite", monospace;
+}
+@media(max-height: 500px){
+    
 }
 }
