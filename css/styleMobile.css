@@ -1,4 +1,4 @@
-@media (min-width: 500px) and (max-width: 800px){
+@media (min-width: 500px) and (max-width: 900px){
     
 main {
     margin-left: 110px;
@@ -1100,8 +1100,5 @@ form li{
 .description_item{
     text-align: justify;
     font-family: "Special Elite", monospace;
-}
-@media(max-height: 500px){
-    
 }
 }

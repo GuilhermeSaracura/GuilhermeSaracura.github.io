@@ -479,7 +479,7 @@ form li{
 }
 /*****************************************************************************************************************/
 
-@media (min-width: 800px) and (max-width: 1450px){
+@media (min-width: 900px) and (max-width: 1450px){
     
 main {
     margin-left: 180px;
