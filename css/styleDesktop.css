@@ -34,7 +34,7 @@ main {
 
 .text-light{
     margin-left: 20px;
-    font-size: px;
+    font-size: 30px;
 }
 
 #header #links{
@@ -971,7 +971,7 @@ form li{
 }
 
 
-@media(max-height: 550px) and (min-width: 800px) and (max-width: 1450px){
+@media(max-height: 550px) and (min-width: 900px) and (max-width: 1450px){
 
 #navbar {
     padding: 0px;
@@ -980,6 +980,10 @@ form li{
     margin: 0;
     padding: 0;
     list-style: none;
+}
+.text-light{
+    margin-left: 10px;
+    font-size: 20px;
 }
 #navbar > ul > li {
     position: relative;

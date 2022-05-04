@@ -522,6 +522,10 @@ main {
 #navbar {
     padding: 0px;
 }
+.text-light{
+    margin-left: 10px;
+    font-size: 20px;
+}
 #navbar * {
     margin: 0;
     padding: 0;
