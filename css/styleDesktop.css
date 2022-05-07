@@ -345,14 +345,15 @@ li::marker{
 .project-link{
     display: flex;
     align-items: center;
-    max-width: 900px;
-    min-width: 200px;
     height: 60px;
     background-color: #3a3a3a;
     border-radius: 30px;
-    border: 2px #bdbdbd;
-    display: flex;
-    text-align:center;
+    white-space: nowrap;
+    transition: all, 300ms ease;
+}
+
+.project-link:hover{
+    background-color: #ffffff;
 }
 
 .project-icon{
@@ -368,21 +369,18 @@ li::marker{
     align-items: center;
     text-align: center;
     border-radius: 30px;
-    padding-right: 10px;
+    margin-right: 20px;
     height: 60px;
     color:#bdbdbd;
     font-size: 200%;
     margin-bottom: 0px;
     font-family: "Special Elite", monospace;
+    transition: all, 300ms ease;
     
 }
 
-.portfolio-button:hover{
-    font-family: "Special Elite", monospace;
-    background-color: #3a3a3a;
-    color:#ffffff;
-    font-size: 200%;
-    text-decoration: none;
+.portfolio-button:hover {
+    color:#3a3a3a;
 }
 
 a:-webkit-any-link{
@@ -827,14 +825,15 @@ li::marker{
 .project-link{
     display: flex;
     align-items: center;
-    max-width: 900px;
-    min-width: 200px;
     height: 60px;
     background-color: #3a3a3a;
     border-radius: 30px;
-    border: 2px #bdbdbd;
-    display: flex;
-    text-align:center;
+    white-space: nowrap;
+    transition: all, 300ms ease;
+}
+
+.project-link:hover{
+    background-color: #ffffff;
 }
 
 .project-icon{
@@ -850,21 +849,17 @@ li::marker{
     align-items: center;
     text-align: center;
     border-radius: 30px;
-    padding-right: 10px;
+    margin-right: 10px;
     height: 60px;
     color:#bdbdbd;
     font-size: 150%;
     margin-bottom: 0px;
     font-family: "Special Elite", monospace;
-    
+    transition: all, 300ms ease;
 }
 
 .portfolio-button:hover{
-    font-family: "Special Elite", monospace;
-    background-color: #3a3a3a;
-    color:#ffffff;
-    font-size: 150%;
-    text-decoration: none;
+    color:#3a3a3a;
 }
 
 a:-webkit-any-link{

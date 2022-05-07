@@ -362,14 +362,15 @@ li::marker{
 .project-link{
     display: flex;
     align-items: center;
-    max-width: 900px;
-    min-width: 200px;
     height: 50px;
     background-color: #3a3a3a;
     border-radius: 30px;
     border: 2px #bdbdbd;
-    display: flex;
-    text-align:center;
+    transition: all, 300ms ease;
+}
+
+.project-link:hover{
+    background-color: #ffffff;
 }
 
 .project-icon{
@@ -391,15 +392,11 @@ li::marker{
     font-size: 115%;
     margin-bottom: 0px;
     font-family: "Special Elite", monospace;
-    
+    transition: all, 300ms ease;    
 }
 
 .portfolio-button:hover{
-    font-family: "Special Elite", monospace;
-    background-color: #3a3a3a;
-    color:#ffffff;
-    font-size: 115%;
-    text-decoration: none;
+    color:#3a3a3a;
 }
 
 a:-webkit-any-link{
@@ -945,14 +942,14 @@ li::marker{
 .project-link{
     display: flex;
     align-items: center;
-    max-width: 900px;
-    min-width: 200px;
     height: 50px;
     background-color: #3a3a3a;
     border-radius: 30px;
-    border: 2px #bdbdbd;
-    display: flex;
-    text-align:center;
+    transition: all, 300ms ease;
+}
+
+.project-link:hover{
+    background-color: #ffffff;
 }
 
 .project-icon{
@@ -968,21 +965,17 @@ li::marker{
     align-items: center;
     text-align: center;
     border-radius: 30px;
-    padding-right: 10px;
+    margin-right: 10px;
     height: 50px;
     color:#bdbdbd;
     font-size: 100%;
     margin-bottom: 0px;
     font-family: "Special Elite", monospace;
-    
+    transition: all, 300ms ease;    
 }
 
 .portfolio-button:hover{
-    font-family: "Special Elite", monospace;
-    background-color: #3a3a3a;
-    color:#ffffff;
-    font-size: 100%;
-    text-decoration: none;
+    color:#3a3a3a;
 }
 
 a:-webkit-any-link{
