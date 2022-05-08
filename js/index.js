@@ -77,3 +77,19 @@ $(function() {
         }
     });
 });
+
+window.addEventListener('orientationchange', function(){
+    switch(window.orientation)
+    {
+         case -90: 
+         case 90: 
+         var nav = document.getElementById("navbar");
+         nav.style.display = "block"
+         break;
+
+         default: 
+         var nav = document.getElementById("navbar");
+         nav.style.display = "none"
+         break;
+    } 
+});

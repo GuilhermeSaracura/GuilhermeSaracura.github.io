@@ -539,7 +539,7 @@ form li{
     font-family: "Special Elite", monospace;
 }
 }
-@media(max-height: 550px) and (max-width: 900px) {
+@media (max-height: 550px) and (max-width: 900px) {
 main {
     margin-left: 130px;
 }
@@ -554,13 +554,15 @@ main {
     overflow-y: auto;
 }
 #navbar {
+    display: block;
     padding: 0px;
 }
 .text-light{
     margin-left: 10px;
+    margin-top: 20px;
     font-size: 20px;
 }
-#navbar * {
+#navbar> ul {
     margin: 0;
     padding: 0;
     list-style: none;
@@ -569,7 +571,7 @@ main {
     position: relative;
     white-space: nowrap;
 }
-#navbar a, #navbar a:focus {
+#navbar > ul > li> a, #navbar > ul > li> a:focus {
     display: flex;
     align-items: center;
     color: #a8a9b4;
@@ -578,16 +580,16 @@ main {
     transition: 0.3s;
     font-size: 12px;
 }
-#navbar a i, #navbar a:focus i {
+#navbar > ul > li> a i, #navbar > ul > li> a:focus i {
     font-size: 12px;
     padding-right: 8px;
     color: #6f7180;
 }
-#navbar a:hover, #navbar li:hover > a i{
+#navbar > ul > li> a:hover, #navbar > ul > li:hover > a i{
     text-decoration: none;
     color: #fff;
 }
-#header #links{
+#links{
     position:fixed;
     align-items: center;
     width: 130px;
