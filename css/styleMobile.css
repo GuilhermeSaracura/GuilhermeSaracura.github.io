@@ -34,17 +34,54 @@ main {
 
 .text-light{
     margin-left: 10px;
+    margin-top: 40px;
     font-size: 20px;
 }
 
-#header #links{
+#nav-list{
+    display: none;
+}
+
+#navbar {
+    padding: 30px 0 0 0;
+}
+#navbar > ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+#navbar > ul > li {
+    position: relative;
+    white-space: nowrap;
+}
+
+#navbar > ul > li > a, #navbar > ul > li > a:focus {
+    display: flex;
+    align-items: center;
+    color: #a8a9b4;
+    padding: 12px 15px;
+    margin-bottom: 8px;
+    transition: 0.3s;
+    font-size: 12px;
+}
+#navbar > ul > li > a i, #navbar > ul > li > a:focus i {
+    font-size: 12px;
+    padding-right: 8px;
+    color: #6f7180;
+}
+#navbar > ul > li > a:hover, #navbar li:hover > a i{
+    text-decoration: none;
+    color: #fff;
+}
+
+#links{
     position:fixed;
     align-items: center;
     width: 110px;
     bottom: 0;
 }
 
-#header #links a {
+#links>a {
     margin-left: 10px;
     margin-right: 10px;
     margin-bottom: 10px;
@@ -55,38 +92,6 @@ main {
     font-size: 25px;
 }
 
-
-#navbar {
-    padding: 30px 0 0 0;
-}
-#navbar * {
-    margin: 0;
-    padding: 0;
-    list-style: none;
-}
-#navbar > ul > li {
-    position: relative;
-    white-space: nowrap;
-}
-
-#navbar a, #navbar a:focus {
-    display: flex;
-    align-items: center;
-    color: #a8a9b4;
-    padding: 12px 15px;
-    margin-bottom: 8px;
-    transition: 0.3s;
-    font-size: 12px;
-}
-#navbar a i, #navbar a:focus i {
-    font-size: 12px;
-    padding-right: 8px;
-    color: #6f7180;
-}
-#navbar a:hover, #navbar li:hover > a i{
-    text-decoration: none;
-    color: #fff;
-}
 #home{
     width: 100%;
     height: 100vh;
@@ -539,8 +544,14 @@ main {
     margin-left: 130px;
 }
 #header{
+    position: fixed;
+    background-color: #000000;
     width: 130px;
     height: 120%;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    overflow-y: auto;
 }
 #navbar {
     padding: 0px;
@@ -597,29 +608,24 @@ main {
 
 /*********************************************************************************************************/
 @media(max-width: 500px){
-    
-main {
-    margin-left: 80px;
-}
 
 #header{
+    display: flex;
+    justify-content: space-between;
     position: fixed;
     background-color: #000000;
-    width: 80px;
-    height: 120%;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    overflow-y: auto;
+    width: 100%;
+    z-index: 1030;
+    flex-wrap: wrap;
 }
 
 .language_button, .language_button> button{
+    height: 18px;
     border: 0px;
     background-color: transparent;
-    padding: 2px;
     font-size: 10px;
     display: flex;
-    justify-content: center;
+    
     color: #fff;
 }
 
@@ -633,19 +639,65 @@ main {
 
 .text-light{
     margin-left: 5px;
-    font-size: 15px;
+    margin-top: 13px;
+    font-size: 25px;
 }
 
-#header #links{
-    position:fixed;
+#nav-list{
+    padding: 0px;
+    width: 40px;
+    height: 40px;
+    margin-top: 20px;
+    margin-right: 20px;
+    border-radius: 10px;
+    background-color: transparent;
+    border: #3a3a3a, solid, 5px;
+}
+
+#navbar {
+    display: none;
+    padding: 0 0 0 0;
+    flex-basis: 100%;
+    flex-grow: 1;
     align-items: center;
-    width: 80px;
-    bottom: 0;
+}
+#navbar > ul {
+    padding: 10px;
+    margin: 0;
+    list-style: none;
+}
+#navbar > ul > li {
+    position: relative;
+    white-space: nowrap;
+}
+
+#navbar > ul > li > .nav-link {
+    padding: 1px;
+    font-size: 16px;
+}
+
+#navbar > ul > li > a, #navbar > ul > li > a:focus {
+    display: flex;
+    align-items: center;
+    color: #a8a9b4;
+    transition: 0.3s;
+}
+#navbar > ul > li > a i, #navbar > ul > li > a:focus i {
+    font-size: 12px;
+    padding-right: 8px;
+    color: #6f7180;
+}
+#navbar > ul > li > a:hover, #navbar li:hover > a i{
+    text-decoration: none;
+    color: #fff;
+}
+
+#links{
+    display: flex;
+    justify-content: center;
 }
 
 #header #links a {
-    
-    padding: 0,0,0,0;
     margin-left: 10px;
     margin-right: 10px;
     margin-bottom: 10px;
@@ -656,43 +708,6 @@ main {
     font-size: 15px;
 }
 
-
-#navbar {
-    padding: 30px 0 0 0;
-}
-#navbar * {
-    margin: 0;
-    padding: 0;
-    list-style: none;
-}
-#navbar > ul > li {
-    position: relative;
-    white-space: nowrap;
-}
-
-#navbar > ul > li > .nav-link {
-    padding: 5px;
-    font-size: 8px;
-}
-
-#navbar a, #navbar a:focus {
-    display: flex;
-    align-items: center;
-    color: #a8a9b4;
-    padding: 12px 15px;
-    margin-bottom: 8px;
-    transition: 0.3s;
-    font-size: 12px;
-}
-#navbar a i, #navbar a:focus i {
-    font-size: 12px;
-    padding-right: 8px;
-    color: #6f7180;
-}
-#navbar a:hover, #navbar li:hover > a i{
-    text-decoration: none;
-    color: #fff;
-}
 #home{
     width: 100%;
     height: 100vh;
@@ -886,6 +901,32 @@ section {
     font-size: 15px;
 }
 
+div.resume-container-certification{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 30px;
+    width: 140px;
+    border-radius: 10px;
+    background-color:#3a3a3a;
+    transition: all, 300ms ease;
+}
+
+div.resume-container-certification:hover{
+    background-color: #ffffff;
+    border: #3a3a3a, solid, 5px;
+}
+
+.resume-container-certification>a{
+    font-size: 13px;
+    color:#bdbdbd;
+    font-family: "Special Elite", monospace;
+}
+
+.resume-container-certification>a:hover{
+    color:#3a3a3a;
+}
+
 .description-resume{
     font-size: 14px;
     color: #1f1f1f;
@@ -1044,6 +1085,7 @@ a:-webkit-any-link{
 }
 
 .title_portfolio{
+    margin-top: 67px;
     height: 60px;
     display: flex;
     align-items: center;

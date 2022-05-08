@@ -66,3 +66,14 @@ $(function() {
         Object.values(JSON.parse(window.sessionStorage.getItem("web"))).forEach(field => { document.querySelector(field.id).textContent = field.value });
     });
 });
+
+$(function() {
+    $("#nav-list").click(function() {
+        var nav = document.getElementById("navbar");
+        if (nav.style.display === "block") {
+            nav.style.display = "none";
+        } else {
+            nav.style.display = "block";
+        }
+    });
+});
