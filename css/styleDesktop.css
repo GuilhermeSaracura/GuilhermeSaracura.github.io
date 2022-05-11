@@ -102,13 +102,19 @@ main {
 .homecontainer {
     display: flex;
     align-items: center;
-    max-width: 1150px;
-    min-width: 400px;
+    width: 1150px;
     min-height: 500px;
     max-height: 1000px;
     border-radius: 200px;
     background:rgba(0,0,0, 0.7);
+    animation: moving 4s;
 }
+
+@keyframes moving {
+    0%{margin-left: 600px; opacity: 0;}
+    100%{margin-left:0px; opacity: 1;}
+}
+
 .home_name {
     margin: 0 0 30px 0;
     padding-right: 40px;
@@ -614,14 +620,20 @@ main {
     background-size: cover;
 }
 .homecontainer {
-    margin:20px;
     display: flex;
     align-items: center;
-    max-width: 1150px;
+    width: 700px;
     min-height: 400px;
     border-radius: 150px;
     background:rgba(0,0,0, 0.7);
+    animation: moving 4s;
 }
+
+@keyframes moving {
+    0%{margin-left: 400px; opacity: 0;}
+    100%{margin-left:0px; opacity: 1;}
+}
+
 .home_name {
     margin-top: 20px;
     margin-right:30px;
