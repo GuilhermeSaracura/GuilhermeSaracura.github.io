@@ -15,6 +15,10 @@ main {
     overflow-y: auto;
 }
 
+.language_button{
+    margin-top: 5px;
+}
+
 .language_button, .language_button> button{
     border: 0px;
     background-color: transparent;
@@ -523,6 +527,10 @@ main {
     bottom: 0;
     left: 0;
     overflow-y: auto;
+}
+
+.language_button{
+    margin-top: 5px;
 }
 
 .language_button, .language_button> button{

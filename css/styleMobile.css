@@ -15,6 +15,10 @@ main {
     overflow-y: auto;
 }
 
+.language_button{
+    margin-top: 5px;
+}
+
 .language_button, .language_button> button{
     border: 0px;
     background-color: transparent;
@@ -621,13 +625,16 @@ main {
     flex-wrap: wrap;
 }
 
+.language_button{
+    margin-top: 5px;
+}
+
 .language_button, .language_button> button{
     height: 18px;
     border: 0px;
     background-color: transparent;
     font-size: 10px;
     display: flex;
-    
     color: #fff;
 }
 
