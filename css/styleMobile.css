@@ -117,6 +117,18 @@ main {
     100%{margin-left:0px; opacity: 1;}
 }
 
+.container{
+    position: relative;
+    transform: translateY(150px);
+    opacity: 0;
+    transition: 1s all ease;
+}
+
+.container.active{
+    transform: translateY(0);
+    opacity: 1;
+}
+
 .home_name {
     margin-top: 20px;
     margin-right:30px;
@@ -510,6 +522,12 @@ form li{
     padding-bottom: 30px;
     padding-left: 15px;
     padding-right: 15px;
+    animation: movingportfolio 5s;
+}
+
+@keyframes movingportfolio {
+    0%{margin-top: 300px; opacity: 0;}
+    100%{margin-top:0px; opacity: 1;}
 }
 
 .content_portfolio{
@@ -745,6 +763,19 @@ main {
     0%{margin-left: 400px; opacity: 0;}
     100%{margin-left:0px; opacity: 1;}
 }
+
+.container{
+    position: relative;
+    transform: translateY(150px);
+    opacity: 0;
+    transition: 1s all ease;
+}
+
+.container.active{
+    transform: translateY(0);
+    opacity: 1;
+}
+
 .home_name {
     text-align: center;
     margin-top: 20px;
@@ -1143,6 +1174,12 @@ form li{
     padding-bottom: 30px;
     padding-left: 15px;
     padding-right: 15px;
+    animation: movingportfolio 5s;
+}
+
+@keyframes movingportfolio {
+    0%{margin-top: 300px; opacity: 0;}
+    100%{margin-top:0px; opacity: 1;}
 }
 
 .content_portfolio{

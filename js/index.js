@@ -93,3 +93,21 @@ window.addEventListener('orientationchange', function(){
          break;
     } 
 });
+
+function animationContainers() {
+    var containers = document.querySelectorAll(".container");
+  
+    for (var i = 0; i < containers.length; i++) {
+      var windowHeight = window.innerHeight;
+      var elementTop = containers[i].getBoundingClientRect().top;
+      var elementVisible = 75;
+  
+      if (elementTop < windowHeight - elementVisible) {
+        containers[i].classList.add("active");
+      } else {
+        containers[i].classList.remove("active");
+      }
+    }
+  }
+  
+  window.addEventListener("scroll", animationContainers);
