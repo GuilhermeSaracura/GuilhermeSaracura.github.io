@@ -13,7 +13,7 @@ export const englishLanguage = {
     //About Section
     ABOUT_TITLE: { id: "#about-title", value: "About" },
     ABOUT_OBJECTIVE: { id: "#about-objective", value: "Professional Objective: Work as a Software and Web Developer." },
-    ABOUT_DESCRIPTION: { id: "#about-description", value: "Currently pursuing a degree in Computer Engineering at FACENS. Working as an intern in Software Development at FIT-Instituto de Tecnologia, where I participate in software development using C#.NET and WPF. One year and six months of experience in the IT area, performing in the management of activities, maintenance and assembly of equipment, Windows operating system users support and network infrastructure maintenance and support." },
+    ABOUT_DESCRIPTION: { id: "#about-description", value: "Currently pursuing a degree in Computer Engineering at FACENS. Working as Software Development Intern at FIT - Instituto de Tecnologia, where I participate in software development using C#.NET and WPF. One year and six months of experience in the IT area, performing in the management of activities, maintenance and assembly of equipment, Windows operating system users support and network infrastructure maintenance and support." },
     ABOUT_BIRTH_DATE: { id: "#about-birth-date", value: "Birth Date:" },
     ABOUT_DATE: { id: "#about-date", value: "May 27, 1996" },
     ABOUT_CELLPHONE: { id: "#about-cellphone", value: "Cell phone:" },

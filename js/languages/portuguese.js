@@ -13,7 +13,7 @@ export const portugueseLanguage = {
     //About Section
     ABOUT_TITTLE: { id: "#about-title", value: "Sobre" },
     ABOUT_OBJECTIVE: { id: "#about-objective", value: "Objetivo Profissional: Atuar no mercado como Desenvolvedor de Software e Web." },
-    ABOUT_DESCRIPTION: { id: "#about-description", value: "Atualmente cursando graduação em Engenharia de Computação na FACENS. Atuando como estagiário em Desenvolvimento de Software na FIT-Instituto de Tecnologia, onde participo do desenvolvimento de softwares utilizando C#.NET e WPF. Um ano e seis meses de experiência na área de TI, exercendo como atividades gestão, manutenção e montagem de equipamentos, suporte aos usuários do sistema operacional Windows e manutenção e suporte a infraestrutura de redes." },
+    ABOUT_DESCRIPTION: { id: "#about-description", value: "Atualmente cursando graduação em Engenharia de Computação na FACENS. Atuando como estagiário em Desenvolvimento de Software na FIT - Instituto de Tecnologia, onde participo do desenvolvimento de softwares utilizando C#.NET e WPF. Um ano e seis meses de experiência na área de TI, exercendo como atividades gestão, manutenção e montagem de equipamentos, suporte aos usuários do sistema operacional Windows e manutenção e suporte a infraestrutura de redes." },
     ABOUT_BIRTH_DATE: { id: "#about-birth-date", value: "Data de Nascimento:" },
     ABOUT_DATE: { id: "#about-date", value: "27 de Maio de 1996" },
     ABOUT_CELLPHONE: { id: "#about-cellphone", value: "Celular:" },
@@ -76,7 +76,7 @@ export const portugueseLanguage = {
 
     //Portfolio section
     PORTFOLIO_TITLE: { id: "#portfolio-title", value: "Portfólio" },
-    PORTFOLIO_SUBTITLE: { id: "#portfolio-subtitle", value: "Projetos e trabalhos realisados a partir de cursos, projetos pessoais e matérias do curso de Engenharia de Computação." },
+    PORTFOLIO_SUBTITLE: { id: "#portfolio-subtitle", value: "Projetos e trabalhos realizados a partir de cursos, projetos pessoais e matérias do curso de Engenharia de Computação." },
     PORTFOLIO_SOFTWARES: { id: "#portfolio-softwares", value: "-Projetos de Software" },
     PORTFOLIO_WEB: { id: "#portfolio-web", value:"-Projetos de Aplicações Web" },
 

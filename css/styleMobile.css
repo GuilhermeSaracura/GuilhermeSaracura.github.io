@@ -855,17 +855,16 @@ section {
 }
 .description{
     padding-bottom: 10px;
-    font-size: 12px;
+    font-size: 17px;
     text-align:justify;
-    font-weight: bold;
     font-family: "Special Elite", monospace;
     margin-bottom: 20px;
-    padding-bottom: 20px;
+    padding-bottom: 10px;
     position: relative;
     color: #1f1f1f;
 }
 .about-topics .content ul li strong, .about-topics .content ul li span{
-    font-size: 10px;
+    font-size: 13px;
 }
 
 .about .content ul {
@@ -1003,7 +1002,7 @@ li::marker{
 }
 
 .skills-container-title{
-    font-size: 10px;
+    font-size: 14px;
     margin-right: 5px;
     color: #1f1f1f;
     font-family: "Special Elite", monospace;
