@@ -8,11 +8,11 @@ export const englishLanguage = {
     NAVBAR_CONTACTS: { id: "#navbar-contacts", value: "Contacts" },
     
     //Home Script
-    NAVBAR_TYPED_SCRIPT: { id: "#typed-script", value: "Computer Engineering student, looking to become a Software and Web Developer." },
+    NAVBAR_TYPED_SCRIPT: { id: "#typed-script", value: "Computer Engineering student, looking to become a Full Stack Developer." },
 
     //About Section
     ABOUT_TITLE: { id: "#about-title", value: "About" },
-    ABOUT_OBJECTIVE: { id: "#about-objective", value: "Professional Objective: Work as a Software and Web Developer." },
+    ABOUT_OBJECTIVE: { id: "#about-objective", value: "Professional Objective: Become and work as a Full Stack Developer." },
     ABOUT_DESCRIPTION: { id: "#about-description", value: "Currently pursuing a degree in Computer Engineering at FACENS. Working as Software Development Intern at FIT - Instituto de Tecnologia, where I participate in software development using C#.NET and WPF. One year and six months of experience in the IT area, performing in the management of activities, maintenance and assembly of equipment, Windows operating system users support and network infrastructure maintenance and support." },
     ABOUT_BIRTH_DATE: { id: "#about-birth-date", value: "Birth Date:" },
     ABOUT_DATE: { id: "#about-date", value: "May 27, 1996" },
@@ -27,7 +27,7 @@ export const englishLanguage = {
     RESUME_PROFESSIONAL_EXPERIENCE: { id: "#resume-professional-experience", value: "Professional Experience" },
     RESUME_INTERN_DEV: { id: "#resume-intern-dev", value: "Software Development Intern" },
     RESUME_INTERN_DEV_DATE: { id: "#resume-intern-dev-date", value: "May/2021 - Current Job" },
-    RESUME_INTERN_DEV_DESCRIPTION: { id: "#resume-intern-dev-description", value: "Performing tasks related to software development in C# and WPF languages, fixing bugs and performing tests, supporting the software development team, following the routine with the Scrum methodology in performing tasks and participating in alignment and planning meetings." },
+    RESUME_INTERN_DEV_DESCRIPTION: { id: "#resume-intern-dev-description", value: "Performing tasks related to software development in C# and WPF languages, fixing bugs and performing tests, supporting the software development team, following the routine with the SCRUM methodology in performing tasks and participating in alignment and planning meetings." },
     RESUME_IT_ANALYST: { id: "#resume-it-analyst", value: "IT Analyst" },
     RESUME_IT_ANALYST_DATE: { id: "#resume-it-analyst-date", value: "January/2021 - April/2021" },
     RESUME_IT_ANALYST_DESCRIPTION: { id: "#resume-it-analyst-description", value: "Windows operating system users support, server maintenance and monitoring, network infrastructure maintenance and support, budgeting for equipment purchases, equipment maintenance and assembly." },
@@ -125,10 +125,10 @@ export const englishLanguageweb = {
     //Web Portfolio
     P_WEB_TITLE: { id: "#web-portfolio-title", value: "Web Application Projects" },
     P_WEB_CV: { id: "#web-portfolio-cv", value: "Website Project with personal CV" },
-    P_WEB_CV_DESCRIPTION: { id: "#web-portfolio-cv-description", value: "This project was set up to put into practice my knowledge in Web development and also to be able to share the repositories of works and projects carried out from courses, personal projects and Computer Engineering course subjects." },
+    P_WEB_CV_DESCRIPTION: { id: "#web-portfolio-cv-description", value: "This project was set up to put into practice my knowledge in Front-End Web development and also to be able to share the repositories of works and projects carried out from courses, personal projects and Computer Engineering course subjects." },
     P_WEB_CV_DIRECTORY: { id: "#web-portfolio-directory-cv", value: " Directory" },
     P_WEB_CSHARP: { id: "#web-portfolio-csharp", value: "Web application development project with ASP.NET Core MVC" },
-    P_WEB_CSHARP_DESCRIPTION: { id: "#web-portfolio-csharp-description", value: "Project developed during Udemy's C# COMPLETO Programação Orientada a Objetos + Projetos course, simulating a sales website. The intent was to learn the fundamentals and use the ASP.NET Core MVC Framework." },
+    P_WEB_CSHARP_DESCRIPTION: { id: "#web-portfolio-csharp-description", value: "Project developed during Udemy's C# COMPLETO Programação Orientada a Objetos + Projetos course, simulating a sales website. The intent was to learn the fundamentals and use the ASP.NET Core MVC." },
     P_WEB_CSHARP_DIRECTORY: { id: "#web-portfolio-directory-csharp", value: " Directory" },
     P_WEB_VUE: { id: "#web-portfolio-vue", value: "Front-end application development project using Vue Framework" },
     P_WEB_VUE_DESCRIPTION: { id: "#web-portfolio-vue-description", value: "Project developed in the Web Development subject using the Vue Framework." },

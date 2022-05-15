@@ -8,11 +8,11 @@ export const portugueseLanguage = {
     NAVBAR_CONTACTS: { id: "#navbar-contacts", value: "Contatos" },
 
     //Home Script
-    TYPED_SCRIPT: { id: "#typed-script", value: "Estudante de Engenharia de Computação, buscando me tornar Desenvolvedor de Software e Web." },
+    TYPED_SCRIPT: { id: "#typed-script", value: "Estudante de Engenharia de Computação, buscando me tornar Desenvolvedor Full Stack." },
 
     //About Section
     ABOUT_TITTLE: { id: "#about-title", value: "Sobre" },
-    ABOUT_OBJECTIVE: { id: "#about-objective", value: "Objetivo Profissional: Atuar no mercado como Desenvolvedor de Software e Web." },
+    ABOUT_OBJECTIVE: { id: "#about-objective", value: "Objetivo Profissional: Atuar no mercado como Desenvolvedor Full Stack." },
     ABOUT_DESCRIPTION: { id: "#about-description", value: "Atualmente cursando graduação em Engenharia de Computação na FACENS. Atuando como estagiário em Desenvolvimento de Software na FIT - Instituto de Tecnologia, onde participo do desenvolvimento de softwares utilizando C#.NET e WPF. Um ano e seis meses de experiência na área de TI, exercendo como atividades gestão, manutenção e montagem de equipamentos, suporte aos usuários do sistema operacional Windows e manutenção e suporte a infraestrutura de redes." },
     ABOUT_BIRTH_DATE: { id: "#about-birth-date", value: "Data de Nascimento:" },
     ABOUT_DATE: { id: "#about-date", value: "27 de Maio de 1996" },
@@ -27,7 +27,7 @@ export const portugueseLanguage = {
     RESUME_PROFESSIONAL_EXPERIENCE: { id: "#resume-professional-experience", value: "Experiência Profissional" },
     RESUME_INTERN_DEV: { id: "#resume-intern-dev", value: "Estagiário de Desenvolvimento de Software" },
     RESUME_INTERN_DEV_DATE: { id: "#resume-intern-dev-date", value: "Maio/2021 - Cargo atual" },
-    RESUME_INTERN_DEV_DESCRIPTION: { id: "#resume-intern-dev-description", value: "Realização de tarefas relacionadas ao desenvolvimento de software nas linguagens de C# e WPF, correção de bugs e realização de testes, suporte à equipe de desenvolvimento de software, acompanhamento da rotina com a metodologia Scrum na realização de tasks e participação de reuniões de alinhamento e planejamentos." },
+    RESUME_INTERN_DEV_DESCRIPTION: { id: "#resume-intern-dev-description", value: "Realização de tarefas relacionadas ao desenvolvimento de software nas linguagens de C# e WPF, correção de bugs e realização de testes, suporte à equipe de desenvolvimento de software, acompanhamento da rotina com a metodologia SCRUM na realização de tasks e participação de reuniões de alinhamento e planejamentos." },
     RESUME_IT_ANALYST: { id: "#resume-it-analyst", value: "Analista de TI" },
     RESUME_IT_ANALYST_DATE: { id: "#resume-it-analyst-date", value: "Jan/2021 - Abr/2021" },
     RESUME_IT_ANALYST_DESCRIPTION: { id: "#resume-it-analyst-description", value: "Suporte aos usuários do sistema operacional Windows, manutenção e acompanhamento de servidores, manutenção e suporte da infraestrutura de redes, realização de orçamento para compra de equipamentos, manutenção e montagem de equipamentos." },
@@ -116,10 +116,10 @@ export const portugueseLanguageweb = {
     //Web Portfolio
     P_WEB_TITLE: { id: "#web-portfolio-title", value: "Projetos de Aplicações Web" },
     P_WEB_CV: { id: "#web-portfolio-cv", value: "Projeto de site com CV pessoal" },
-    P_WEB_CV_DESCRIPTION: { id: "#web-portfolio-cv-description", value: "Este projeto foi montado para colocar em prática meus conhecimentos em desenvolvimento Web e de também poder compartilhar os repositórios de trabalhos e projetos realisados a partir de cursos, projetos pessoais e matérias do curso de Engenharia de Computação." },
+    P_WEB_CV_DESCRIPTION: { id: "#web-portfolio-cv-description", value: "Este projeto foi montado para colocar em prática meus conhecimentos em desenvolvimento Web Front-End e de também poder compartilhar os repositórios de trabalhos e projetos realisados a partir de cursos, projetos pessoais e matérias do curso de Engenharia de Computação." },
     P_WEB_CV_DIRECTORY: { id: "#web-portfolio-directory-cv", value: " Diretório" },
     P_WEB_CSHARP: { id: "#web-portfolio-csharp", value: "Projeto de desenvolvimento de aplicação web com ASP.NET Core MVC" },
-    P_WEB_CSHARP_DESCRIPTION: { id: "#web-portfolio-csharp-description", value: "Projeto desenvolvido durante o curso da Udemy de C# COMPLETO Programação Orientada a Objetos + Projetos, simulando um site de vendas. O intuito foi de conhecer os fundamentos e utilizar o Framework ASP.NET Core MVC." },
+    P_WEB_CSHARP_DESCRIPTION: { id: "#web-portfolio-csharp-description", value: "Projeto desenvolvido durante o curso da Udemy de C# COMPLETO Programação Orientada a Objetos + Projetos, simulando um site de vendas. O intuito foi de conhecer os fundamentos e utilizar o ASP.NET Core MVC." },
     P_WEB_CSHARP_DIRECTORY: { id: "#web-portfolio-directory-csharp", value: " Diretório" },
     P_WEB_VUE: { id: "#web-portfolio-vue", value: "Projeto de desenvolvimento de aplicação front utilizando Framework Vue" },
     P_WEB_VUE_DESCRIPTION: { id: "#web-portfolio-vue-description", value: "Projeto desenvolvido na matéria de Desenvolvimento Web utilizando o Framework Vue." },

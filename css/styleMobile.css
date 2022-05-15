@@ -356,6 +356,7 @@ li::marker{
 }
 
 .skills-container-title{
+    margin: 0px;
     display: flex;
     text-align: center;
     font-size: 14px;
@@ -376,6 +377,7 @@ li::marker{
 }
 
 .percent{
+    margin: 0px;
     font-size: 14px;
     font-family: "Special Elite", monospace;
     color: #949494;
@@ -1002,6 +1004,7 @@ li::marker{
 }
 
 .skills-container-title{
+    margin: 0px;
     font-size: 14px;
     margin-right: 5px;
     color: #1f1f1f;
@@ -1020,7 +1023,8 @@ li::marker{
 }
 
 .percent{
-    font-size: 10px;
+    margin: 0px;
+    font-size: 12px;
     font-family: "Special Elite", monospace;
     color: #949494;
 }

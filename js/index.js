@@ -109,5 +109,5 @@ function animationContainers() {
       }
     }
   }
-  
+  animationContainers()
   window.addEventListener("scroll", animationContainers);
