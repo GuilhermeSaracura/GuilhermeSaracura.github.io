@@ -68,6 +68,7 @@ export const portugueseLanguage = {
     SKILLS_TOOL_KNOWLEDGE: { id: "#skills-tool-knowledge", value: "Conhecimento em Ferramentas de Desenvolvimento." },
     SKILLS_GIT: { id: "#skills-git", value: " - Intermediário" },
     SKILLS_VSCODE: { id: "#skills-vscode", value: " - Intermediário" },
+    SKILLS_LEAN_SIX_SIGMA: { id: "#skills-sixsigma", value: " - Avançado" },
     SKILLS_SCRUM:{ id: "#skills-scrum", value: " - Básico" },
     SKILLS_VS:{ id: "#skills-vs", value: " - Intermediário" },
     SKILLS_LANGUAGES: { id: "#skills-languages", value: "Idiomas." },
