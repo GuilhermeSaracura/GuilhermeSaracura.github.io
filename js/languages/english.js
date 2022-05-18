@@ -65,7 +65,7 @@ export const englishLanguage = {
     SKILLS_ANGULAR:{ id: "#skills-angular", value: " - Basic" },
     SKILLS_VUE:{ id: "#skills-vue", value: " - Basic" },
     SKILLS_WPF:{ id: "#skills-wpf", value: " - Basic" },
-    SKILLS_TOOL_KNOWLEDGE: { id: "#skills-tool-knowledge", value: "Knowledge in Development Tools." },
+    SKILLS_TOOL_KNOWLEDGE: { id: "#skills-tool-knowledge", value: "Knowledge in Development Tools and Methodologies." },
     SKILLS_GIT: { id: "#skills-git", value: " - Intermediary" },
     SKILLS_VSCODE: { id: "#skills-vscode", value: " - Intermediary" },
     SKILLS_LEAN_SIX_SIGMA: { id: "#skills-sixsigma", value: " - Advanced" },
