@@ -305,7 +305,7 @@ section {
     font-size: 15px;
 }
 
-div.resume-container-certification{
+.resume-container-certification{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -316,19 +316,19 @@ div.resume-container-certification{
     transition: all, 300ms ease;
 }
 
-div.resume-container-certification:hover{
+.resume-container-certification:hover{
     background-color: #ffffff;
-    border: #3a3a3a, solid, 5px;
+    border: 1px solid #3a3a3a;
+}
+
+.resume-container-certification:hover>a{
+    color: #1f1f1f;
 }
 
 .resume-container-certification>a{
     font-size: 17px;
     color:#bdbdbd;
     font-family: "Special Elite", monospace;
-}
-
-.resume-container-certification>a:hover{
-    color:#3a3a3a;
 }
 
 .description-resume{
@@ -568,6 +568,23 @@ form li{
 .description_item{
     text-align: justify;
     font-family: "Special Elite", monospace;
+}
+.git_button{
+    border: 1px solid #ffffff;
+    background-color: #3a3a3a;
+}
+
+.git_button>i{
+    color:#ffffff;
+}
+
+.git_button:hover{
+    background-color: #bdbdbd;
+    border: 1px solid #3a3a3a;
+}
+
+.git_button:hover>i{
+    color: #1f1f1f;
 }
 }
 @media (max-height: 550px) and (max-width: 900px) {
@@ -954,7 +971,7 @@ section {
     font-size: 15px;
 }
 
-div.resume-container-certification{
+.resume-container-certification{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -965,19 +982,19 @@ div.resume-container-certification{
     transition: all, 300ms ease;
 }
 
-div.resume-container-certification:hover{
+.resume-container-certification:hover{
     background-color: #ffffff;
-    border: #3a3a3a, solid, 5px;
+    border: 1px solid #3a3a3a;
+}
+
+.resume-container-certification:hover>a{
+    color: #1f1f1f;
 }
 
 .resume-container-certification>a{
     font-size: 13px;
     color:#bdbdbd;
     font-family: "Special Elite", monospace;
-}
-
-.resume-container-certification>a:hover{
-    color:#3a3a3a;
 }
 
 .description-resume{
@@ -1224,5 +1241,22 @@ form li{
 .description_item{
     text-align: justify;
     font-family: "Special Elite", monospace;
+}
+.git_button{
+    border: 1px solid #ffffff;
+    background-color: #3a3a3a;
+}
+
+.git_button>i{
+    color:#ffffff;
+}
+
+.git_button:hover{
+    background-color: #bdbdbd;
+    border: 1px solid #3a3a3a;
+}
+
+.git_button:hover>i{
+    color: #1f1f1f;
 }
 }

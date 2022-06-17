@@ -117,7 +117,7 @@ export const portugueseLanguageweb = {
     //Web Portfolio
     P_WEB_TITLE: { id: "#web-portfolio-title", value: "Projetos de Aplicações Web" },
     P_WEB_CV: { id: "#web-portfolio-cv", value: "Projeto de site com CV pessoal" },
-    P_WEB_CV_DESCRIPTION: { id: "#web-portfolio-cv-description", value: "Este projeto foi montado para colocar em prática meus conhecimentos em desenvolvimento Web Front-End e de também poder compartilhar os repositórios de trabalhos e projetos realisados a partir de cursos, projetos pessoais e matérias do curso de Engenharia de Computação." },
+    P_WEB_CV_DESCRIPTION: { id: "#web-portfolio-cv-description", value: "Este projeto foi montado para colocar em prática meus conhecimentos em desenvolvimento Web Front-End e poder compartilhar os repositórios de trabalhos e projetos realizados a partir de cursos, projetos pessoais e matérias do curso de Engenharia de Computação." },
     P_WEB_CV_DIRECTORY: { id: "#web-portfolio-directory-cv", value: " Diretório" },
     P_WEB_CSHARP: { id: "#web-portfolio-csharp", value: "Projeto de desenvolvimento de aplicação web com ASP.NET Core MVC" },
     P_WEB_CSHARP_DESCRIPTION: { id: "#web-portfolio-csharp-description", value: "Projeto desenvolvido durante o curso da Udemy de C# COMPLETO Programação Orientada a Objetos + Projetos, simulando um site de vendas. O intuito foi de conhecer os fundamentos e utilizar o ASP.NET Core MVC." },
