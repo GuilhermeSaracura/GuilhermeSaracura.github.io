@@ -123,7 +123,7 @@ export const portugueseLanguageweb = {
     P_WEB_CSHARP: { id: "#web-portfolio-csharp", value: "Projeto de desenvolvimento de aplicação web com ASP.NET Core MVC" },
     P_WEB_CSHARP_DESCRIPTION: { id: "#web-portfolio-csharp-description", value: "Projeto desenvolvido durante o curso da Udemy de C# COMPLETO Programação Orientada a Objetos + Projetos, simulando um site de vendas. O intuito foi de conhecer os fundamentos e utilizar o ASP.NET Core MVC." },
     P_WEB_CSHARP_DIRECTORY: { id: "#web-portfolio-directory-csharp", value: " Diretório" },
-    P_WEB_VUE: { id: "#web-portfolio-vue", value: "Projeto de desenvolvimento de aplicação front utilizando Framework Vue" },
-    P_WEB_VUE_DESCRIPTION: { id: "#web-portfolio-vue-description", value: "Projeto desenvolvido na matéria de Desenvolvimento Web utilizando o Framework Vue." },
+    P_WEB_VUE: { id: "#web-portfolio-vue", value: "Projeto de desenvolvimento de aplicação front utilizando Framework VueJS" },
+    P_WEB_VUE_DESCRIPTION: { id: "#web-portfolio-vue-description", value: "Projeto desenvolvido na matéria de Desenvolvimento Web utilizando o Framework VueJS." },
     P_WEB_VUE_DIRECTORY: { id: "#web-portfolio-directory-vue", value: " Diretório" },
 }
