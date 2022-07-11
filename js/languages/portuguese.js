@@ -13,7 +13,8 @@ export const portugueseLanguage = {
     //About Section
     ABOUT_TITTLE: { id: "#about-title", value: "Sobre" },
     ABOUT_OBJECTIVE: { id: "#about-objective", value: "Objetivo Profissional: Atuar no mercado como Desenvolvedor Full Stack." },
-    ABOUT_DESCRIPTION: { id: "#about-description", value: "Atualmente cursando graduação em Engenharia de Computação na FACENS. Atuando como estagiário em Desenvolvimento de Software na FIT - Instituto de Tecnologia, onde participo do desenvolvimento de softwares utilizando C#.NET e WPF. Um ano e seis meses de experiência na área de TI, exercendo como atividades gestão, manutenção e montagem de equipamentos, suporte aos usuários do sistema operacional Windows e manutenção e suporte a infraestrutura de redes." },
+    ABOUT_DESCRIPTION1: { id: "#about-description1", value: "Atualmente cursando graduação em Engenharia de Computação na FACENS. Atuando como estagiário em Desenvolvimento de Software na FIT - Instituto de Tecnologia, onde participo do desenvolvimento de softwares utilizando C#.NET e WPF. Um ano e seis meses de experiência na área de TI, exercendo como atividades gestão, manutenção e montagem de equipamentos, suporte aos usuários do sistema operacional Windows e manutenção e suporte a infraestrutura de redes." },
+    ABOUT_DESCRIPTION2: { id: "#about-description2", value: "Um ano e seis meses de experiência na área de TI, exercendo como atividades gestão, manutenção e montagem de equipamentos, suporte aos usuários do sistema operacional Windows e manutenção e suporte a infraestrutura de redes." },
     ABOUT_BIRTH_DATE: { id: "#about-birth-date", value: "Data de Nascimento:" },
     ABOUT_DATE: { id: "#about-date", value: "27 de Maio de 1996" },
     ABOUT_CELLPHONE: { id: "#about-cellphone", value: "Celular:" },
