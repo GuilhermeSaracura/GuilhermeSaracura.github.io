@@ -34,7 +34,7 @@ export const portugueseLanguage = {
     RESUME_IT_ANALYST_DESCRIPTION: { id: "#resume-it-analyst-description", value: "Suporte aos usuários do sistema operacional Windows, manutenção e acompanhamento de servidores, manutenção e suporte da infraestrutura de redes, realização de orçamento para compra de equipamentos, manutenção e montagem de equipamentos." },
     RESUME_IT_ASSISTANT: { id: "#resume-it-assistant", value: "Assistente de TI" },
     RESUME_IT_ASSISTANT_DATE: { id: "#resume-it-assistant-date", value: "Fev/2020 - Dez/2020" },
-    RESUME_IT_ASSISTANT_DESCRIPTION: { id: "#resume-it-assistant-description", value: "Manutenção e montagem de equipamentos, suporte aos usuários do sistema operacional Windows e manutenção e suporte da infraestrutura de redes." },
+    RESUME_IT_ASSISTANT_DESCRIPTION: { id: "#resume-it-assistant-description", value: "Manutenção e montagem de equipamentos, suporte aos usuários do sistema operacional Windows, manutenção e suporte da infraestrutura de redes." },
     RESUME_IT_INTERN: { id: "#resume-it-intern", value: "Estagiário de TI" },
     RESUME_IT_INTERN_DATE: { id: "#resume-it-intern-date", value: "Nov/2019 - Jan/2020" },
     RESUME_IT_INTERN_DESCRIPTION: { id: "#resume-it-intern-description", value: "Auxílio técnico em sistemas, suporte ao usuário e apoio à equipe de TI." },
