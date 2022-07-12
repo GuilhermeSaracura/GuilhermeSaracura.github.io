@@ -73,7 +73,9 @@ export const englishLanguage = {
     SKILLS_SCRUM:{ id: "#skills-scrum", value: " - Basic" },
     SKILLS_VS:{ id: "#skills-vs", value: " - Intermediary" },
     SKILLS_LANGUAGES: { id: "#skills-languages", value: "Languages." },
+    SKILL_PORTUGUESE: {id: "#skills-portuguese", value: "Portuguese"},
     SKILLS_PT:{ id: "#skills-pt", value: " - Native" },
+    SKILL_ENGLISH: {id: "#skills-english", value: "English"},
     SKILLS_EN: { id: "#skills-en", value: " - Intermediary" },
 
     //Portfolio section

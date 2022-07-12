@@ -1118,46 +1118,6 @@ form li{
     color: #1f1f1f;
 }
 }
-
-
-@media(max-height: 550px) and (min-width: 900px) and (max-width: 1450px){
-
-#navbar {
-    padding: 0px;
-}
-#navbar * {
-    margin: 0;
-    padding: 0;
-    list-style: none;
-}
-.text-light{
-    margin-left: 10px;
-    font-size: 20px;
-}
-#navbar > ul > li {
-    position: relative;
-    white-space: nowrap;
-}
-#navbar a, #navbar a:focus {
-    display: flex;
-    align-items: center;
-    color: #a8a9b4;
-    padding: 4px 5px;
-    margin-bottom: 4px;
-    transition: 0.3s;
-    font-size: 12px;
-}
-#navbar a i, #navbar a:focus i {
-    font-size: 12px;
-    padding-right: 8px;
-    color: #6f7180;
-}
-#navbar a:hover, #navbar li:hover > a i{
-    text-decoration: none;
-    color: #fff;
-}
-}
-
 /****************************************************************************************************************/
 body{
     background-color: #bdbdbd;

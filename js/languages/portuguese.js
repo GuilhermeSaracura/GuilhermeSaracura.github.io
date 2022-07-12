@@ -73,7 +73,9 @@ export const portugueseLanguage = {
     SKILLS_SCRUM:{ id: "#skills-scrum", value: " - Básico" },
     SKILLS_VS:{ id: "#skills-vs", value: " - Intermediário" },
     SKILLS_LANGUAGES: { id: "#skills-languages", value: "Idiomas." },
+    SKILL_PORTUGUESE: {id: "#skills-portuguese", value: "Português"},
     SKILLS_PT:{ id: "#skills-pt", value: " - Nativo" },
+    SKILL_ENGLISH: {id: "#skills-english", value: "Inglês"},
     SKILLS_EN: { id: "#skills-en", value: " - Intermediário" },
 
     //Portfolio section
@@ -118,10 +120,10 @@ export const portugueseLanguageweb = {
     //Web Portfolio
     P_WEB_TITLE: { id: "#web-portfolio-title", value: "Projetos de Aplicações Web" },
     P_WEB_CV: { id: "#web-portfolio-cv", value: "Projeto de site com CV pessoal" },
-    P_WEB_CV_DESCRIPTION: { id: "#web-portfolio-cv-description", value: "Este projeto foi montado para colocar em prática meus conhecimentos em desenvolvimento Web Front-End e poder compartilhar os repositórios de trabalhos e projetos realizados a partir de cursos, projetos pessoais e matérias do curso de Engenharia de Computação." },
+    P_WEB_CV_DESCRIPTION: { id: "#web-portfolio-cv-description", value: "Este projeto foi montado para colocar em prática meus conhecimentos em desenvolvimento Web Front-End, além de poder compartilhar os repositórios de trabalhos e projetos realizados a partir de cursos, projetos pessoais e matérias do curso de Engenharia de Computação." },
     P_WEB_CV_DIRECTORY: { id: "#web-portfolio-directory-cv", value: " Diretório" },
     P_WEB_CSHARP: { id: "#web-portfolio-csharp", value: "Projeto de desenvolvimento de aplicação web com ASP.NET Core MVC" },
-    P_WEB_CSHARP_DESCRIPTION: { id: "#web-portfolio-csharp-description", value: "Projeto desenvolvido durante o curso da Udemy de C# COMPLETO Programação Orientada a Objetos + Projetos, simulando um site de vendas. O intuito foi de conhecer os fundamentos e utilizar o ASP.NET Core MVC." },
+    P_WEB_CSHARP_DESCRIPTION: { id: "#web-portfolio-csharp-description", value: "Projeto desenvolvido durante o curso da Udemy de C# COMPLETO Programação Orientada a Objetos + Projetos, simulando um site de vendas. O intuito foi conhecer os fundamentos e utilizar o ASP.NET Core MVC." },
     P_WEB_CSHARP_DIRECTORY: { id: "#web-portfolio-directory-csharp", value: " Diretório" },
     P_WEB_VUE: { id: "#web-portfolio-vue", value: "Projeto de desenvolvimento de aplicação front utilizando Framework VueJS" },
     P_WEB_VUE_DESCRIPTION: { id: "#web-portfolio-vue-description", value: "Projeto desenvolvido na matéria de Desenvolvimento Web utilizando o Framework VueJS." },

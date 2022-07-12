@@ -585,7 +585,7 @@ form li{
     color: #1f1f1f;
 }
 }
-@media (max-height: 550px) and (max-width: 900px) {
+@media (max-height: 500px) and (max-width: 1400px) {
 main {
     margin-left: 130px;
 }
