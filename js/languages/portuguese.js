@@ -8,11 +8,10 @@ export const portugueseLanguage = {
     NAVBAR_CONTACTS: { id: "#navbar-contacts", value: "Contatos" },
 
     //Home Script
-    TYPED_SCRIPT: { id: "#typed-script", value: "Estudante de Engenharia de Computação, buscando me tornar Desenvolvedor Full Stack." },
+    TYPED_SCRIPT: { id: "#typed-script", value: "Estudante de Engenharia de Computação, buscando atuar no mercado como Desenvolvedor" },
 
     //About Section
     ABOUT_TITTLE: { id: "#about-title", value: "Sobre" },
-    ABOUT_OBJECTIVE: { id: "#about-objective", value: "Objetivo Profissional: Atuar no mercado como Desenvolvedor Full Stack." },
     ABOUT_DESCRIPTION1: { id: "#about-description1", value: "Atualmente cursando graduação em Engenharia de Computação na FACENS. Atuando como estagiário em Desenvolvimento de Software na FIT - Instituto de Tecnologia, onde participo do desenvolvimento de softwares utilizando C#.NET e WPF." },
     ABOUT_DESCRIPTION2: { id: "#about-description2", value: "Um ano e seis meses de experiência na área de TI, atuando no gerenciamento de atividades, manutenção e montagem de equipamentos, suporte aos usuários do sistema operacional Windows, manutenção e suporte a infraestrutura de redes." },
     ABOUT_BIRTH_DATE: { id: "#about-birth-date", value: "Data de Nascimento:" },
@@ -21,7 +20,7 @@ export const portugueseLanguage = {
     ABOUT_CITY: { id: "#about-city", value: "Cidade:" },
     ABOUT_CITY_INFO: { id: "#about-city-info", value: "Sorocaba-SP Brasil" },
     ABOUT_DEGREE: { id: "#about-degree", value: "Formação:" },
-    ABOUT_DEGREE_INFO: { id: "#about-degree-info", value: "Engenharia de Computação" },
+    ABOUT_DEGREE_INFO: { id: "#about-degree-info", value: "Estudante de Engenharia de Computação" },
 
     //Resume section
     RESUME_TITLE: { id: "#resume-title", value: "Resumo" },
