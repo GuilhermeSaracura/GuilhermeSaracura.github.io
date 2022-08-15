@@ -8,11 +8,11 @@ export const englishLanguage = {
     NAVBAR_CONTACTS: { id: "#navbar-contacts", value: "Contacts" },
     
     //Home Script
-    NAVBAR_TYPED_SCRIPT: { id: "#typed-script", value: "Computer Engineering student, looking to become and work as a Developer." },
+    NAVBAR_TYPED_SCRIPT: { id: "#typed-script", value: "Looking to become and work as a Full Stack Developer" },
 
     //About Section
     ABOUT_TITLE: { id: "#about-title", value: "About" },
-    ABOUT_DESCRIPTION1: { id: "#about-description1", value: "Currently pursuing a degree in Computer Engineering at FACENS. Working as Software Development Intern at FIT - Instituto de Tecnologia, where I participate in software development using C#.NET and WPF." },
+    ABOUT_DESCRIPTION1: { id: "#about-description1", value: "Currently working as Software Development Intern at FIT - Instituto de Tecnologia, where I participate in software development using C#.NET and WPF. Graduating in Computer Engineering at FACENS." },
     ABOUT_DESCRIPTION2: { id: "#about-description2", value: "One year and six months of experience in the IT area, performing in the management of activities, maintenance and mounting of equipment, Windows operating system users support, and network infrastructure maintenance and support." },
     ABOUT_BIRTH_DATE: { id: "#about-birth-date", value: "Birth Date:" },
     ABOUT_DATE: { id: "#about-date", value: "May 27, 1996" },

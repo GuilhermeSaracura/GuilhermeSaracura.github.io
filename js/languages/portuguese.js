@@ -8,11 +8,11 @@ export const portugueseLanguage = {
     NAVBAR_CONTACTS: { id: "#navbar-contacts", value: "Contatos" },
 
     //Home Script
-    TYPED_SCRIPT: { id: "#typed-script", value: "Estudante de Engenharia de Computação, buscando atuar no mercado como Desenvolvedor" },
+    TYPED_SCRIPT: { id: "#typed-script", value: "Buscando atuar no mercado como Desenvolvedor Full Stack" },
 
     //About Section
     ABOUT_TITTLE: { id: "#about-title", value: "Sobre" },
-    ABOUT_DESCRIPTION1: { id: "#about-description1", value: "Atualmente cursando graduação em Engenharia de Computação na FACENS. Atuando como estagiário em Desenvolvimento de Software na FIT - Instituto de Tecnologia, onde participo do desenvolvimento de softwares utilizando C#.NET e WPF." },
+    ABOUT_DESCRIPTION1: { id: "#about-description1", value: " Atuando atualmente como estagiário em Desenvolvimento de Software na FIT - Instituto de Tecnologia, onde participo do desenvolvimento de softwares utilizando C#.NET e WPF. Cursando graduação em Engenharia de Computação na FACENS." },
     ABOUT_DESCRIPTION2: { id: "#about-description2", value: "Um ano e seis meses de experiência na área de TI, atuando no gerenciamento de atividades, manutenção e montagem de equipamentos, suporte aos usuários do sistema operacional Windows, manutenção e suporte a infraestrutura de redes." },
     ABOUT_BIRTH_DATE: { id: "#about-birth-date", value: "Data de Nascimento:" },
     ABOUT_DATE: { id: "#about-date", value: "27 de Maio de 1996" },
