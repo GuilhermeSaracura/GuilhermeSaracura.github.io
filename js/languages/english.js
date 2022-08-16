@@ -8,7 +8,7 @@ export const englishLanguage = {
     NAVBAR_CONTACTS: { id: "#navbar-contacts", value: "Contacts" },
     
     //Home Script
-    NAVBAR_TYPED_SCRIPT: { id: "#typed-script", value: "Looking to become and work as a Full Stack Developer" },
+    NAVBAR_TYPED_SCRIPT: { id: "#typed-script", value: "Looking to become and work as a Trainee/Junior Developer" },
 
     //About Section
     ABOUT_TITLE: { id: "#about-title", value: "About" },
@@ -48,6 +48,7 @@ export const englishLanguage = {
     RESUME_CHEMICAL_ENGINEERING_DATE: { id: "#resume-degree-qe-date", value: "January/2014 - December/2018" },
     RESUME_CHEMICAL_ENGINEERING_lOCALIZATION: { id: "#resume-degree-qe-localization", value: "Sorocaba-SP Brazil" },
     RESUME_COURSES: { id: "#resume-courses", value: "Courses" },
+    RESUME_COURSES_ANGULAR_HOURS: { id: "#resume-courses-angular_hours", value: "(34,5 hours) Currently doing the course" },
     RESUME_COURSES_WPF_HOURS: { id: "#resume-courses-wpf_hours", value: "(20,5 hours)" },
     RESUME_COURSES_WPF_CERTIFICATE: { id: "#resume-courses-wpf-certificate", value: " Certificate" },
     RESUME_COURSES_CSHARP_HOURS: { id: "#resume-courses-csharp_hours", value: "(37 hours)" },
