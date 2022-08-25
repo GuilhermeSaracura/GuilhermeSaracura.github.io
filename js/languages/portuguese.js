@@ -8,7 +8,7 @@ export const portugueseLanguage = {
     NAVBAR_CONTACTS: { id: "#navbar-contacts", value: "Contatos" },
 
     //Home Script
-    TYPED_SCRIPT: { id: "#typed-script", value: "Buscando se tornar e atuar no mercado como Desenvolvedor Trainee/Junior" },
+    TYPED_SCRIPT: { id: "#typed-script", value: "Buscando se tornar e atuar no mercado como Desenvolvedor Trainee/Júnior" },
 
     //About Section
     ABOUT_TITTLE: { id: "#about-title", value: "Sobre" },
