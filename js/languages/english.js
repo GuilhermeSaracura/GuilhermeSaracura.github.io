@@ -6,6 +6,7 @@ export const englishLanguage = {
     NAVBAR_SKILLS: { id: "#navbar-skills", value: "Skills" },
     NAVBAR_PORTFOLIO: { id: "#navbar-portfolio", value: "Portfolio" },
     NAVBAR_CONTACTS: { id: "#navbar-contacts", value: "Contacts" },
+    NAVBAR_CURRICULUM: { id: "#navbar-curriculum", value: "Curriculum" },
     
     //Home Script
     NAVBAR_TYPED_SCRIPT: { id: "#typed-script", value: "Looking to become and work as a Trainee/Junior Developer" },

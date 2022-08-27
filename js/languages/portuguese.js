@@ -6,6 +6,7 @@ export const portugueseLanguage = {
     NAVBAR_SKILLS: { id: "#navbar-skills", value: "Habilidades" },
     NAVBAR_PORTFOLIO: { id: "#navbar-portfolio", value: "Portfólio" },
     NAVBAR_CONTACTS: { id: "#navbar-contacts", value: "Contatos" },
+    NAVBAR_CURRICULUM: { id: "#navbar-curriculum", value: "Currículo" },
 
     //Home Script
     TYPED_SCRIPT: { id: "#typed-script", value: "Buscando se tornar e atuar no mercado como Desenvolvedor Trainee/Júnior" },
