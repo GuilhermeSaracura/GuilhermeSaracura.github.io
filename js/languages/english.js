@@ -65,7 +65,7 @@ export const englishLanguage = {
     SKILLS_CSHARP: { id: "#skills-csharp", value: " - Intermediary" },
     SKILLS_C:{ id: "#skills-c", value: " - Basic" },
     SKILLS_JS:{ id: "#skills-js", value: " - Basic" },
-    SKILLS_JAVA: { id: "#skills-java", value: " - Intermediary" },
+    SKILLS_JAVA: { id: "#skills-java", value: " - Basic" },
     SKILLS_ANGULAR:{ id: "#skills-angular", value: " - Basic" },
     SKILLS_VUE:{ id: "#skills-vue", value: " - Basic" },
     SKILLS_WPF:{ id: "#skills-wpf", value: " - Intermediary" },
@@ -111,6 +111,7 @@ export const englishLanguagesoft = {
     NAVBAR_SKILLS: { id: "#navbar-skills", value: "Skills" },
     NAVBAR_PORTFOLIO: { id: "#navbar-portfolio", value: "Portfolio" },
     NAVBAR_CONTACTS: { id: "#navbar-contacts", value: "Contacts" },
+    NAVBAR_CURRICULUM: { id: "#navbar-curriculum", value: "Curriculum" },
 
     //Software Portfolio
     P_SOFTWARE_TITLE: { id: "#software-portfolio-title", value: "Software Projects" },
@@ -128,6 +129,7 @@ export const englishLanguageweb = {
     NAVBAR_SKILLS: { id: "#navbar-skills", value: "Skills" },
     NAVBAR_PORTFOLIO: { id: "#navbar-portfolio", value: "Portfolio" },
     NAVBAR_CONTACTS: { id: "#navbar-contacts", value: "Contacts" },
+    NAVBAR_CURRICULUM: { id: "#navbar-curriculum", value: "Curriculum" },
 
     //Web Portfolio
     P_WEB_TITLE: { id: "#web-portfolio-title", value: "Web Application Projects" },
