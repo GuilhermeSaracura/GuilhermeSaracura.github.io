@@ -115,6 +115,12 @@ export const englishLanguagesoft = {
 
     //Software Portfolio
     P_SOFTWARE_TITLE: { id: "#software-portfolio-title", value: "Software Projects" },
+    P_SOFTWARE_CONTACT_APP: { id: "#software-portfolio-contactapp", value: "Contact Agenda Project" },
+    P_SOFTWARE_CONTACT_APP_DESCRIPTION: { id: "#software-portfolio-contactapp-description", value: "Project developed during the Windows Presentation Foundation Masterclass course, simulating a contact agenda. Applying the knowledge of WPF structures, using C#, UserControl, ListView, SQLite and style configuration." },
+    P_SOFTWARE_CONTACT_APP_DIRECTORY: { id: "#software-portfolio-directory-contactapp", value: "Directory" },
+    P_SOFTWARE_CALCULATOR: { id: "#software-portfolio-calculator", value: "Basic Calculator Project" },
+    P_SOFTWARE_CALCULATOR_DESCRIPTION: { id: "#software-portfolio-calculator-description", value: "Project developed during the Windows Presentation Foundation Masterclass course, simulating a basic calculator. Applying the basic knowledge of WPF structures and using C#." },
+    P_SOFTWARE_CALCULATOR_DIRECTORY: { id: "#software-portfolio-directory-calculator", value: "Directory" },
     P_SOFTWARE_CHESS: { id: "#software-portfolio-chess", value: "Chess Project" },
     P_SOFTWARE_CHESS_DESCRIPTION: { id: "#software-portfolio-chess-description", value: "Project developed during the C# COMPLETO Programação Orientada a Objetos + Projetos course, simulating the classic chess game. Applying the knowledge of encapsulation, inheritance, polymorphism, enumeration and exception handling." },
     P_SOFTWARE_CHESS_DIRECTORY: { id: "#software-portfolio-directory-chess", value: "Directory" },   
