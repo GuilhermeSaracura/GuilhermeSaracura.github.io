@@ -110,7 +110,7 @@ export const portugueseLanguagesoft = {
     //Software Portfolio
     P_SOFTWARE_TITLE: { id: "#software-portfolio-title", value: "Projetos de Software" },
     P_SOFTWARE_CONTACT_APP: { id: "#software-portfolio-contactapp", value: "Projeto de Agenda de Contatos" },
-    P_SOFTWARE_CONTACT_APP_DESCRIPTION: { id: "#software-portfolio-contactapp-description", value: "Projeto desenvolvido durante o curso de Windows Presentation Foundation Masterclass, simulando uma agenda de contatos. Aplicando os conhecimentos de estruturas do WPF com C#, utilizando UserControl, ListView, SQLite e configuração de estilos." },
+    P_SOFTWARE_CONTACT_APP_DESCRIPTION: { id: "#software-portfolio-contactapp-description", value: "Projeto desenvolvido durante o curso de Windows Presentation Foundation Masterclass, simulando uma agenda de contatos. Aplicando os conhecimentos de estruturas do WPF com C#, utilizando UserControl, ListView, SQLite e configurações de estilos." },
     P_SOFTWARE_CONTACT_APP_DIRECTORY: { id: "#software-portfolio-directory-contactapp", value: "Diretório" },
     P_SOFTWARE_CALCULATOR: { id: "#software-portfolio-calculator", value: "Projeto de Calculadora Básica" },
     P_SOFTWARE_CALCULATOR_DESCRIPTION: { id: "#software-portfolio-calculator-description", value: "Projeto desenvolvido durante o curso de Windows Presentation Foundation Masterclass, simulando uma calculadora básica. Aplicando os conhecimentos básicos de estruturas do WPF e utilizando C#." },
