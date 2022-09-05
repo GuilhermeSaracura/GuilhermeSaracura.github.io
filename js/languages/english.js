@@ -50,6 +50,8 @@ export const englishLanguage = {
     RESUME_CHEMICAL_ENGINEERING_lOCALIZATION: { id: "#resume-degree-qe-localization", value: "Sorocaba-SP Brazil" },
     RESUME_COURSES: { id: "#resume-courses", value: "Courses" },
     RESUME_COURSES_ANGULAR_HOURS: { id: "#resume-courses-angular_hours", value: "(34,5 hours) Currently doing the course" },
+    RESUME_COURSES_GIT_HOURS: { id: "#resume-courses-git_hours", value: "(6,5 hours)" },
+    RESUME_COURSES_GIT_CERTIFICATE: { id: "#resume-courses-git-certificate", value: " Certificate" },
     RESUME_COURSES_WPF_HOURS: { id: "#resume-courses-wpf_hours", value: "(20,5 hours)" },
     RESUME_COURSES_WPF_CERTIFICATE: { id: "#resume-courses-wpf-certificate", value: " Certificate" },
     RESUME_COURSES_CSHARP_HOURS: { id: "#resume-courses-csharp_hours", value: "(37 hours)" },
