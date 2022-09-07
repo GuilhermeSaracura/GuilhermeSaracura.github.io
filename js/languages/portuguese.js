@@ -13,7 +13,7 @@ export const portugueseLanguage = {
 
     //About Section
     ABOUT_TITTLE: { id: "#about-title", value: "Sobre" },
-    ABOUT_DESCRIPTION1: { id: "#about-description1", value: " Atuando atualmente como estagiário em Desenvolvimento de Software na FIT - Instituto de Tecnologia, onde participo do desenvolvimento de softwares utilizando C#.NET e WPF. Cursando graduação em Engenharia de Computação na FACENS." },
+    ABOUT_DESCRIPTION1: { id: "#about-description1", value: " Atuando no momento como estagiário em Desenvolvimento de Software na FIT - Instituto de Tecnologia, onde participo do desenvolvimento de softwares utilizando C#.NET e WPF. Cursando graduação em Engenharia de Computação na FACENS." },
     ABOUT_DESCRIPTION2: { id: "#about-description2", value: "Um ano e seis meses de experiência na área de TI, atuando no gerenciamento de atividades, manutenção e montagem de equipamentos, suporte aos usuários do sistema operacional Windows, manutenção e suporte a infraestrutura de redes." },
     ABOUT_BIRTH_DATE: { id: "#about-birth-date", value: "Data de Nascimento:" },
     ABOUT_DATE: { id: "#about-date", value: "27 de Maio de 1996" },
@@ -48,8 +48,8 @@ export const portugueseLanguage = {
     RESUME_CHEMICAL_ENGINEERING: { id: "#resume-degree-qe", value: "Graduação em Engenharia Química - FACENS" },
     RESUME_CHEMICAL_ENGINEERING_DATE: { id: "#resume-degree-qe-date", value: "Jan/2014 - Dez/2018" },
     RESUME_CHEMICAL_ENGINEERING_lOCALIZATION: { id: "#resume-degree-qe-localization", value: "Sorocaba-SP Brasil" },
-    RESUME_COURSES: { id: "#resume-courses", value: "Cursos" },
-    RESUME_COURSES_ANGULAR_HOURS: { id: "#resume-courses-angular_hours", value: "(34,5 horas) Realizando no momento" },
+    RESUME_COURSES: { id: "#resume-courses", value: "Cursos de Aperfeiçoamento" },
+    RESUME_COURSES_ANGULAR_HOURS: { id: "#resume-courses-angular_hours", value: "(34,5 horas) - Realizando no momento" },
     RESUME_COURSES_GIT_HOURS: { id: "#resume-courses-git_hours", value: "(6,5 horas)" },
     RESUME_COURSES_GIT_CERTIFICATE: { id: "#resume-courses-git-certificate", value: " Certificado" },
     RESUME_COURSES_WPF_HOURS: { id: "#resume-courses-wpf_hours", value: "(20,5 horas)" },
@@ -58,6 +58,13 @@ export const portugueseLanguage = {
     RESUME_COURSES_CSHARP_CERTIFICATE: { id: "#resume-courses-csharp-certificate", value: " Certificado" },
     RESUME_COURSES_LINUX_HOURS: { id: "#resume-courses-linux_hours", value: "(8,5 horas)" },
     RESUME_COURSES_LINUX_CERTIFICATE: { id: "#resume-courses-linux-certificate", value: " Certificado" },
+    RESUME_LANGUAGE_COURSE: {id:"#resume-language-courses" , value:"Cursos de Idiomas"},
+    RESUME_LANGUAGE_COURSE_UPPER2: {id:"#resume-language-course-upper2" , value:"Curso de Inglês Upper Intermediate 2 (B2)"},
+    RESUME_LANGUAGE_COURSE_UPPER2_DATE: {id:"#resume-language-course-upper2-date" , value:"2° Semestre de 2022 - Realizando no momento"},
+    RESUME_LANGUAGE_COURSE_UPPER1: {id:"#resume-language-course-upper1" , value:"Curso de Inglês Upper Intermediate 1 (B2)"},
+    RESUME_LANGUAGE_COURSE_UPPER1_DATE: {id:"#resume-language-course-upper1-date" , value:"1° Semestre de 2022"},
+    RESUME_LANGUAGE_COURSE_INTERMEDIATE3: {id:"#resume-language-course-inter3" , value:"Curso intensivo de Inglês Intermediate 3 (B1)"},
+    RESUME_LANGUAGE_COURSE_INTERMEDIATE3_DATE: {id:"#resume-language-course-inter3-date" , value:"Janeiro de 2022"},
     
     //Skills section
     SKILLS_TITLE: { id: "#skills-title", value: "Habilidades" },
