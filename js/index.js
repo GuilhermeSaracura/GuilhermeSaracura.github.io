@@ -70,10 +70,13 @@ $(function() {
 $(function() {
     $("#nav-list").click(function() {
         var nav = document.getElementById("navbar");
+        var nav_icon = document.getElementById("nav-list-icon");
         if (nav.style.display === "block") {
             nav.style.display = "none";
+            nav_icon.className = "bi bi-list";
         } else {
             nav.style.display = "block";
+            nav_icon.className = "bi bi-x-lg";
         }
     });
 });

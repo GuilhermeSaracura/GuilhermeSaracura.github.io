@@ -106,6 +106,7 @@ export const portugueseLanguage = {
 }
 
 export const portugueseLanguagesoft = {
+    
     //Navbar texts
     NAVBAR_HOME: { id: "#navbar-home", value: "Início" },
     NAVBAR_ABOUT: { id: "#navbar-about", value: "Sobre" },
