@@ -62,7 +62,7 @@ export const englishLanguage = {
     RESUME_LANGUAGE_COURSE_UPPER2: {id:"#resume-language-course-upper2" , value:"English course Upper Intermediate 2 (B2)"},
     RESUME_LANGUAGE_COURSE_UPPER2_DATE: {id:"#resume-language-course-upper2-date" , value:"2° Semester of 2022 - Currently doing the course"},
     RESUME_LANGUAGE_COURSE_UPPER1: {id:"#resume-language-course-upper1" , value:"English course Upper Intermediate 1 (B2)"},
-    RESUME_LANGUAGE_COURSE_UPPER1_DATE: {id:"#resume-language-course-upper1-date" , value:"1° Semester de 2022"},
+    RESUME_LANGUAGE_COURSE_UPPER1_DATE: {id:"#resume-language-course-upper1-date" , value:"1° Semester of 2022"},
     RESUME_LANGUAGE_COURSE_INTERMEDIATE3: {id:"#resume-language-course-inter3" , value:"Intensive English course Intermediate 3 (B1)"},
     RESUME_LANGUAGE_COURSE_INTERMEDIATE3_DATE: {id:"#resume-language-course-inter3-date" , value:"January of 2022"},
 
