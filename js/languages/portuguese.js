@@ -49,7 +49,8 @@ export const portugueseLanguage = {
     RESUME_CHEMICAL_ENGINEERING_DATE: { id: "#resume-degree-qe-date", value: "Jan/2014 - Dez/2018" },
     RESUME_CHEMICAL_ENGINEERING_lOCALIZATION: { id: "#resume-degree-qe-localization", value: "Sorocaba-SP Brasil" },
     RESUME_COURSES: { id: "#resume-courses", value: "Cursos de Aperfeiçoamento" },
-    RESUME_COURSES_ANGULAR_HOURS: { id: "#resume-courses-angular_hours", value: "(34,5 horas) - Realizando no momento" },
+    RESUME_COURSES_ANGULAR_HOURS: { id: "#resume-courses-angular_hours", value: "(34,5 horas)" },
+    RESUME_COURSES_ANGULAR_CERTIFICATE: { id: "#resume-courses-angular-certificate", value: " Certificado" },
     RESUME_COURSES_GIT_HOURS: { id: "#resume-courses-git_hours", value: "(6,5 horas)" },
     RESUME_COURSES_GIT_CERTIFICATE: { id: "#resume-courses-git-certificate", value: " Certificado" },
     RESUME_COURSES_WPF_HOURS: { id: "#resume-courses-wpf_hours", value: "(20,5 horas)" },
@@ -77,7 +78,7 @@ export const portugueseLanguage = {
     SKILLS_C:{ id: "#skills-c", value: " - Básico" },
     SKILLS_JS:{ id: "#skills-js", value: " - Básico" },
     SKILLS_JAVA: { id: "#skills-java", value: " - Básico" },
-    SKILLS_ANGULAR:{ id: "#skills-angular", value: " - Básico" },
+    SKILLS_ANGULAR:{ id: "#skills-angular", value: " - Intermediário" },
     SKILLS_VUE:{ id: "#skills-vue", value: " - Básico" },
     SKILLS_WPF:{ id: "#skills-wpf", value: " - Intermediário" },
     SKILLS_SQL:{ id: "#skills-sql", value: " - Básico" },
@@ -141,8 +142,11 @@ export const portugueseLanguageweb = {
     NAVBAR_CONTACTS: { id: "#navbar-contacts", value: "Contatos" },
     NAVBAR_CURRICULUM: { id: "#navbar-curriculum", value: "Currículo" },
    
-    //Web Portfolio
+    //Web Portfolio 
     P_WEB_TITLE: { id: "#web-portfolio-title", value: "Projetos de Aplicações Web" },
+    P_WEB_ANGULAR: { id: "#web-portfolio-angular", value: "Projeto de site de receitas com Angular" },
+    P_WEB_ANGULAR_DESCRIPTION: { id: "#web-portfolio-angular-description", value: "Projeto desenvolvido para colocar em prática o conhecimento adquirido durante o curso Angular - The Complete Guide (2023 Edition) e o deploy está hospedado utilizando as ferramentas do firebase." },
+    P_WEB_ANGULAR_DIRECTORY: { id: "#web-portfolio-website-angular", value: " Site" },
     P_WEB_CV: { id: "#web-portfolio-cv", value: "Projeto de site com CV pessoal" },
     P_WEB_CV_DESCRIPTION: { id: "#web-portfolio-cv-description", value: "Este projeto foi montado para colocar em prática meus conhecimentos em desenvolvimento Web Front-End, além de poder compartilhar os repositórios de trabalhos e projetos realizados a partir de cursos, projetos pessoais e matérias do curso de Engenharia de Computação." },
     P_WEB_CV_DIRECTORY: { id: "#web-portfolio-directory-cv", value: " Diretório" },

@@ -49,7 +49,8 @@ export const englishLanguage = {
     RESUME_CHEMICAL_ENGINEERING_DATE: { id: "#resume-degree-qe-date", value: "January/2014 - December/2018" },
     RESUME_CHEMICAL_ENGINEERING_lOCALIZATION: { id: "#resume-degree-qe-localization", value: "Sorocaba-SP Brazil" },
     RESUME_COURSES: { id: "#resume-courses", value: "Improvement Courses" },
-    RESUME_COURSES_ANGULAR_HOURS: { id: "#resume-courses-angular_hours", value: "(34,5 hours) - Currently doing the course" },
+    RESUME_COURSES_ANGULAR_HOURS: { id: "#resume-courses-angular_hours", value: "(34,5 hours)" },
+    RESUME_COURSES_ANGULAR_CERTIFICATE: { id: "#resume-courses-angular-certificate", value: " Certificate" },
     RESUME_COURSES_GIT_HOURS: { id: "#resume-courses-git_hours", value: "(6,5 hours)" },
     RESUME_COURSES_GIT_CERTIFICATE: { id: "#resume-courses-git-certificate", value: " Certificate" },
     RESUME_COURSES_WPF_HOURS: { id: "#resume-courses-wpf_hours", value: "(20,5 hours)" },
@@ -77,7 +78,7 @@ export const englishLanguage = {
     SKILLS_C:{ id: "#skills-c", value: " - Basic" },
     SKILLS_JS:{ id: "#skills-js", value: " - Basic" },
     SKILLS_JAVA: { id: "#skills-java", value: " - Basic" },
-    SKILLS_ANGULAR:{ id: "#skills-angular", value: " - Basic" },
+    SKILLS_ANGULAR:{ id: "#skills-angular", value: " - Intermediary" },
     SKILLS_VUE:{ id: "#skills-vue", value: " - Basic" },
     SKILLS_WPF:{ id: "#skills-wpf", value: " - Intermediary" },
     SKILLS_SQL:{ id: "#skills-sql", value: " - Basic" },
@@ -144,6 +145,9 @@ export const englishLanguageweb = {
 
     //Web Portfolio
     P_WEB_TITLE: { id: "#web-portfolio-title", value: "Web Application Projects" },
+    P_WEB_ANGULAR: { id: "#web-portfolio-angular", value: "Website Project of recipes with Angular" },
+    P_WEB_ANGULAR_DESCRIPTION: { id: "#web-portfolio-angular-description", value: "Project developed to put into practice the knowledge acquired during the Angular - The Complete Guide (2023 Edition) course and the deployment is hosted using the firebase tools." },
+    P_WEB_ANGULAR_DIRECTORY: { id: "#web-portfolio-website-angular", value: " Website" },
     P_WEB_CV: { id: "#web-portfolio-cv", value: "Website Project with personal CV" },
     P_WEB_CV_DESCRIPTION: { id: "#web-portfolio-cv-description", value: "This project was set up to put into practice my knowledge in Front-End Web development and also to be able to share the repositories of works and projects carried out from courses, personal projects and Computer Engineering course subjects." },
     P_WEB_CV_DIRECTORY: { id: "#web-portfolio-directory-cv", value: " Directory" },
