@@ -40,7 +40,7 @@ export const englishLanguage = {
     RESUME_IT_INTERN_DESCRIPTION: { id: "#resume-it-intern-description", value: "Technical assistance in systems, users support, and support for the IT team." },
     RESUME_ACADEMIC_BACKGROUND: { id: "#resume-academic-background", value: "Academic Background" },
     RESUME_COMPUTER_ENGINEERING: { id: "#resume-degree-ce", value: "Bachelor in Computer Engineering - FACENS" },
-    RESUME_COMPUTER_ENGINEERING_DATE: { id: "#resume-degree-ce-date", value: "June/2019 - Forecast of completion: December/2023" },
+    RESUME_COMPUTER_ENGINEERING_DATE: { id: "#resume-degree-ce-date", value: "August/2019 - Forecast of completion: December/2023" },
     RESUME_COMPUTER_ENGINEERING_lOCALIZATION: { id: "#resume-degree-ce-localization", value: "Sorocaba-SP Brazil" },
     RESUME_LEAN_SIX_SIGMA: { id: "#resume-degree-lss", value: "Postgraduate Specialization in Lean Six Sigma with Black Belt certification - FACENS" },
     RESUME_LEAN_SIX_SIGMA_DATE: { id: "#resume-degree-lss-date", value: "March/2019 - June/2021" },

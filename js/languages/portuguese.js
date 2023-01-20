@@ -40,7 +40,7 @@ export const portugueseLanguage = {
     RESUME_IT_INTERN_DESCRIPTION: { id: "#resume-it-intern-description", value: "Auxílio técnico em sistemas, suporte ao usuário e apoio à equipe de TI." },
     RESUME_ACADEMIC_BACKGROUND: { id: "#resume-academic-background", value: "Formação Acadêmica" },
     RESUME_COMPUTER_ENGINEERING: { id: "#resume-degree-ce", value: "Graduação em Engenharia de Computação - FACENS" },
-    RESUME_COMPUTER_ENGINEERING_DATE: { id: "#resume-degree-ce-date", value: "Jun/2019 - Previsão de conclusão: Dez/2023" },
+    RESUME_COMPUTER_ENGINEERING_DATE: { id: "#resume-degree-ce-date", value: "Ago/2019 - Previsão de conclusão: Dez/2023" },
     RESUME_COMPUTER_ENGINEERING_lOCALIZATION: { id: "#resume-degree-ce-localization", value: "Sorocaba-SP Brasil" },
     RESUME_LEAN_SIX_SIGMA: { id: "#resume-degree-lss", value: "Pós-Graduação em Especialização em Lean Six Sigma com certificação Black Belt - FACENS" },
     RESUME_LEAN_SIX_SIGMA_DATE: { id: "#resume-degree-lss-date", value: "Mar/2019 - Jun/2021" },
