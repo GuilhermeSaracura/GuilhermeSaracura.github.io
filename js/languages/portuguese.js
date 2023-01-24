@@ -82,6 +82,7 @@ export const portugueseLanguage = {
     SKILLS_VUE:{ id: "#skills-vue", value: " - Básico" },
     SKILLS_WPF:{ id: "#skills-wpf", value: " - Intermediário" },
     SKILLS_SQL:{ id: "#skills-sql", value: " - Básico" },
+    SKILLS_REACT:{ id: "#skills-react", value: " - Básico" },
     SKILLS_TOOL_KNOWLEDGE: { id: "#skills-tool-knowledge", value: "Conhecimento em Ferramentas de Desenvolvimento e Metodologias." },
     SKILLS_GIT: { id: "#skills-git", value: " - Intermediário" },
     SKILLS_VSCODE: { id: "#skills-vscode", value: " - Intermediário" },
@@ -99,6 +100,7 @@ export const portugueseLanguage = {
     PORTFOLIO_SUBTITLE: { id: "#portfolio-subtitle", value: "Projetos e trabalhos realizados a partir de cursos, projetos pessoais e matérias do curso de Engenharia de Computação." },
     PORTFOLIO_SOFTWARES: { id: "#portfolio-softwares", value: "-Projetos de Software" },
     PORTFOLIO_WEB: { id: "#portfolio-web", value:"-Projetos de Aplicações Web" },
+    PORTFOLIO_MOBILE: { id: "#portfolio-mobile", value:"-Projetos de Aplicações Mobile" },
 
     //Contacts section
     CONTACTS_TITLE: { id: "#contacts-title", value: "Contatos" },
@@ -144,6 +146,9 @@ export const portugueseLanguageweb = {
    
     //Web Portfolio 
     P_WEB_TITLE: { id: "#web-portfolio-title", value: "Projetos de Aplicações Web" },
+    P_WEB_HABITS: { id: "#web-portfolio-habits", value: "Projeto de site de hábitos com React" },
+    P_WEB_HABITS_DESCRIPTION: { id: "#web-portfolio-habit-description", value: "Esta página web foi desenvolvida durante a semana NLW-Setup da Rocketseat, nele foi utilizado tecnologias como React, TypeScript, Tailwind, Axios, NodeJs, Dayjs e entre outros, para o funcionamento completo da aplicação, é necessário baixar o repositório do Servidor e executar em conjunto." },
+    P_WEB_HABITS_DIRECTORY: { id: "#web-portfolio-habits-nlw", value: " Diretório" },
     P_WEB_ANGULAR: { id: "#web-portfolio-angular", value: "Projeto de site de receitas com Angular" },
     P_WEB_ANGULAR_DESCRIPTION: { id: "#web-portfolio-angular-description", value: "Projeto desenvolvido para colocar em prática o conhecimento adquirido durante o curso Angular - The Complete Guide (2023 Edition) e o deploy está hospedado utilizando as ferramentas do firebase." },
     P_WEB_ANGULAR_DIRECTORY: { id: "#web-portfolio-website-angular", value: " Site" },
@@ -156,4 +161,24 @@ export const portugueseLanguageweb = {
     P_WEB_VUE: { id: "#web-portfolio-vue", value: "Projeto de desenvolvimento de aplicação front utilizando Framework VueJS" },
     P_WEB_VUE_DESCRIPTION: { id: "#web-portfolio-vue-description", value: "Projeto desenvolvido na matéria de Desenvolvimento Web utilizando o Framework VueJS." },
     P_WEB_VUE_DIRECTORY: { id: "#web-portfolio-directory-vue", value: " Diretório" },
+    P_WEB_HABITS_DIRECTORY_SERVER: { id: "#web-portfolio-habits-nlw-server", value: " Servidor" },
+}
+
+export const portugueseLanguagemobile = {
+
+    //Navbar texts
+    NAVBAR_HOME: { id: "#navbar-home", value: "Início" },
+    NAVBAR_ABOUT: { id: "#navbar-about", value: "Sobre" },
+    NAVBAR_RESUME: { id: "#navbar-resume", value: "Resumo" },
+    NAVBAR_SKILLS: { id: "#navbar-skills", value: "Habilidades" },
+    NAVBAR_PORTFOLIO: { id: "#navbar-portfolio", value: "Portfólio" },
+    NAVBAR_CONTACTS: { id: "#navbar-contacts", value: "Contatos" },
+    NAVBAR_CURRICULUM: { id: "#navbar-curriculum", value: "Currículo" },
+   
+    //Web Portfolio 
+    P_MOBILE_TITLE: { id: "#mobile-portfolio-title", value: "Projetos de Aplicações Mobile" },
+    P_MOBILE_HABITS: { id: "#mobile-portfolio-habits", value: "Projeto de aplicativo de hábitos com React-Native" },
+    P_MOBILE_HABITS_DESCRIPTION: { id: "#mobile-portfolio-habit-description", value: "Este aplicativo mobile foi desenvolvido durante a semana NLW-Setup da Rocketseat, nele foi utilizado tecnologias como React-Native, TypeScript, Tailwind, Axios, Dayjs e entre outros, para o funcionamento completo da aplicação, é necessário baixar o repositório do Servidor e executar em conjunto." },
+    P_MOBILE_HABITS_DIRECTORY: { id: "#mobile-portfolio-habits-nlw", value: " Diretório" },
+    P_MOBILE_HABITS_DIRECTORY_SERVER: { id: "#mobile-portfolio-habits-nlw-server", value: " Servidor" },
 }

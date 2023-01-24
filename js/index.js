@@ -2,14 +2,17 @@
 import {portugueseLanguage} from './languages/portuguese.js'
 import {portugueseLanguagesoft} from './languages/portuguese.js'
 import {portugueseLanguageweb} from './languages/portuguese.js'
+import { portugueseLanguagemobile } from './languages/portuguese.js'
 import {englishLanguage} from './languages/english.js'
 import {englishLanguagesoft} from './languages/english.js'
 import {englishLanguageweb} from './languages/english.js'
+import { englishLanguagemobile } from './languages/english.js'
 
 if(window.sessionStorage.getItem("index")===null){
     window.sessionStorage.setItem("index", JSON.stringify(portugueseLanguage));
     window.sessionStorage.setItem("soft", JSON.stringify(portugueseLanguagesoft));
     window.sessionStorage.setItem("web", JSON.stringify(portugueseLanguageweb));
+    window.sessionStorage.setItem("mobile", JSON.stringify(portugueseLanguagemobile));
 }
 
 function changeLanguage(id){
@@ -17,11 +20,13 @@ function changeLanguage(id){
         window.sessionStorage.setItem("index", JSON.stringify(portugueseLanguage));
         window.sessionStorage.setItem("soft", JSON.stringify(portugueseLanguagesoft));
         window.sessionStorage.setItem("web", JSON.stringify(portugueseLanguageweb));
+        window.sessionStorage.setItem("mobile", JSON.stringify(portugueseLanguagemobile));
     }
     if(id=='us'){
         window.sessionStorage.setItem("index", JSON.stringify(englishLanguage));
         window.sessionStorage.setItem("soft", JSON.stringify(englishLanguagesoft));
         window.sessionStorage.setItem("web", JSON.stringify(englishLanguageweb));
+        window.sessionStorage.setItem("mobile", JSON.stringify(englishLanguagemobile));
     }
 }
 
@@ -64,6 +69,20 @@ $(function() {
     $(".en-web").click(function() {
         changeLanguage('us');
         Object.values(JSON.parse(window.sessionStorage.getItem("web"))).forEach(field => { document.querySelector(field.id).textContent = field.value });
+    });
+});
+
+$(function() {
+    $(".br-mobile").click(function() {
+        changeLanguage('br');
+        Object.values(JSON.parse(window.sessionStorage.getItem("mobile"))).forEach(field => { document.querySelector(field.id).textContent = field.value });
+    });
+});
+
+$(function() {
+    $(".en-mobile").click(function() {
+        changeLanguage('us');
+        Object.values(JSON.parse(window.sessionStorage.getItem("mobile"))).forEach(field => { document.querySelector(field.id).textContent = field.value });
     });
 });
 

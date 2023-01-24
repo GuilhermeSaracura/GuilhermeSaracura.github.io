@@ -82,6 +82,7 @@ export const englishLanguage = {
     SKILLS_VUE:{ id: "#skills-vue", value: " - Basic" },
     SKILLS_WPF:{ id: "#skills-wpf", value: " - Intermediary" },
     SKILLS_SQL:{ id: "#skills-sql", value: " - Basic" },
+    SKILLS_REACT:{ id: "#skills-react", value: " - Basic" },
     SKILLS_TOOL_KNOWLEDGE: { id: "#skills-tool-knowledge", value: "Knowledge in Development Tools and Methodologies." },
     SKILLS_GIT: { id: "#skills-git", value: " - Intermediary" },
     SKILLS_VSCODE: { id: "#skills-vscode", value: " - Intermediary" },
@@ -99,6 +100,7 @@ export const englishLanguage = {
     PORTFOLIO_SUBTITLE: { id: "#portfolio-subtitle", value: "Projects and works made from courses, personal projects and Computer Engineering course subjects." },
     PORTFOLIO_SOFTWARES: { id: "#portfolio-softwares", value: "-Software Projects" },
     PORTFOLIO_WEB: { id: "#portfolio-web", value:"-Web Application Projects" },
+    PORTFOLIO_MOBILE: { id: "#portfolio-mobile", value:"-Mobile Application Projects" },
     
     //Contacts section
     CONTACTS_TITLE: { id: "#contacts-title", value: "Contacts" },
@@ -145,6 +147,9 @@ export const englishLanguageweb = {
 
     //Web Portfolio
     P_WEB_TITLE: { id: "#web-portfolio-title", value: "Web Application Projects" },
+    P_WEB_HABITS: { id: "#web-portfolio-habits", value: "Website Project of habits with React" },
+    P_WEB_HABITS_DESCRIPTION: { id: "#web-portfolio-habit-description", value: "This website was developed during Rocketseat's NLW-Setup week, in it was used technologies such as React, TypeScript, Tailwind, Axios, NodeJs, Dayjs and among others, for the complete operation of the application, it is necessary to download the Server repository and run it together." },
+    P_WEB_HABITS_DIRECTORY: { id: "#web-portfolio-habits-nlw", value: " Directory" },
     P_WEB_ANGULAR: { id: "#web-portfolio-angular", value: "Website Project of recipes with Angular" },
     P_WEB_ANGULAR_DESCRIPTION: { id: "#web-portfolio-angular-description", value: "Project developed to put into practice the knowledge acquired during the Angular - The Complete Guide (2023 Edition) course and the deployment is hosted using the firebase tools." },
     P_WEB_ANGULAR_DIRECTORY: { id: "#web-portfolio-website-angular", value: " Website" },
@@ -157,4 +162,25 @@ export const englishLanguageweb = {
     P_WEB_VUE: { id: "#web-portfolio-vue", value: "Front-end application development project using VueJS Framework" },
     P_WEB_VUE_DESCRIPTION: { id: "#web-portfolio-vue-description", value: "Project developed in the Web Development subject using the VueJS Framework." },
     P_WEB_VUE_DIRECTORY: { id: "#web-portfolio-directory-vue", value: " Directory" },
+    P_WEB_HABITS_DIRECTORY_SERVER: { id: "#web-portfolio-habits-nlw-server", value: " Server" },
+}
+
+
+export const englishLanguagemobile = {
+
+    //Navbar texts
+    NAVBAR_HOME: { id: "#navbar-home", value: "Home" },
+    NAVBAR_ABOUT: { id: "#navbar-about", value: "About" },
+    NAVBAR_RESUME: { id: "#navbar-resume", value: "Resume" },
+    NAVBAR_SKILLS: { id: "#navbar-skills", value: "Skills" },
+    NAVBAR_PORTFOLIO: { id: "#navbar-portfolio", value: "Portfolio" },
+    NAVBAR_CONTACTS: { id: "#navbar-contacts", value: "Contacts" },
+    NAVBAR_CURRICULUM: { id: "#navbar-curriculum", value: "Curriculum" },
+    
+    //Mobile Portfolio
+    P_MOBILE_TITLE: { id: "#mobile-portfolio-title", value: "Mobile Application Projects" },
+    P_MOBILE_HABITS: { id: "#mobile-portfolio-habits", value: "Mobile Project of habits with React-Native" },
+    P_MOBILE_HABITS_DESCRIPTION: { id: "#mobile-portfolio-habit-description", value: "This mobile application was developed during Rocketseat's NLW-Setup week, it was used technologies such as React-Native, TypeScript, Tailwind, Axios, Dayjs and among others, for the complete operation of the application, it is necessary to download the Server repository and run it together." },
+    P_MOBILE_HABITS_DIRECTORY: { id: "#mobile-portfolio-habits-nlw", value: " Directory" },
+    P_MOBILE_HABITS_DIRECTORY_SERVER: { id: "#mobile-portfolio-habits-nlw-server", value: " Server" },
 }
