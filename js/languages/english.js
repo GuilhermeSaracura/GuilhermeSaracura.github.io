@@ -60,7 +60,7 @@ export const englishLanguage = {
     RESUME_COURSES_LINUX_HOURS: { id: "#resume-courses-linux_hours", value: "(8,5 hours)" },
     RESUME_COURSES_LINUX_CERTIFICATE: { id: "#resume-courses-linux-certificate", value: " Certificate" },
     RESUME_LANGUAGE_COURSE: {id:"#resume-language-courses" , value:"Language Courses"},
-    RESUME_LANGUAGE_COURSE_UPPER3: {id:"#resume-language-course-upper3" , value:"English course Upper Intermediate 3 (B3)"},
+    RESUME_LANGUAGE_COURSE_UPPER3: {id:"#resume-language-course-upper3" , value:"English course Upper Intermediate 3 (B2)"},
     RESUME_LANGUAGE_COURSE_UPPER3_DATE: {id:"#resume-language-course-upper3-date" , value:"1° Semester of 2023 - Currently doing the course"},
     RESUME_LANGUAGE_COURSE_UPPER2: {id:"#resume-language-course-upper2" , value:"English course Upper Intermediate 2 (B2)"},
     RESUME_LANGUAGE_COURSE_UPPER2_DATE: {id:"#resume-language-course-upper2-date" , value:"2° Semester of 2022"},

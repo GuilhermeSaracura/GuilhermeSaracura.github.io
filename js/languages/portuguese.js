@@ -60,7 +60,7 @@ export const portugueseLanguage = {
     RESUME_COURSES_LINUX_HOURS: { id: "#resume-courses-linux_hours", value: "(8,5 horas)" },
     RESUME_COURSES_LINUX_CERTIFICATE: { id: "#resume-courses-linux-certificate", value: " Certificado" },
     RESUME_LANGUAGE_COURSE: {id:"#resume-language-courses" , value:"Cursos de Idiomas"},
-    RESUME_LANGUAGE_COURSE_UPPER3: {id:"#resume-language-course-upper3" , value:"Curso de Inglês Upper Intermediate 3 (B3)"},
+    RESUME_LANGUAGE_COURSE_UPPER3: {id:"#resume-language-course-upper3" , value:"Curso de Inglês Upper Intermediate 3 (B2)"},
     RESUME_LANGUAGE_COURSE_UPPER3_DATE: {id:"#resume-language-course-upper3-date" , value:"1° Semestre de 2023 - Realizando no momento"},
     RESUME_LANGUAGE_COURSE_UPPER2: {id:"#resume-language-course-upper2" , value:"Curso de Inglês Upper Intermediate 2 (B2)"},
     RESUME_LANGUAGE_COURSE_UPPER2_DATE: {id:"#resume-language-course-upper2-date" , value:"2° Semestre de 2022"},
