@@ -9,11 +9,11 @@ export const portugueseLanguage = {
     NAVBAR_CURRICULUM: { id: "#navbar-curriculum", value: "Currículo" },
 
     //Home Script
-    TYPED_SCRIPT: { id: "#typed-script", value: "Buscando se tornar e atuar no mercado como Desenvolvedor Trainee/Júnior" },
+    TYPED_SCRIPT: { id: "#typed-script", value: "Desenvolvedor de Software Trainee no FIT - Instituto de Tecnologia" },
 
     //About Section
     ABOUT_TITTLE: { id: "#about-title", value: "Sobre" },
-    ABOUT_DESCRIPTION1: { id: "#about-description1", value: " Atuando no momento como estagiário em Desenvolvimento de Software na FIT - Instituto de Tecnologia, onde participo do desenvolvimento de softwares utilizando C#.NET e WPF. Cursando graduação em Engenharia de Computação na FACENS." },
+    ABOUT_DESCRIPTION1: { id: "#about-description1", value: "Atuando no momento como Analista de Desenvolvimento de Software Trainee no FIT - Instituto de Tecnologia, onde participo do desenvolvimento de softwares utilizando C#.NET e WPF. Cursando graduação em Engenharia de Computação na FACENS." },
     ABOUT_DESCRIPTION2: { id: "#about-description2", value: "Um ano e seis meses de experiência na área de TI, atuando no gerenciamento de atividades, manutenção e montagem de equipamentos, suporte aos usuários do sistema operacional Windows, manutenção e suporte a infraestrutura de redes." },
     ABOUT_BIRTH_DATE: { id: "#about-birth-date", value: "Data de Nascimento:" },
     ABOUT_DATE: { id: "#about-date", value: "27 de Maio de 1996" },
@@ -26,8 +26,11 @@ export const portugueseLanguage = {
     //Resume section
     RESUME_TITLE: { id: "#resume-title", value: "Resumo" },
     RESUME_PROFESSIONAL_EXPERIENCE: { id: "#resume-professional-experience", value: "Experiência Profissional" },
+    RESUME_TRAINEE_FIT_DEV: { id: "#resume-trainee-fit-dev", value: "Analista de Desenvolvimento de Software Trainee" },
+    RESUME_TRAINEE_FIT_DEV_DATE: { id: "#resume-trainee-fit-dev-date", value: "Março/2023 - Cargo atual" },
+    RESUME_TRAINEE_FIT_DEV_DESCRIPTION: { id: "#resume-trainee-fit-dev-description", value: "Realização de tarefas relacionadas ao desenvolvimento de software nas linguagens de C# e WPF com versionamento de código (Git), correção de bugs e realização de testes, suporte à equipe de desenvolvimento de software, acompanhamento da rotina com metodologias ágeis (Scrum, Kanban) e participação de reuniões de alinhamento e planejamentos." },
     RESUME_INTERN_DEV: { id: "#resume-intern-dev", value: "Estagiário de Desenvolvimento de Software" },
-    RESUME_INTERN_DEV_DATE: { id: "#resume-intern-dev-date", value: "Maio/2021 - Cargo atual" },
+    RESUME_INTERN_DEV_DATE: { id: "#resume-intern-dev-date", value: "Maio/2021 - Março/2023" },
     RESUME_INTERN_DEV_DESCRIPTION: { id: "#resume-intern-dev-description", value: "Realização de tarefas relacionadas ao desenvolvimento de software nas linguagens de C# e WPF com versionamento de código (Git), correção de bugs e realização de testes, suporte à equipe de desenvolvimento de software, acompanhamento da rotina com metodologias ágeis (Scrum, Kanban) e participação de reuniões de alinhamento e planejamentos." },
     RESUME_IT_ANALYST: { id: "#resume-it-analyst", value: "Analista de TI" },
     RESUME_IT_ANALYST_DATE: { id: "#resume-it-analyst-date", value: "Jan/2021 - Abr/2021" },

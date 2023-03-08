@@ -9,11 +9,11 @@ export const englishLanguage = {
     NAVBAR_CURRICULUM: { id: "#navbar-curriculum", value: "Curriculum" },
     
     //Home Script
-    NAVBAR_TYPED_SCRIPT: { id: "#typed-script", value: "Looking to become and work as a Trainee/Junior Developer" },
+    NAVBAR_TYPED_SCRIPT: { id: "#typed-script", value: "Trainee Software Developer at FIT - Instituto de Tecnologia" },
 
     //About Section
     ABOUT_TITLE: { id: "#about-title", value: "About" },
-    ABOUT_DESCRIPTION1: { id: "#about-description1", value: "Currently working as Software Development Intern at FIT - Instituto de Tecnologia, where I participate in software development using C#.NET and WPF. Graduating in Computer Engineering at FACENS." },
+    ABOUT_DESCRIPTION1: { id: "#about-description1", value: "Currently working as Software Development Analyst Trainee at FIT - Instituto de Tecnologia, where I participate in software development using C#.NET and WPF. Graduating in Computer Engineering at FACENS." },
     ABOUT_DESCRIPTION2: { id: "#about-description2", value: "One year and six months of experience in the IT area, performing in the management of activities, maintenance and mounting of equipment, Windows operating system users support, and network infrastructure maintenance and support." },
     ABOUT_BIRTH_DATE: { id: "#about-birth-date", value: "Birth Date:" },
     ABOUT_DATE: { id: "#about-date", value: "May 27, 1996" },
@@ -26,8 +26,11 @@ export const englishLanguage = {
     //Resume section
     RESUME_TITLE: { id: "#resume-title", value: "Resume" },
     RESUME_PROFESSIONAL_EXPERIENCE: { id: "#resume-professional-experience", value: "Professional Experience" },
+    RESUME_TRAINEE_FIT_DEV: { id: "#resume-trainee-fit-dev", value: "Software Development Analyst Trainee" },
+    RESUME_TRAINEE_FIT_DEV_DATE: { id: "#resume-trainee-fit-dev-date", value: "March/2023 -  Current Job" },
+    RESUME_TRAINEE_FIT_DEV_DESCRIPTION: { id: "#resume-trainee-fit-dev-description", value: "Performing tasks related to software development in C# and WPF languages with code versioning (Git), fixing bugs and performing tests, supporting the software development team, following the routine with agile methodologies (Scrum, Kanban) and participating in alignment and planning meetings." },
     RESUME_INTERN_DEV: { id: "#resume-intern-dev", value: "Software Development Intern" },
-    RESUME_INTERN_DEV_DATE: { id: "#resume-intern-dev-date", value: "May/2021 - Current Job" },
+    RESUME_INTERN_DEV_DATE: { id: "#resume-intern-dev-date", value: "May/2021 - March/2023" },
     RESUME_INTERN_DEV_DESCRIPTION: { id: "#resume-intern-dev-description", value: "Performing tasks related to software development in C# and WPF languages with code versioning (Git), fixing bugs and performing tests, supporting the software development team, following the routine with agile methodologies (Scrum, Kanban) and participating in alignment and planning meetings." },
     RESUME_IT_ANALYST: { id: "#resume-it-analyst", value: "IT Analyst" },
     RESUME_IT_ANALYST_DATE: { id: "#resume-it-analyst-date", value: "January/2021 - April/2021" },
