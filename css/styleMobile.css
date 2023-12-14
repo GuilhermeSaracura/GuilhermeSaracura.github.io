@@ -585,6 +585,30 @@ form li{
 .git_button:hover>i{
     color: #1f1f1f;
 }
+
+.icon_linkedin{
+    color: #0082ca;
+}
+
+.icon_linkedin:hover{
+    color: #4dbcfa;
+}
+
+.icon_github{
+    color: #4e4e4e;
+}
+
+.icon_github:hover{
+    color: #a3a3a3;
+}
+
+.icon_email{
+    color: #dd4b39;
+}
+
+.icon_email:hover{
+    color: #fc8172;
+}
 }
 @media (max-height: 500px) and  (max-width: 1400px) and (min-width: 500px) {
 main {
@@ -644,14 +668,42 @@ main {
 }
 
 #header #links a {
-    margin-bottom: 10px;
-    margin-left: 0px;
+    margin-bottom: 12px;
+    margin-left: 12px;
     margin-right: 0px;
     border-color: #000000;
     color: #fff;
     text-decoration: none;
     border-radius: 25%;
-    font-size: 10px;
+    padding: 0px;
+}
+
+#header #links a i{
+    font-size:15px;
+}
+
+.icon_linkedin{
+    color: #0082ca;
+}
+
+.icon_linkedin:hover{
+    color: #4dbcfa;
+}
+
+.icon_github{
+    color: #4e4e4e;
+}
+
+.icon_github:hover{
+    color: #a3a3a3;
+}
+
+.icon_email{
+    color: #dd4b39;
+}
+
+.icon_email:hover{
+    color: #fc8172;
 }
 }
 
@@ -758,6 +810,34 @@ main {
     text-decoration: none;
     border-radius: 50%;
     font-size: 15px;
+}
+
+#header #links a i{
+    font-size:20px;
+}
+
+.icon_linkedin{
+    color: #0082ca;
+}
+
+.icon_linkedin:hover{
+    color: #4dbcfa;
+}
+
+.icon_github{
+    color: #4e4e4e;
+}
+
+.icon_github:hover{
+    color: #a3a3a3;
+}
+
+.icon_email{
+    color: #dd4b39;
+}
+
+.icon_email:hover{
+    color: #fc8172;
 }
 
 #home{
@@ -867,8 +947,8 @@ section {
     font-size: 22px;
     font-weight: bold;
     font-family: "Special Elite", monospace;
-    margin-bottom: 20px;
-    padding-bottom: 20px;
+    margin-bottom: 2vh;
+    padding-bottom: 2vh;
     position: relative;
     color: #1f1f1f;
 }

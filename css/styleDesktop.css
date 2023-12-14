@@ -49,17 +49,47 @@ main {
 #header #links{
     position:fixed;
     align-items: center;
-    width: 300px;
+    width: 250px;
     bottom: 0;
+    justify-items:center;
 }
 
 #header #links a {
     margin-bottom: 20px;
-    margin-left: 15px;
+    margin-left: 20px;
     margin-right: 15px;
     border-color: #000000;
     color: #fff;
     text-decoration: none;
+    padding: 0px;
+}
+
+#header #links a i{
+    font-size:30px;
+}
+
+.icon_linkedin{
+    color: #0082ca;
+}
+
+.icon_linkedin:hover{
+    color: #4dbcfa;
+}
+
+.icon_github{
+    color: #4e4e4e;
+}
+
+.icon_github:hover{
+    color: #a3a3a3;
+}
+
+.icon_email{
+    color: #dd4b39;
+}
+
+.icon_email:hover{
+    color: #fc8172;
 }
 
 #navbar {
@@ -607,15 +637,45 @@ main {
     align-items: center;
     width: 180px;
     bottom: 0;
+    justify-items:center;
+}
+
+#header #links a i{
+    font-size:22px;
 }
 
 #header #links a {
-    margin-left: 6px;
-    margin-right: 6px;
+    margin-left: 15px;
+    margin-right: 15px;
     margin-bottom: 20px;
     border-color: #000000;
     color: #fff;
     text-decoration: none;
+    padding: 0px;
+}
+
+.icon_linkedin{
+    color: #0082ca;
+}
+
+.icon_linkedin:hover{
+    color: #4dbcfa;
+}
+
+.icon_github{
+    color: #4e4e4e;
+}
+
+.icon_github:hover{
+    color: #a3a3a3;
+}
+
+.icon_email{
+    color: #dd4b39;
+}
+
+.icon_email:hover{
+    color: #fc8172;
 }
 
 #navbar {
