@@ -9,7 +9,7 @@ export const portugueseLanguage = {
     NAVBAR_CURRICULUM: { id: "#navbar-curriculum", value: "Currículo" },
 
     //Home Script
-    TYPED_SCRIPT: { id: "#typed-script", value: "Desenvolvedor de Software e Web" },
+    TYPED_SCRIPT: { id: "#typed-script", value: "Desenvolvedor de Software e Aplicações Web" },
 
     //About Section
     ABOUT_TITLE: { id: "#about-title", value: "Sobre" },
