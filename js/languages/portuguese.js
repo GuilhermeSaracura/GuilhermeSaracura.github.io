@@ -1,120 +1,309 @@
 export const portugueseLanguage = {
-    //Navbar texts
-    NAVBAR_HOME: { id: "#navbar-home", value: "Início" },
-    NAVBAR_ABOUT: { id: "#navbar-about", value: "Sobre" },
-    NAVBAR_RESUME: { id: "#navbar-resume", value: "Resumo" },
-    NAVBAR_SKILLS: { id: "#navbar-skills", value: "Habilidades" },
-    NAVBAR_PORTFOLIO: { id: "#navbar-portfolio", value: "Portfólio" },
-    NAVBAR_CONTACTS: { id: "#navbar-contacts", value: "Contatos" },
-    NAVBAR_CURRICULUM: { id: "#navbar-curriculum", value: "Currículo" },
+  //Navbar texts
+  NAVBAR_HOME: { id: "#navbar-home", value: "Início" },
+  NAVBAR_ABOUT: { id: "#navbar-about", value: "Sobre" },
+  NAVBAR_RESUME: { id: "#navbar-resume", value: "Resumo" },
+  NAVBAR_SKILLS: { id: "#navbar-skills", value: "Habilidades" },
+  NAVBAR_PORTFOLIO: { id: "#navbar-portfolio", value: "Portfólio" },
+  NAVBAR_CONTACTS: { id: "#navbar-contacts", value: "Contatos" },
+  NAVBAR_CURRICULUM: { id: "#navbar-curriculum", value: "Currículo" },
 
-    //Home Script
-    TYPED_SCRIPT: { id: "#typed-script", value: "Desenvolvedor de Software e Aplicações Web" },
+  //Home Script
+  TYPED_SCRIPT: {
+    id: "#typed-script",
+    value: "Desenvolvedor de Software e Aplicações Web",
+  },
 
-    //About Section
-    ABOUT_TITLE: { id: "#about-title", value: "Sobre" },
-    ABOUT_DESCRIPTION1: { id: "#about-description1", value: "Atuando no momento como Desenvolvedor de Software Trainee no FIT - Instituto de Tecnologia, onde participo do desenvolvimento de softwares utilizando Angular, React e C#.NET, com mais de dois anos e meio de vivência na área. Formado em Engenharia de Computação na FACENS." },
-    ABOUT_DESCRIPTION2: { id: "#about-description2", value: "Um ano e seis meses de experiência na área de TI, atuando no gerenciamento de atividades, manutenção e montagem de equipamentos, suporte aos usuários do sistema operacional Windows, manutenção e suporte a infraestrutura de redes." },
-    ABOUT_BIRTH_DATE: { id: "#about-birth-date", value: "Data de Nascimento:" },
-    ABOUT_DATE: { id: "#about-date", value: "27 de Maio de 1996" },
-    ABOUT_CELLPHONE: { id: "#about-cellphone", value: "Celular:" },
-    ABOUT_CITY: { id: "#about-city", value: "Cidade:" },
-    ABOUT_CITY_INFO: { id: "#about-city-info", value: "Sorocaba-SP Brasil" },
-    ABOUT_DEGREE: { id: "#about-degree", value: "Formação:" },
-    ABOUT_DEGREE_INFO: { id: "#about-degree-info", value: "Graduado em Engenharia de Computação" },
+  //About Section
+  ABOUT_TITLE: { id: "#about-title", value: "Sobre" },
+  ABOUT_DESCRIPTION1: {
+    id: "#about-description1",
+    value:
+      "Atuando no momento como Desenvolvedor de Software Trainee no FIT - Instituto de Tecnologia, onde participo do desenvolvimento de softwares utilizando Angular, React e C#.NET, com mais de três anos de vivência na área. Formado em Engenharia de Computação na FACENS.",
+  },
+  ABOUT_DESCRIPTION2: {
+    id: "#about-description2",
+    value:
+      "Um ano e seis meses de experiência na área de TI, atuando no gerenciamento de atividades, manutenção e montagem de equipamentos, suporte aos usuários do sistema operacional Windows, manutenção e suporte a infraestrutura de redes.",
+  },
+  ABOUT_BIRTH_DATE: { id: "#about-birth-date", value: "Data de Nascimento:" },
+  ABOUT_DATE: { id: "#about-date", value: "27 de Maio de 1996" },
+  ABOUT_CELLPHONE: { id: "#about-cellphone", value: "Celular:" },
+  ABOUT_CITY: { id: "#about-city", value: "Cidade:" },
+  ABOUT_CITY_INFO: { id: "#about-city-info", value: "Sorocaba-SP Brasil" },
+  ABOUT_DEGREE: { id: "#about-degree", value: "Formação:" },
+  ABOUT_DEGREE_INFO: {
+    id: "#about-degree-info",
+    value: "Graduado em Engenharia de Computação",
+  },
 
-    //Resume section
-    RESUME_TITLE: { id: "#resume-title", value: "Resumo" },
-    RESUME_PROFESSIONAL_EXPERIENCE: { id: "#resume-professional-experience", value: "Experiência Profissional" },
-    RESUME_TRAINEE_FIT_DEV: { id: "#resume-trainee-fit-dev", value: "Analista de Desenvolvimento de Software Trainee" },
-    RESUME_TRAINEE_FIT_DEV_DATE: { id: "#resume-trainee-fit-dev-date", value: "Março/2023 - Cargo atual" },
-    RESUME_TRAINEE_FIT_DEV_DESCRIPTION: { id: "#resume-trainee-fit-dev-description", value: "Realização de tarefas relacionadas ao desenvolvimento de software utilizando C#, Angular, React e com versionamento de código (Git), correção de bugs, revisão de códigos e realização de testes, suporte à equipe de desenvolvimento, acompanhamento da rotina com metodologias ágeis (Scrum, Kanban) e participação de reuniões de alinhamento e planejamentos." },
-    RESUME_INTERN_DEV: { id: "#resume-intern-dev", value: "Estagiário de Desenvolvimento de Software" },
-    RESUME_INTERN_DEV_DATE: { id: "#resume-intern-dev-date", value: "Maio/2021 - Março/2023" },
-    RESUME_INTERN_DEV_DESCRIPTION: { id: "#resume-intern-dev-description", value: "Realização de tarefas relacionadas ao desenvolvimento de software nas linguagens de C# e WPF com versionamento de código (Git), correção de bugs e realização de testes, suporte à equipe de desenvolvimento de software, acompanhamento da rotina com metodologias ágeis (Scrum, Kanban) e participação de reuniões de alinhamento e planejamentos." },
-    RESUME_IT_ANALYST: { id: "#resume-it-analyst", value: "Analista de TI" },
-    RESUME_IT_ANALYST_DATE: { id: "#resume-it-analyst-date", value: "Jan/2021 - Abr/2021" },
-    RESUME_IT_ANALYST_DESCRIPTION: { id: "#resume-it-analyst-description", value: "Suporte aos usuários do sistema operacional Windows, manutenção e acompanhamento de servidores, manutenção e suporte da infraestrutura de redes, realização de orçamento para compra de equipamentos, manutenção e montagem de equipamentos." },
-    RESUME_IT_ASSISTANT: { id: "#resume-it-assistant", value: "Assistente de TI" },
-    RESUME_IT_ASSISTANT_DATE: { id: "#resume-it-assistant-date", value: "Fev/2020 - Dez/2020" },
-    RESUME_IT_ASSISTANT_DESCRIPTION: { id: "#resume-it-assistant-description", value: "Manutenção e montagem de equipamentos, suporte aos usuários do sistema operacional Windows, manutenção e suporte da infraestrutura de redes." },
-    RESUME_IT_INTERN: { id: "#resume-it-intern", value: "Estagiário de TI" },
-    RESUME_IT_INTERN_DATE: { id: "#resume-it-intern-date", value: "Nov/2019 - Jan/2020" },
-    RESUME_IT_INTERN_DESCRIPTION: { id: "#resume-it-intern-description", value: "Auxílio técnico em sistemas, suporte ao usuário e apoio à equipe de TI." },
-    RESUME_ACADEMIC_BACKGROUND: { id: "#resume-academic-background", value: "Formação Acadêmica" },
-    RESUME_COMPUTER_ENGINEERING: { id: "#resume-degree-ce", value: "Graduação em Engenharia de Computação - FACENS" },
-    RESUME_COMPUTER_ENGINEERING_DATE: { id: "#resume-degree-ce-date", value: "Ago/2019 - Dez/2023" },
-    RESUME_COMPUTER_ENGINEERING_lOCALIZATION: { id: "#resume-degree-ce-localization", value: "Sorocaba-SP Brasil" },
-    RESUME_LEAN_SIX_SIGMA: { id: "#resume-degree-lss", value: "Pós-Graduação em Especialização em Lean Six Sigma com certificação Black Belt - FACENS" },
-    RESUME_LEAN_SIX_SIGMA_DATE: { id: "#resume-degree-lss-date", value: "Mar/2019 - Jun/2021" },
-    RESUME_LEAN_SIX_SIGMA_lOCALIZATION: { id: "#resume-degree-lss-localization", value: "Sorocaba-SP Brasil" },
-    RESUME_CHEMICAL_ENGINEERING: { id: "#resume-degree-qe", value: "Graduação em Engenharia Química - FACENS" },
-    RESUME_CHEMICAL_ENGINEERING_DATE: { id: "#resume-degree-qe-date", value: "Jan/2014 - Dez/2018" },
-    RESUME_CHEMICAL_ENGINEERING_lOCALIZATION: { id: "#resume-degree-qe-localization", value: "Sorocaba-SP Brasil" },
-    RESUME_COURSES: { id: "#resume-courses", value: "Cursos de Aperfeiçoamento" },
-    RESUME_COURSES_ANGULAR_HOURS: { id: "#resume-courses-angular_hours", value: "(34,5 horas)" },
-    RESUME_COURSES_ANGULAR_CERTIFICATE: { id: "#resume-courses-angular-certificate", value: " Certificado" },
-    RESUME_COURSES_GIT_HOURS: { id: "#resume-courses-git_hours", value: "(6,5 horas)" },
-    RESUME_COURSES_GIT_CERTIFICATE: { id: "#resume-courses-git-certificate", value: " Certificado" },
-    RESUME_COURSES_WPF_HOURS: { id: "#resume-courses-wpf_hours", value: "(20,5 horas)" },
-    RESUME_COURSES_WPF_CERTIFICATE: { id: "#resume-courses-wpf-certificate", value: " Certificado" },
-    RESUME_COURSES_CSHARP_HOURS: { id: "#resume-courses-csharp_hours", value: "(37 horas)" },
-    RESUME_COURSES_CSHARP_CERTIFICATE: { id: "#resume-courses-csharp-certificate", value: " Certificado" },
-    RESUME_COURSES_LINUX_HOURS: { id: "#resume-courses-linux_hours", value: "(8,5 horas)" },
-    RESUME_COURSES_LINUX_CERTIFICATE: { id: "#resume-courses-linux-certificate", value: " Certificado" },
-    RESUME_LANGUAGE_COURSE: {id:"#resume-language-courses" , value:"Cursos de Idiomas"},
-    RESUME_LANGUAGE_COURSE_ADV1: {id:"#resume-language-course-adv1" , value:"Curso de Inglês Mainstream Advanced Course 1 (C1)"},
-    RESUME_LANGUAGE_COURSE_ADV1_DATE: {id:"#resume-language-course-adv1-date" , value:"2° Semestre de 2023"},
-    RESUME_LANGUAGE_COURSE_UPPER3: {id:"#resume-language-course-upper3" , value:"Curso de Inglês Upper Intermediate 3 (B2)"},
-    RESUME_LANGUAGE_COURSE_UPPER3_DATE: {id:"#resume-language-course-upper3-date" , value:"1° Semestre de 2023"},
-    RESUME_LANGUAGE_COURSE_UPPER2: {id:"#resume-language-course-upper2" , value:"Curso de Inglês Upper Intermediate 2 (B2)"},
-    RESUME_LANGUAGE_COURSE_UPPER2_DATE: {id:"#resume-language-course-upper2-date" , value:"2° Semestre de 2022"},
-    RESUME_LANGUAGE_COURSE_UPPER1: {id:"#resume-language-course-upper1" , value:"Curso de Inglês Upper Intermediate 1 (B2)"},
-    RESUME_LANGUAGE_COURSE_UPPER1_DATE: {id:"#resume-language-course-upper1-date" , value:"1° Semestre de 2022"},
-    RESUME_LANGUAGE_COURSE_INTERMEDIATE3: {id:"#resume-language-course-inter3" , value:"Curso intensivo de Inglês Intermediate 3 (B1)"},
-    RESUME_LANGUAGE_COURSE_INTERMEDIATE3_DATE: {id:"#resume-language-course-inter3-date" , value:"Janeiro de 2022"},
-    
-    //Skills section
-    SKILLS_TITLE: { id: "#skills-title", value: "Habilidades" },
-    SKILLS_FRAMEWORKS_PROGRAMING: { id: "#skills-frameworks-programing", value: "Conhecimento em Linguagens de Programação, Linguagens de Estrutura e Frameworks." },
-    SKILLS_HTML: { id: "#skills-html", value: " - Intermediário" },
-    SKILLS_CSS: { id: "#skills-css", value: " - Intermediário" },
-    SKILLS_CSHARP: { id: "#skills-csharp", value: " - Intermediário" },
-    SKILLS_C:{ id: "#skills-c", value: " - Básico" },
-    SKILLS_JS:{ id: "#skills-js", value: " - Intermediário" },
-    SKILLS_TYPESCRIPT:{ id: "#skills-typescript", value: " - Básico" },
-    SKILLS_JAVA: { id: "#skills-java", value: " - Básico" },
-    SKILLS_ANGULAR:{ id: "#skills-angular", value: " - Intermediário" },
-    SKILLS_VUE:{ id: "#skills-vue", value: " - Básico" },
-    SKILLS_WPF:{ id: "#skills-wpf", value: " - Intermediário" },
-    SKILLS_REACT:{ id: "#skills-react", value: " - Intermediário" },
-    SKILLS_SQL:{ id: "#skills-sql", value: " - Básico" },
-    SKILLS_TOOL_KNOWLEDGE: { id: "#skills-tool-knowledge", value: "Conhecimento em Ferramentas de Desenvolvimento e Metodologias." },
-    SKILLS_GIT: { id: "#skills-git", value: " - Intermediário" },
-    SKILLS_VSCODE: { id: "#skills-vscode", value: " - Intermediário" },
-    SKILLS_LEAN_SIX_SIGMA: { id: "#skills-sixsigma", value: " - Avançado" },
-    SKILLS_SCRUM:{ id: "#skills-scrum", value: " - Básico" },
-    SKILLS_VS:{ id: "#skills-vs", value: " - Intermediário" },
-    SKILLS_LANGUAGES: { id: "#skills-languages", value: "Idiomas." },
-    SKILL_PORTUGUESE: {id: "#skills-portuguese", value: "Português"},
-    SKILLS_PT:{ id: "#skills-pt", value: " - Nativo" },
-    SKILL_ENGLISH: {id: "#skills-english", value: "Inglês"},
-    SKILLS_EN: { id: "#skills-en", value: " - Intermediário" },
+  //Resume section
+  RESUME_TITLE: { id: "#resume-title", value: "Resumo" },
+  RESUME_PROFESSIONAL_EXPERIENCE: {
+    id: "#resume-professional-experience",
+    value: "Experiência Profissional",
+  },
+  RESUME_TRAINEE_FIT_DEV: {
+    id: "#resume-trainee-fit-dev",
+    value: "Analista de Desenvolvimento de Software Trainee",
+  },
+  RESUME_TRAINEE_FIT_DEV_DATE: {
+    id: "#resume-trainee-fit-dev-date",
+    value: "Março/2023 - Cargo atual",
+  },
+  RESUME_TRAINEE_FIT_DEV_DESCRIPTION: {
+    id: "#resume-trainee-fit-dev-description",
+    value:
+      "Realização de tarefas relacionadas ao desenvolvimento de software utilizando C#, Angular, React e com versionamento de código (Git), correção de bugs, revisão de códigos e realização de testes, suporte à equipe de desenvolvimento, acompanhamento da rotina com metodologias ágeis (Scrum, Kanban) e participação de reuniões de alinhamento e planejamentos.",
+  },
+  RESUME_INTERN_DEV: {
+    id: "#resume-intern-dev",
+    value: "Estagiário de Desenvolvimento de Software",
+  },
+  RESUME_INTERN_DEV_DATE: {
+    id: "#resume-intern-dev-date",
+    value: "Maio/2021 - Março/2023",
+  },
+  RESUME_INTERN_DEV_DESCRIPTION: {
+    id: "#resume-intern-dev-description",
+    value:
+      "Realização de tarefas relacionadas ao desenvolvimento de software nas linguagens de C# e WPF com versionamento de código (Git), correção de bugs e realização de testes, suporte à equipe de desenvolvimento de software, acompanhamento da rotina com metodologias ágeis (Scrum, Kanban) e participação de reuniões de alinhamento e planejamentos.",
+  },
+  RESUME_IT_ANALYST: { id: "#resume-it-analyst", value: "Analista de TI" },
+  RESUME_IT_ANALYST_DATE: {
+    id: "#resume-it-analyst-date",
+    value: "Jan/2021 - Abr/2021",
+  },
+  RESUME_IT_ANALYST_DESCRIPTION: {
+    id: "#resume-it-analyst-description",
+    value:
+      "Suporte aos usuários do sistema operacional Windows, manutenção e acompanhamento de servidores, manutenção e suporte da infraestrutura de redes, realização de orçamento para compra de equipamentos, manutenção e montagem de equipamentos.",
+  },
+  RESUME_IT_ASSISTANT: {
+    id: "#resume-it-assistant",
+    value: "Assistente de TI",
+  },
+  RESUME_IT_ASSISTANT_DATE: {
+    id: "#resume-it-assistant-date",
+    value: "Fev/2020 - Dez/2020",
+  },
+  RESUME_IT_ASSISTANT_DESCRIPTION: {
+    id: "#resume-it-assistant-description",
+    value:
+      "Manutenção e montagem de equipamentos, suporte aos usuários do sistema operacional Windows, manutenção e suporte da infraestrutura de redes.",
+  },
+  RESUME_IT_INTERN: { id: "#resume-it-intern", value: "Estagiário de TI" },
+  RESUME_IT_INTERN_DATE: {
+    id: "#resume-it-intern-date",
+    value: "Nov/2019 - Jan/2020",
+  },
+  RESUME_IT_INTERN_DESCRIPTION: {
+    id: "#resume-it-intern-description",
+    value:
+      "Auxílio técnico em sistemas, suporte ao usuário e apoio à equipe de TI.",
+  },
+  RESUME_ACADEMIC_BACKGROUND: {
+    id: "#resume-academic-background",
+    value: "Formação Acadêmica",
+  },
+  RESUME_COMPUTER_ENGINEERING: {
+    id: "#resume-degree-ce",
+    value: "Graduação em Engenharia de Computação - FACENS",
+  },
+  RESUME_COMPUTER_ENGINEERING_DATE: {
+    id: "#resume-degree-ce-date",
+    value: "Ago/2019 - Dez/2023",
+  },
+  RESUME_COMPUTER_ENGINEERING_lOCALIZATION: {
+    id: "#resume-degree-ce-localization",
+    value: "Sorocaba-SP Brasil",
+  },
+  RESUME_LEAN_SIX_SIGMA: {
+    id: "#resume-degree-lss",
+    value:
+      "Pós-Graduação em Especialização em Lean Six Sigma com certificação Black Belt - FACENS",
+  },
+  RESUME_LEAN_SIX_SIGMA_DATE: {
+    id: "#resume-degree-lss-date",
+    value: "Mar/2019 - Jun/2021",
+  },
+  RESUME_LEAN_SIX_SIGMA_lOCALIZATION: {
+    id: "#resume-degree-lss-localization",
+    value: "Sorocaba-SP Brasil",
+  },
+  RESUME_CHEMICAL_ENGINEERING: {
+    id: "#resume-degree-qe",
+    value: "Graduação em Engenharia Química - FACENS",
+  },
+  RESUME_CHEMICAL_ENGINEERING_DATE: {
+    id: "#resume-degree-qe-date",
+    value: "Jan/2014 - Dez/2018",
+  },
+  RESUME_CHEMICAL_ENGINEERING_lOCALIZATION: {
+    id: "#resume-degree-qe-localization",
+    value: "Sorocaba-SP Brasil",
+  },
+  RESUME_COURSES: { id: "#resume-courses", value: "Cursos de Aperfeiçoamento" },
+  RESUME_COURSES_ANGULAR_HOURS: {
+    id: "#resume-courses-angular_hours",
+    value: "(34,5 horas)",
+  },
+  RESUME_COURSES_ANGULAR_CERTIFICATE: {
+    id: "#resume-courses-angular-certificate",
+    value: " Certificado",
+  },
+  RESUME_COURSES_GIT_HOURS: {
+    id: "#resume-courses-git_hours",
+    value: "(6,5 horas)",
+  },
+  RESUME_COURSES_GIT_CERTIFICATE: {
+    id: "#resume-courses-git-certificate",
+    value: " Certificado",
+  },
+  RESUME_COURSES_WPF_HOURS: {
+    id: "#resume-courses-wpf_hours",
+    value: "(20,5 horas)",
+  },
+  RESUME_COURSES_WPF_CERTIFICATE: {
+    id: "#resume-courses-wpf-certificate",
+    value: " Certificado",
+  },
+  RESUME_COURSES_CSHARP_HOURS: {
+    id: "#resume-courses-csharp_hours",
+    value: "(37 horas)",
+  },
+  RESUME_COURSES_CSHARP_CERTIFICATE: {
+    id: "#resume-courses-csharp-certificate",
+    value: " Certificado",
+  },
+  RESUME_COURSES_LINUX_HOURS: {
+    id: "#resume-courses-linux_hours",
+    value: "(8,5 horas)",
+  },
+  RESUME_COURSES_LINUX_CERTIFICATE: {
+    id: "#resume-courses-linux-certificate",
+    value: " Certificado",
+  },
+  RESUME_LANGUAGE_COURSE: {
+    id: "#resume-language-courses",
+    value: "Cursos de Idiomas",
+  },
+  RESUME_LANGUAGE_COURSE_ADV2: {
+    id: "#resume-language-course-adv2",
+    value: "Curso de Inglês Mainstream Advanced Course 2 (C1)",
+  },
+  RESUME_LANGUAGE_COURSE_ADV2_DATE: {
+    id: "#resume-language-course-adv2-date",
+    value: "1° Semestre de 2024",
+  },
+  RESUME_LANGUAGE_COURSE_ADV1: {
+    id: "#resume-language-course-adv1",
+    value: "Curso de Inglês Mainstream Advanced Course 1 (C1)",
+  },
+  RESUME_LANGUAGE_COURSE_ADV1_DATE: {
+    id: "#resume-language-course-adv1-date",
+    value: "2° Semestre de 2023",
+  },
+  RESUME_LANGUAGE_COURSE_UPPER3: {
+    id: "#resume-language-course-upper3",
+    value: "Curso de Inglês Upper Intermediate 3 (B2)",
+  },
+  RESUME_LANGUAGE_COURSE_UPPER3_DATE: {
+    id: "#resume-language-course-upper3-date",
+    value: "1° Semestre de 2023",
+  },
+  RESUME_LANGUAGE_COURSE_UPPER2: {
+    id: "#resume-language-course-upper2",
+    value: "Curso de Inglês Upper Intermediate 2 (B2)",
+  },
+  RESUME_LANGUAGE_COURSE_UPPER2_DATE: {
+    id: "#resume-language-course-upper2-date",
+    value: "2° Semestre de 2022",
+  },
+  RESUME_LANGUAGE_COURSE_UPPER1: {
+    id: "#resume-language-course-upper1",
+    value: "Curso de Inglês Upper Intermediate 1 (B2)",
+  },
+  RESUME_LANGUAGE_COURSE_UPPER1_DATE: {
+    id: "#resume-language-course-upper1-date",
+    value: "1° Semestre de 2022",
+  },
+  RESUME_LANGUAGE_COURSE_INTERMEDIATE3: {
+    id: "#resume-language-course-inter3",
+    value: "Curso intensivo de Inglês Intermediate 3 (B1)",
+  },
+  RESUME_LANGUAGE_COURSE_INTERMEDIATE3_DATE: {
+    id: "#resume-language-course-inter3-date",
+    value: "Janeiro de 2022",
+  },
 
-    //Portfolio section
-    PORTFOLIO_TITLE: { id: "#portfolio-title", value: "Portfólio" },
-    PORTFOLIO_SUBTITLE: { id: "#portfolio-subtitle", value: "Projetos e trabalhos realizados a partir de cursos, projetos pessoais e matérias do curso de Engenharia de Computação." },
-    PORTFOLIO_SOFTWARES: { id: "#portfolio-softwares", value: "-Projetos de Software" },
-    PORTFOLIO_WEB: { id: "#portfolio-web", value:"-Projetos de Aplicações Web" },
-    PORTFOLIO_MOBILE: { id: "#portfolio-mobile", value:"-Projetos de Aplicações Mobile" },
+  //Skills section
+  SKILLS_TITLE: { id: "#skills-title", value: "Habilidades" },
+  SKILLS_FRAMEWORKS_PROGRAMING: {
+    id: "#skills-frameworks-programing",
+    value:
+      "Conhecimento em Linguagens de Programação, Linguagens de Estrutura e Frameworks.",
+  },
+  SKILLS_HTML: { id: "#skills-html", value: " - Intermediário" },
+  SKILLS_CSS: { id: "#skills-css", value: " - Intermediário" },
+  SKILLS_CSHARP: { id: "#skills-csharp", value: " - Intermediário" },
+  SKILLS_C: { id: "#skills-c", value: " - Básico" },
+  SKILLS_JS: { id: "#skills-js", value: " - Intermediário" },
+  SKILLS_TYPESCRIPT: { id: "#skills-typescript", value: " - Intermediário" },
+  SKILLS_JAVA: { id: "#skills-java", value: " - Básico" },
+  SKILLS_ANGULAR: { id: "#skills-angular", value: " - Intermediário" },
+  SKILLS_VUE: { id: "#skills-vue", value: " - Básico" },
+  SKILLS_WPF: { id: "#skills-wpf", value: " - Intermediário" },
+  SKILLS_REACT: { id: "#skills-react", value: " - Intermediário" },
+  SKILLS_SQL: { id: "#skills-sql", value: " - Básico" },
+  SKILLS_TOOL_KNOWLEDGE: {
+    id: "#skills-tool-knowledge",
+    value: "Conhecimento em Ferramentas de Desenvolvimento e Metodologias.",
+  },
+  SKILLS_GIT: { id: "#skills-git", value: " - Intermediário" },
+  SKILLS_VSCODE: { id: "#skills-vscode", value: " - Intermediário" },
+  SKILLS_LEAN_SIX_SIGMA: { id: "#skills-sixsigma", value: " - Avançado" },
+  SKILLS_SCRUM: { id: "#skills-scrum", value: " - Básico" },
+  SKILLS_VS: { id: "#skills-vs", value: " - Intermediário" },
+  SKILLS_LANGUAGES: { id: "#skills-languages", value: "Idiomas." },
+  SKILL_PORTUGUESE: { id: "#skills-portuguese", value: "Português" },
+  SKILLS_PT: { id: "#skills-pt", value: " - Nativo" },
+  SKILL_ENGLISH: { id: "#skills-english", value: "Inglês" },
+  SKILLS_EN: { id: "#skills-en", value: " - Intermediário" },
 
-    //Contacts section
-    CONTACTS_TITLE: { id: "#contacts-title", value: "Contatos" },
-    CONTACTS_SUBTITLE: { id: "#contacts-subtitle", value: "Segue abaixo meus contatos pessoais:" },
-    CONTACTS_LOCALIZATION: { id: "#contacts-localization", value: "Localização:" },
-    CONTACTS_LOCALIZATION_INFO: { id: "#contacts-localization-info", value: "Sorocaba-SP Brasil" },
-    CONTACTS_CELLPHONE: { id: "#contacts-cellphone", value: "Celular:" },
-}
+  //Portfolio section
+  PORTFOLIO_TITLE: { id: "#portfolio-title", value: "Portfólio" },
+  PORTFOLIO_SUBTITLE: {
+    id: "#portfolio-subtitle",
+    value:
+      "Projetos e trabalhos realizados a partir de cursos, projetos pessoais e matérias do curso de Engenharia de Computação.",
+  },
+  PORTFOLIO_SOFTWARES: {
+    id: "#portfolio-softwares",
+    value: "-Projetos de Software",
+  },
+  PORTFOLIO_WEB: { id: "#portfolio-web", value: "-Projetos de Aplicações Web" },
+  PORTFOLIO_MOBILE: {
+    id: "#portfolio-mobile",
+    value: "-Projetos de Aplicações Mobile",
+  },
+
+  //Contacts section
+  CONTACTS_TITLE: { id: "#contacts-title", value: "Contatos" },
+  CONTACTS_SUBTITLE: {
+    id: "#contacts-subtitle",
+    value: "Segue abaixo meus contatos pessoais:",
+  },
+  CONTACTS_LOCALIZATION: {
+    id: "#contacts-localization",
+    value: "Localização:",
+  },
+  CONTACTS_LOCALIZATION_INFO: {
+    id: "#contacts-localization-info",
+    value: "Sorocaba-SP Brasil",
+  },
+  CONTACTS_CELLPHONE: { id: "#contacts-cellphone", value: "Celular:" },
+};
 
 export const portugueseLanguagesoft = {
     
