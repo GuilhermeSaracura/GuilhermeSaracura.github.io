@@ -194,7 +194,7 @@ export const portugueseLanguage = {
   },
   RESUME_LANGUAGE_COURSE_ADV3_DATE: {
     id: "#resume-language-course-adv3-date",
-    value: "2° ° Semestre de 2024",
+    value: "2° Semestre de 2024",
   },
   RESUME_LANGUAGE_COURSE_ADV2: {
     id: "#resume-language-course-adv2",
