@@ -188,6 +188,14 @@ export const portugueseLanguage = {
     id: "#resume-language-courses",
     value: "Cursos de Idiomas",
   },
+  RESUME_LANGUAGE_COURSE_ADV3: {
+    id: "#resume-language-course-adv3",
+    value: "Curso de Inglês Mainstream Advanced Course 3 (C1)",
+  },
+  RESUME_LANGUAGE_COURSE_ADV3_DATE: {
+    id: "#resume-language-course-adv3-date",
+    value: "2° ° Semestre de 2024",
+  },
   RESUME_LANGUAGE_COURSE_ADV2: {
     id: "#resume-language-course-adv2",
     value: "Curso de Inglês Mainstream Advanced Course 2 (C1)",
@@ -306,74 +314,178 @@ export const portugueseLanguage = {
 };
 
 export const portugueseLanguagesoft = {
-    
-    //Navbar texts
-    NAVBAR_HOME: { id: "#navbar-home", value: "Início" },
-    NAVBAR_ABOUT: { id: "#navbar-about", value: "Sobre" },
-    NAVBAR_RESUME: { id: "#navbar-resume", value: "Resumo" },
-    NAVBAR_SKILLS: { id: "#navbar-skills", value: "Habilidades" },
-    NAVBAR_PORTFOLIO: { id: "#navbar-portfolio", value: "Portfólio" },
-    NAVBAR_CONTACTS: { id: "#navbar-contacts", value: "Contatos" },
-    NAVBAR_CURRICULUM: { id: "#navbar-curriculum", value: "Currículo" },
-    
-    //Software Portfolio
-    P_SOFTWARE_TITLE: { id: "#software-portfolio-title", value: "Projetos de Software" },
-    P_SOFTWARE_CONTACT_APP: { id: "#software-portfolio-contactapp", value: "Projeto de Agenda de Contatos" },
-    P_SOFTWARE_CONTACT_APP_DESCRIPTION: { id: "#software-portfolio-contactapp-description", value: "Projeto desenvolvido durante o curso de Windows Presentation Foundation Masterclass, simulando uma agenda de contatos. Aplicando os conhecimentos de estruturas do WPF com C#, utilizando UserControl, ListView, SQLite e configurações de estilos." },
-    P_SOFTWARE_CONTACT_APP_DIRECTORY: { id: "#software-portfolio-directory-contactapp", value: "Diretório" },
-    P_SOFTWARE_CALCULATOR: { id: "#software-portfolio-calculator", value: "Projeto de Calculadora Básica" },
-    P_SOFTWARE_CALCULATOR_DESCRIPTION: { id: "#software-portfolio-calculator-description", value: "Projeto desenvolvido durante o curso de Windows Presentation Foundation Masterclass, simulando uma calculadora básica. Aplicando os conhecimentos básicos de estruturas do WPF e utilizando C#." },
-    P_SOFTWARE_CALCULATOR_DIRECTORY: { id: "#software-portfolio-directory-calculator", value: "Diretório" },
-    P_SOFTWARE_CHESS: { id: "#software-portfolio-chess", value: "Projeto de Xadrez" },
-    P_SOFTWARE_CHESS_DESCRIPTION: { id: "#software-portfolio-chess-description", value: "Projeto desenvolvido durante o curso de C# COMPLETO Programação Orientada a Objetos + Projetos, simulando o jogo de xadrez clássico. Aplicando os conhecimentos de encapsulamento, herança, polimorfismo, enumeração e tratamento de exceptions." },
-    P_SOFTWARE_CHESS_DIRECTORY: { id: "#software-portfolio-directory-chess", value: "Diretório" },   
-}
+  //Navbar texts
+  NAVBAR_HOME: { id: "#navbar-home", value: "Início" },
+  NAVBAR_ABOUT: { id: "#navbar-about", value: "Sobre" },
+  NAVBAR_RESUME: { id: "#navbar-resume", value: "Resumo" },
+  NAVBAR_SKILLS: { id: "#navbar-skills", value: "Habilidades" },
+  NAVBAR_PORTFOLIO: { id: "#navbar-portfolio", value: "Portfólio" },
+  NAVBAR_CONTACTS: { id: "#navbar-contacts", value: "Contatos" },
+  NAVBAR_CURRICULUM: { id: "#navbar-curriculum", value: "Currículo" },
+
+  //Software Portfolio
+  P_SOFTWARE_TITLE: {
+    id: "#software-portfolio-title",
+    value: "Projetos de Software",
+  },
+  P_SOFTWARE_CONTACT_APP: {
+    id: "#software-portfolio-contactapp",
+    value: "Projeto de Agenda de Contatos",
+  },
+  P_SOFTWARE_CONTACT_APP_DESCRIPTION: {
+    id: "#software-portfolio-contactapp-description",
+    value:
+      "Projeto desenvolvido durante o curso de Windows Presentation Foundation Masterclass, simulando uma agenda de contatos. Aplicando os conhecimentos de estruturas do WPF com C#, utilizando UserControl, ListView, SQLite e configurações de estilos.",
+  },
+  P_SOFTWARE_CONTACT_APP_DIRECTORY: {
+    id: "#software-portfolio-directory-contactapp",
+    value: "Diretório",
+  },
+  P_SOFTWARE_CALCULATOR: {
+    id: "#software-portfolio-calculator",
+    value: "Projeto de Calculadora Básica",
+  },
+  P_SOFTWARE_CALCULATOR_DESCRIPTION: {
+    id: "#software-portfolio-calculator-description",
+    value:
+      "Projeto desenvolvido durante o curso de Windows Presentation Foundation Masterclass, simulando uma calculadora básica. Aplicando os conhecimentos básicos de estruturas do WPF e utilizando C#.",
+  },
+  P_SOFTWARE_CALCULATOR_DIRECTORY: {
+    id: "#software-portfolio-directory-calculator",
+    value: "Diretório",
+  },
+  P_SOFTWARE_CHESS: {
+    id: "#software-portfolio-chess",
+    value: "Projeto de Xadrez",
+  },
+  P_SOFTWARE_CHESS_DESCRIPTION: {
+    id: "#software-portfolio-chess-description",
+    value:
+      "Projeto desenvolvido durante o curso de C# COMPLETO Programação Orientada a Objetos + Projetos, simulando o jogo de xadrez clássico. Aplicando os conhecimentos de encapsulamento, herança, polimorfismo, enumeração e tratamento de exceptions.",
+  },
+  P_SOFTWARE_CHESS_DIRECTORY: {
+    id: "#software-portfolio-directory-chess",
+    value: "Diretório",
+  },
+};
 
 export const portugueseLanguageweb = {
-    //Navbar texts
-    NAVBAR_HOME: { id: "#navbar-home", value: "Início" },
-    NAVBAR_ABOUT: { id: "#navbar-about", value: "Sobre" },
-    NAVBAR_RESUME: { id: "#navbar-resume", value: "Resumo" },
-    NAVBAR_SKILLS: { id: "#navbar-skills", value: "Habilidades" },
-    NAVBAR_PORTFOLIO: { id: "#navbar-portfolio", value: "Portfólio" },
-    NAVBAR_CONTACTS: { id: "#navbar-contacts", value: "Contatos" },
-    NAVBAR_CURRICULUM: { id: "#navbar-curriculum", value: "Currículo" },
-   
-    //Web Portfolio 
-    P_WEB_TITLE: { id: "#web-portfolio-title", value: "Projetos de Aplicações Web" },
-    P_WEB_HABITS: { id: "#web-portfolio-habits", value: "Projeto de site de hábitos com React" },
-    P_WEB_HABITS_DESCRIPTION: { id: "#web-portfolio-habit-description", value: "Esta página web foi desenvolvida durante a semana NLW-Setup da Rocketseat, nele foi utilizado tecnologias como React, TypeScript, Tailwind, Axios, NodeJs, Dayjs e entre outros, para o funcionamento completo da aplicação, é necessário baixar o repositório do Servidor e executar em conjunto." },
-    P_WEB_HABITS_DIRECTORY: { id: "#web-portfolio-habits-nlw", value: " Diretório" },
-    P_WEB_ANGULAR: { id: "#web-portfolio-angular", value: "Projeto de site de receitas com Angular" },
-    P_WEB_ANGULAR_DESCRIPTION: { id: "#web-portfolio-angular-description", value: "Projeto desenvolvido para colocar em prática o conhecimento adquirido durante o curso Angular - The Complete Guide (2023 Edition) e o deploy está hospedado utilizando as ferramentas do firebase." },
-    P_WEB_ANGULAR_DIRECTORY: { id: "#web-portfolio-website-angular", value: " Site" },
-    P_WEB_CV: { id: "#web-portfolio-cv", value: "Projeto de site com CV pessoal" },
-    P_WEB_CV_DESCRIPTION: { id: "#web-portfolio-cv-description", value: "Este projeto foi montado para colocar em prática meus conhecimentos em desenvolvimento Web Front-End, além de poder compartilhar os repositórios de trabalhos e projetos realizados a partir de cursos, projetos pessoais e matérias do curso de Engenharia de Computação." },
-    P_WEB_CV_DIRECTORY: { id: "#web-portfolio-directory-cv", value: " Diretório" },
-    P_WEB_CSHARP: { id: "#web-portfolio-csharp", value: "Projeto de desenvolvimento de aplicação web com ASP.NET Core MVC" },
-    P_WEB_CSHARP_DESCRIPTION: { id: "#web-portfolio-csharp-description", value: "Projeto desenvolvido durante o curso da Udemy de C# COMPLETO Programação Orientada a Objetos + Projetos, simulando um site de vendas. O intuito foi conhecer os fundamentos e utilizar o ASP.NET Core MVC." },
-    P_WEB_CSHARP_DIRECTORY: { id: "#web-portfolio-directory-csharp", value: " Diretório" },
-    P_WEB_VUE: { id: "#web-portfolio-vue", value: "Projeto de desenvolvimento de aplicação front utilizando Framework VueJS" },
-    P_WEB_VUE_DESCRIPTION: { id: "#web-portfolio-vue-description", value: "Projeto desenvolvido na matéria de Desenvolvimento Web utilizando o Framework VueJS." },
-    P_WEB_VUE_DIRECTORY: { id: "#web-portfolio-directory-vue", value: " Diretório" },
-    P_WEB_HABITS_DIRECTORY_SERVER: { id: "#web-portfolio-habits-nlw-server", value: " Servidor" },
-}
+  //Navbar texts
+  NAVBAR_HOME: { id: "#navbar-home", value: "Início" },
+  NAVBAR_ABOUT: { id: "#navbar-about", value: "Sobre" },
+  NAVBAR_RESUME: { id: "#navbar-resume", value: "Resumo" },
+  NAVBAR_SKILLS: { id: "#navbar-skills", value: "Habilidades" },
+  NAVBAR_PORTFOLIO: { id: "#navbar-portfolio", value: "Portfólio" },
+  NAVBAR_CONTACTS: { id: "#navbar-contacts", value: "Contatos" },
+  NAVBAR_CURRICULUM: { id: "#navbar-curriculum", value: "Currículo" },
+
+  //Web Portfolio
+  P_WEB_TITLE: {
+    id: "#web-portfolio-title",
+    value: "Projetos de Aplicações Web",
+  },
+  P_WEB_HABITS: {
+    id: "#web-portfolio-habits",
+    value: "Projeto de site de hábitos com React",
+  },
+  P_WEB_HABITS_DESCRIPTION: {
+    id: "#web-portfolio-habit-description",
+    value:
+      "Esta página web foi desenvolvida durante a semana NLW-Setup da Rocketseat, nele foi utilizado tecnologias como React, TypeScript, Tailwind, Axios, NodeJs, Dayjs e entre outros, para o funcionamento completo da aplicação, é necessário baixar o repositório do Servidor e executar em conjunto.",
+  },
+  P_WEB_HABITS_DIRECTORY: {
+    id: "#web-portfolio-habits-nlw",
+    value: " Diretório",
+  },
+  P_WEB_ANGULAR: {
+    id: "#web-portfolio-angular",
+    value: "Projeto de site de receitas com Angular",
+  },
+  P_WEB_ANGULAR_DESCRIPTION: {
+    id: "#web-portfolio-angular-description",
+    value:
+      "Projeto desenvolvido para colocar em prática o conhecimento adquirido durante o curso Angular - The Complete Guide (2023 Edition) e o deploy está hospedado utilizando as ferramentas do firebase.",
+  },
+  P_WEB_ANGULAR_DIRECTORY: {
+    id: "#web-portfolio-website-angular",
+    value: " Site",
+  },
+  P_WEB_CV: {
+    id: "#web-portfolio-cv",
+    value: "Projeto de site com CV pessoal",
+  },
+  P_WEB_CV_DESCRIPTION: {
+    id: "#web-portfolio-cv-description",
+    value:
+      "Este projeto foi montado para colocar em prática meus conhecimentos em desenvolvimento Web Front-End, além de poder compartilhar os repositórios de trabalhos e projetos realizados a partir de cursos, projetos pessoais e matérias do curso de Engenharia de Computação.",
+  },
+  P_WEB_CV_DIRECTORY: {
+    id: "#web-portfolio-directory-cv",
+    value: " Diretório",
+  },
+  P_WEB_CSHARP: {
+    id: "#web-portfolio-csharp",
+    value: "Projeto de desenvolvimento de aplicação web com ASP.NET Core MVC",
+  },
+  P_WEB_CSHARP_DESCRIPTION: {
+    id: "#web-portfolio-csharp-description",
+    value:
+      "Projeto desenvolvido durante o curso da Udemy de C# COMPLETO Programação Orientada a Objetos + Projetos, simulando um site de vendas. O intuito foi conhecer os fundamentos e utilizar o ASP.NET Core MVC.",
+  },
+  P_WEB_CSHARP_DIRECTORY: {
+    id: "#web-portfolio-directory-csharp",
+    value: " Diretório",
+  },
+  P_WEB_VUE: {
+    id: "#web-portfolio-vue",
+    value:
+      "Projeto de desenvolvimento de aplicação front utilizando Framework VueJS",
+  },
+  P_WEB_VUE_DESCRIPTION: {
+    id: "#web-portfolio-vue-description",
+    value:
+      "Projeto desenvolvido na matéria de Desenvolvimento Web utilizando o Framework VueJS.",
+  },
+  P_WEB_VUE_DIRECTORY: {
+    id: "#web-portfolio-directory-vue",
+    value: " Diretório",
+  },
+  P_WEB_HABITS_DIRECTORY_SERVER: {
+    id: "#web-portfolio-habits-nlw-server",
+    value: " Servidor",
+  },
+};
 
 export const portugueseLanguagemobile = {
+  //Navbar texts
+  NAVBAR_HOME: { id: "#navbar-home", value: "Início" },
+  NAVBAR_ABOUT: { id: "#navbar-about", value: "Sobre" },
+  NAVBAR_RESUME: { id: "#navbar-resume", value: "Resumo" },
+  NAVBAR_SKILLS: { id: "#navbar-skills", value: "Habilidades" },
+  NAVBAR_PORTFOLIO: { id: "#navbar-portfolio", value: "Portfólio" },
+  NAVBAR_CONTACTS: { id: "#navbar-contacts", value: "Contatos" },
+  NAVBAR_CURRICULUM: { id: "#navbar-curriculum", value: "Currículo" },
 
-    //Navbar texts
-    NAVBAR_HOME: { id: "#navbar-home", value: "Início" },
-    NAVBAR_ABOUT: { id: "#navbar-about", value: "Sobre" },
-    NAVBAR_RESUME: { id: "#navbar-resume", value: "Resumo" },
-    NAVBAR_SKILLS: { id: "#navbar-skills", value: "Habilidades" },
-    NAVBAR_PORTFOLIO: { id: "#navbar-portfolio", value: "Portfólio" },
-    NAVBAR_CONTACTS: { id: "#navbar-contacts", value: "Contatos" },
-    NAVBAR_CURRICULUM: { id: "#navbar-curriculum", value: "Currículo" },
-   
-    //Web Portfolio 
-    P_MOBILE_TITLE: { id: "#mobile-portfolio-title", value: "Projetos de Aplicações Mobile" },
-    P_MOBILE_HABITS: { id: "#mobile-portfolio-habits", value: "Projeto de aplicativo de hábitos com React-Native" },
-    P_MOBILE_HABITS_DESCRIPTION: { id: "#mobile-portfolio-habit-description", value: "Este aplicativo mobile foi desenvolvido durante a semana NLW-Setup da Rocketseat, nele foi utilizado tecnologias como React-Native, TypeScript, Tailwind, Axios, Dayjs e entre outros, para o funcionamento completo da aplicação, é necessário baixar o repositório do Servidor e executar em conjunto." },
-    P_MOBILE_HABITS_DIRECTORY: { id: "#mobile-portfolio-habits-nlw", value: " Diretório" },
-    P_MOBILE_HABITS_DIRECTORY_SERVER: { id: "#mobile-portfolio-habits-nlw-server", value: " Servidor" },
-}
+  //Web Portfolio
+  P_MOBILE_TITLE: {
+    id: "#mobile-portfolio-title",
+    value: "Projetos de Aplicações Mobile",
+  },
+  P_MOBILE_HABITS: {
+    id: "#mobile-portfolio-habits",
+    value: "Projeto de aplicativo de hábitos com React-Native",
+  },
+  P_MOBILE_HABITS_DESCRIPTION: {
+    id: "#mobile-portfolio-habit-description",
+    value:
+      "Este aplicativo mobile foi desenvolvido durante a semana NLW-Setup da Rocketseat, nele foi utilizado tecnologias como React-Native, TypeScript, Tailwind, Axios, Dayjs e entre outros, para o funcionamento completo da aplicação, é necessário baixar o repositório do Servidor e executar em conjunto.",
+  },
+  P_MOBILE_HABITS_DIRECTORY: {
+    id: "#mobile-portfolio-habits-nlw",
+    value: " Diretório",
+  },
+  P_MOBILE_HABITS_DIRECTORY_SERVER: {
+    id: "#mobile-portfolio-habits-nlw-server",
+    value: " Servidor",
+  },
+};
