@@ -10,6 +10,12 @@ import {
   englishLanguageweb,
   englishLanguagemobile,
 } from "./languages/english.js";
+import {
+  spanishLanguage,
+  spanishLanguagesoft,
+  spanishLanguageweb,
+  spanishLanguagemobile,
+} from "./languages/spanish.js";
 
 if (window.sessionStorage.getItem("index") === null) {
   window.sessionStorage.setItem("lang", "br");
@@ -45,6 +51,15 @@ function changeLanguage(id) {
       JSON.stringify(englishLanguagemobile)
     );
   }
+  if (id == "es") {
+    window.sessionStorage.setItem("index", JSON.stringify(spanishLanguage));
+    window.sessionStorage.setItem("soft", JSON.stringify(spanishLanguagesoft));
+    window.sessionStorage.setItem("web", JSON.stringify(spanishLanguageweb));
+    window.sessionStorage.setItem(
+      "mobile",
+      JSON.stringify(spanishLanguagemobile)
+    );
+  }
 }
 
 $(function () {
@@ -61,6 +76,17 @@ $(function () {
 $(function () {
   $(".en").click(function () {
     changeLanguage("us");
+    Object.values(JSON.parse(window.sessionStorage.getItem("index"))).forEach(
+      (field) => {
+        document.querySelector(field.id).textContent = field.value;
+      }
+    );
+  });
+});
+
+$(function () {
+  $(".sp").click(function () {
+    changeLanguage("es");
     Object.values(JSON.parse(window.sessionStorage.getItem("index"))).forEach(
       (field) => {
         document.querySelector(field.id).textContent = field.value;
@@ -92,6 +118,17 @@ $(function () {
 });
 
 $(function () {
+  $(".sp-software").click(function () {
+    changeLanguage("es");
+    Object.values(JSON.parse(window.sessionStorage.getItem("soft"))).forEach(
+      (field) => {
+        document.querySelector(field.id).textContent = field.value;
+      }
+    );
+  });
+});
+
+$(function () {
   $(".br-web").click(function () {
     changeLanguage("br");
     Object.values(JSON.parse(window.sessionStorage.getItem("web"))).forEach(
@@ -105,6 +142,17 @@ $(function () {
 $(function () {
   $(".en-web").click(function () {
     changeLanguage("us");
+    Object.values(JSON.parse(window.sessionStorage.getItem("web"))).forEach(
+      (field) => {
+        document.querySelector(field.id).textContent = field.value;
+      }
+    );
+  });
+});
+
+$(function () {
+  $(".sp-web").click(function () {
+    changeLanguage("es");
     Object.values(JSON.parse(window.sessionStorage.getItem("web"))).forEach(
       (field) => {
         document.querySelector(field.id).textContent = field.value;
@@ -136,6 +184,17 @@ $(function () {
 });
 
 $(function () {
+  $(".sp-mobile").click(function () {
+    changeLanguage("es");
+    Object.values(JSON.parse(window.sessionStorage.getItem("mobile"))).forEach(
+      (field) => {
+        document.querySelector(field.id).textContent = field.value;
+      }
+    );
+  });
+});
+
+$(function () {
   $("#nav-list").click(function () {
     var nav = document.getElementById("navbar");
     var nav_icon = document.getElementById("nav-list-icon");
@@ -153,6 +212,7 @@ $(function () {
   $("#navbar-open-cv").click(function () {
     var brCurriculum = "../documents/currículo.pdf";
     var usCurriculum = "../documents/curriculum.pdf";
+    var esCurriculum = "../documents/currículum.pdf";
 
     switch (window.sessionStorage.getItem("lang")) {
       case "br":
@@ -160,6 +220,9 @@ $(function () {
         break;
       case "us":
         window.open(usCurriculum, "_blank");
+        break;
+      case "es":
+        window.open(esCurriculum, "_blank");
         break;
       default:
         break;
