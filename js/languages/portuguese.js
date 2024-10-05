@@ -466,7 +466,7 @@ export const portugueseLanguagemobile = {
   NAVBAR_CONTACTS: { id: "#navbar-contacts", value: "Contatos" },
   NAVBAR_CURRICULUM: { id: "#navbar-curriculum", value: "Currículo" },
 
-  //Web Portfolio
+  //Mobile Portfolio
   P_MOBILE_TITLE: {
     id: "#mobile-portfolio-title",
     value: "Projetos de Aplicações Mobile",
