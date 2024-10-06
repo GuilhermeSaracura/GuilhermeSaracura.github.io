@@ -21,6 +21,7 @@
 
   .language_button,
   .language_button > button {
+    height: 24px;
     border: 0px;
     background-color: transparent;
     font-size: 12px;
@@ -201,16 +202,7 @@
     position: relative;
   }
 
-  .section-title-dark-text::after {
-    content: "";
-    position: absolute;
-    display: block;
-    width: 300px;
-    height: 3px;
-    background: #1d1d1d;
-  }
-
-  .section-title-light-text::after {
+  .section-title::after {
     content: "";
     position: absolute;
     display: block;
@@ -237,7 +229,7 @@
     margin-bottom: 20px;
     padding-bottom: 20px;
     position: relative;
-    color: #1f1f1f;
+    color: #ffffff;
   }
   .about-topics .content ul li strong,
   .about-topics .content ul li span {
@@ -259,11 +251,17 @@
     display: flex;
     align-items: center;
   }
+
   .about .content ul strong {
     margin-right: 10px;
+    color: #ffffff;
+  }
+  .about .content ul span {
+    color: #ffffff;
   }
   .about .content ul i {
     margin-right: 10px;
+    color: #ffffff;
   }
   .button-link-linkedin {
     border-color: transparent;
@@ -306,11 +304,7 @@
     position: relative;
   }
 
-  .section-subtitle-dark-text {
-    color: #1f1f1f;
-  }
-
-  .section-subtitle-light-text {
+  .section-subtitle {
     color: #ffffff;
   }
 
@@ -391,7 +385,7 @@
     text-align: center;
     font-size: 14px;
     margin-right: 5px;
-    color: #1f1f1f;
+    color: #ffffff;
     font-family: "Special Elite", monospace;
   }
 
@@ -409,7 +403,7 @@
     margin: 0px;
     font-size: 14px;
     font-family: "Special Elite", monospace;
-    color: #949494;
+    color: #ffffff;
   }
 
   .skills-progress {
@@ -439,6 +433,10 @@
   .skills-icon {
     width: 15px;
     height: 15px;
+    border-bottom-left-radius: 1px;
+    border-bottom-right-radius: 1px;
+    border-top-left-radius: 1px;
+    border-top-right-radius: 1px;
     display: inline;
     margin-right: 5px;
   }
@@ -447,7 +445,7 @@
     display: flex;
     align-items: center;
     height: 50px;
-    background-color: #6e6e6e;
+    background-color: transparent;
     border: 3px solid #ffffff;
     text-decoration: none;
     border-radius: 40px;
@@ -500,12 +498,18 @@
     font-size: 16px;
     margin-bottom: 0px;
     align-self: center;
+    color: #ffffff;
+  }
+
+  .contacts > i {
+    color: #ffffff;
   }
 
   .contact {
     display: flex;
     justify-content: center;
     font-size: 11px;
+    color: #ffffff;
   }
 
   #portfolio_section {
@@ -642,7 +646,7 @@
     color: #fc8172;
   }
 }
-@media (max-height: 500px) and (max-width: 1400px) and (min-width: 500px) {
+@media (max-height: 700px) and (max-width: 1400px) and (min-width: 500px) {
   main {
     margin-left: 130px;
   }
@@ -662,8 +666,8 @@
   }
   .text-light {
     margin-left: 10px;
-    margin-top: 20px;
-    font-size: 20px;
+    margin-top: 10px;
+    font-size: 15px;
   }
   #navbar > ul {
     margin: 0;
@@ -978,16 +982,7 @@
     position: relative;
   }
 
-  .section-title-dark-text::after {
-    content: "";
-    position: absolute;
-    display: block;
-    width: 300px;
-    height: 3px;
-    background: #1d1d1d;
-  }
-
-  .section-title-light-text::after {
+  .section-title::after {
     content: "";
     position: absolute;
     display: block;
@@ -1013,7 +1008,7 @@
     margin-bottom: 20px;
     padding-bottom: 10px;
     position: relative;
-    color: #1f1f1f;
+    color: #ffffff;
   }
   .about-topics .content ul li strong,
   .about-topics .content ul li span {
@@ -1035,11 +1030,19 @@
     display: flex;
     align-items: center;
   }
+
   .about .content ul strong {
     margin-right: 10px;
+    color: #ffffff;
   }
+
+  .about .content ul span {
+    color: #ffffff;
+  }
+
   .about .content ul i {
     margin-right: 10px;
+    color: #ffffff;
   }
   .button-link-linkedin {
     border-color: transparent;
@@ -1082,11 +1085,7 @@
     position: relative;
   }
 
-  .section-subtitle-dark-text {
-    color: #1f1f1f;
-  }
-
-  .section-subtitle-light-text {
+  .section-subtitle {
     color: #ffffff;
   }
 
@@ -1165,7 +1164,7 @@
     margin: 0px;
     font-size: 14px;
     margin-right: 5px;
-    color: #1f1f1f;
+    color: #ffffff;
     font-family: "Special Elite", monospace;
   }
 
@@ -1183,7 +1182,7 @@
     margin: 0px;
     font-size: 12px;
     font-family: "Special Elite", monospace;
-    color: #949494;
+    color: #ffffff;
   }
 
   .skills-progress {
@@ -1213,6 +1212,10 @@
   .skills-icon {
     width: 15px;
     height: 15px;
+    border-bottom-left-radius: 1px;
+    border-bottom-right-radius: 1px;
+    border-top-left-radius: 1px;
+    border-top-right-radius: 1px;
     display: inline;
     margin-right: 5px;
   }
@@ -1221,7 +1224,7 @@
     display: flex;
     align-items: center;
     height: 40px;
-    background-color: #6e6e6e;
+    background-color: transparent;
     border: 3px solid #ffffff;
     text-decoration: none;
     border-radius: 20px;
@@ -1281,12 +1284,18 @@
     font-size: 16px;
     margin-bottom: 0px;
     align-self: center;
+    color: #ffffff;
+  }
+
+  .contacts > i {
+    color: #ffffff;
   }
 
   .contact {
     display: flex;
     justify-content: center;
     font-size: 14px;
+    color: #ffffff;
   }
 
   #portfolio_section {
