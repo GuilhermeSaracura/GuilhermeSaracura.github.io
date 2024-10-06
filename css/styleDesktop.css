@@ -12,6 +12,7 @@
     bottom: 0;
     left: 0;
     overflow-y: auto;
+    border-right: 1px solid #ffffff;
   }
 
   .language_button {
@@ -129,8 +130,7 @@
   #home {
     width: 100%;
     height: 100vh;
-    background: url("../img/background.jpg") top center;
-    background-size: cover;
+    background: rgba(0, 0, 0, 0.5);
   }
   .homecontainer {
     display: flex;
@@ -138,8 +138,7 @@
     width: 1150px;
     min-height: 500px;
     max-height: 1000px;
-    border-radius: 200px;
-    background: rgba(0, 0, 0, 0.7);
+    background: transparent;
     animation: moving 4s;
   }
 
@@ -209,9 +208,9 @@
     overflow: hidden;
     width: 100%;
   }
-  .section-bg_grey {
+  .section-bg_transparent {
     padding: 80px 0;
-    background: #bdbdbd;
+    background: rgba(0, 0, 0, 0.7);
   }
   .section-bg_white {
     padding: 80px 0;
@@ -225,9 +224,9 @@
     margin-bottom: 10px;
     padding-bottom: 20px;
     position: relative;
-    color: #1f1f1f;
   }
-  .section-title::after {
+
+  .section-title-dark-text::after {
     content: "";
     position: absolute;
     display: block;
@@ -235,6 +234,16 @@
     height: 3px;
     background: #1d1d1d;
   }
+
+  .section-title-light-text::after {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 300px;
+    height: 3px;
+    background: #ffffff;
+  }
+
   .objective {
     padding-bottom: 10px;
     font-size: 35px;
@@ -243,7 +252,6 @@
     margin-bottom: 20px;
     padding-bottom: 20px;
     position: relative;
-    color: #1f1f1f;
   }
   .description {
     padding-bottom: 10px;
@@ -281,12 +289,12 @@
     padding: 0 0 20px 20px;
     max-width: 550px;
     margin-top: -2px;
-    border-left: 5px solid #1f1f1f;
+    border-left: 5px solid #ffffff;
     position: relative;
   }
   .resume-containers h5 {
     font-family: "Special Elite", monospace;
-    color: #1f1f1f;
+    color: #ffffff;
     font-size: 18px;
     font-weight: bold;
   }
@@ -299,7 +307,7 @@
     left: -15px;
     top: 0;
     border: 4px solid #bdbdbd;
-    background: #1f1f1f;
+    background: #ffffff;
   }
   .section-subtitle {
     padding-bottom: 10px;
@@ -309,25 +317,32 @@
     font-family: "Special Elite", monospace;
     margin-bottom: 20px;
     padding-bottom: 10px;
+  }
+
+  .section-subtitle-dark-text {
     color: #1f1f1f;
+  }
+
+  .section-subtitle-light-text {
+    color: #ffffff;
   }
 
   .resume-container-title {
     font-size: 25px;
-    color: #1f1f1f;
+    color: #ffffff;
     font-family: "Special Elite", monospace;
   }
 
   .resume-container-date {
-    color: #1f1f1f;
+    color: #ffffff;
     font-weight: bold;
     font-family: "Courier New";
     font-size: 13px;
   }
 
   .resume-container-localization {
-    color: #1f1f1f;
-    border-bottom: #1f1f1f;
+    color: #ffffff;
+    border-bottom: #ffffff;
     font-weight: bold;
     font-family: "Courier New";
     font-size: 18px;
@@ -355,13 +370,13 @@
 
   .resume-container-certification > a {
     font-size: 20px;
-    color: #bdbdbd;
+    color: #ffffff;
     font-family: "Special Elite", monospace;
   }
 
   .description-resume {
     font-size: 14px;
-    color: #1f1f1f;
+    color: #ffffff;
     font-weight: bold;
     margin-top: 15px;
     font-family: "Special Elite", monospace;
@@ -611,6 +626,7 @@
     bottom: 0;
     left: 0;
     overflow-y: auto;
+    border-right: 1px solid #ffffff;
   }
 
   .language_button {
@@ -728,16 +744,14 @@
   #home {
     width: 100%;
     height: 100vh;
-    background: url("../img/background.jpg") top center;
-    background-size: cover;
+    background: rgba(0, 0, 0, 0.5);
   }
   .homecontainer {
     display: flex;
     align-items: center;
     width: 700px;
     min-height: 400px;
-    border-radius: 150px;
-    background: rgba(0, 0, 0, 0.7);
+    background: transparent;
     animation: moving 4s;
   }
 
@@ -808,9 +822,9 @@
     overflow: hidden;
     width: 100%;
   }
-  .section-bg_grey {
+  .section-bg_transparent {
     padding: 80px 0;
-    background: #bdbdbd;
+    background: rgba(0, 0, 0, 0.7);
   }
   .section-bg_white {
     padding: 80px 0;
@@ -824,9 +838,9 @@
     margin-bottom: 10px;
     padding-bottom: 20px;
     position: relative;
-    color: #1f1f1f;
   }
-  .section-title::after {
+
+  .section-title-dark-text::after {
     content: "";
     position: absolute;
     display: block;
@@ -834,6 +848,16 @@
     height: 3px;
     background: #1d1d1d;
   }
+
+  .section-title-light-text::after {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 300px;
+    height: 3px;
+    background: #ffffff;
+  }
+
   .objective {
     padding-bottom: 10px;
     font-size: 30px;
@@ -842,7 +866,6 @@
     margin-bottom: 20px;
     padding-bottom: 20px;
     position: relative;
-    color: #1f1f1f;
   }
   .description {
     padding-bottom: 10px;
@@ -880,12 +903,12 @@
     padding: 0 0 20px 20px;
     max-width: 550px;
     margin-top: -2px;
-    border-left: 5px solid #1f1f1f;
+    border-left: 5px solid #ffffff;
     position: relative;
   }
   .resume-containers h5 {
     font-family: "Special Elite", monospace;
-    color: #1f1f1f;
+    color: #ffffff;
     font-size: 18px;
     font-weight: bold;
   }
@@ -898,7 +921,7 @@
     left: -15px;
     top: 0;
     border: 4px solid #bdbdbd;
-    background: #1f1f1f;
+    background: #ffffff;
   }
   .section-subtitle {
     padding-bottom: 10px;
@@ -908,25 +931,32 @@
     font-family: "Special Elite", monospace;
     margin-bottom: 20px;
     padding-bottom: 10px;
+  }
+
+  .section-subtitle-dark-text {
     color: #1f1f1f;
+  }
+
+  .section-subtitle-light-text {
+    color: #ffffff;
   }
 
   .resume-container-title {
     font-size: 25px;
-    color: #1f1f1f;
+    color: #ffffff;
     font-family: "Special Elite", monospace;
   }
 
   .resume-container-date {
-    color: #1f1f1f;
+    color: #ffffff;
     font-weight: bold;
     font-family: "Courier New";
     font-size: 13px;
   }
 
   .resume-container-localization {
-    color: #1f1f1f;
-    border-bottom: #1f1f1f;
+    color: #ffffff;
+    border-bottom: #ffffff;
     font-weight: bold;
     font-family: "Courier New";
     font-size: 18px;
@@ -954,13 +984,13 @@
 
   .resume-container-certification > a {
     font-size: 20px;
-    color: #bdbdbd;
+    color: #ffffff;
     font-family: "Special Elite", monospace;
   }
 
   .description-resume {
     font-size: 14px;
-    color: #1f1f1f;
+    color: #ffffff;
     font-weight: bold;
     margin-top: 15px;
     font-family: "Special Elite", monospace;
@@ -1208,7 +1238,7 @@
 }
 /****************************************************************************************************************/
 body {
-  background-color: #bdbdbd;
+  background-color: #000000;
 }
 
 .skills-container-header {
@@ -1231,4 +1261,11 @@ body {
   cursor: pointer;
   border-top: 1px solid #ffffff;
   border-bottom: 1px solid #ffffff;
+}
+
+.section-title-light-text {
+  color: #ffffff;
+}
+.section-title-dark-text {
+  color: #1f1f1f;
 }
