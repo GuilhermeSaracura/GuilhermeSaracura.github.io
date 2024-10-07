@@ -121,7 +121,7 @@
 
   @keyframes moving {
     0% {
-      margin-left: 400px;
+      margin-top: 400px;
       opacity: 0;
     }
     100% {
@@ -903,7 +903,7 @@
 
   @keyframes moving {
     0% {
-      margin-left: 400px;
+      margin-top: 400px;
       opacity: 0;
     }
     100% {
