@@ -10,6 +10,7 @@
   width: 3%;
   height: 2vw;
   background: #ffffff;
+  margin-top: calc(-2rem + (5rem * var(--i) / 100));
   margin: 0 2px;
   border-radius: 50%;
   box-shadow: 0 0 0 0.5vw #ffffff44, 0 0 2vw #ffffff, 0 0 6vw #ffffff;
