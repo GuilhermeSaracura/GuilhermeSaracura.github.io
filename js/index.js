@@ -260,5 +260,40 @@ function animationContainers() {
     }
   }
 }
+
+function getRandomNumber() {
+  return Math.floor(Math.random() * 81) + 40;
+}
+
+function getRandomClass() {
+  const randomNumber = Math.floor(Math.random() * 5) + 1;
+  return `light-type-${randomNumber}`;
+}
+function createSpans(amount, id) {
+  const container = document.querySelector("#background-effect-" + id);
+  for (let i = 0; i < amount; i++) {
+    const span = document.createElement("span");
+    const randomClass = getRandomClass();
+    span.classList.add("light");
+    span.classList.add(randomClass);
+    const randomValue = getRandomNumber();
+    span.style.setProperty("--i", randomValue);
+    container.appendChild(span);
+  }
+}
+
+createSpans(48, 1);
+createSpans(51, 2);
+
+// window.onload = function () {
+//   const elements = document.querySelectorAll(".light");
+//   elements.forEach((element) => {
+//     const randomValue = getRandomNumber();
+//     element.style.setProperty("--i", randomValue);
+//     const randomClass = getRandomClass();
+//     element.classList.add(randomClass);
+//   });
+// };
+
 animationContainers();
 window.addEventListener("scroll", animationContainers);

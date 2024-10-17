@@ -14,7 +14,22 @@
   margin: 0 2px;
   border-radius: 50%;
   box-shadow: 0 0 0 0.5vw #ffffff44, 0 0 2vw #ffffff, 0 0 6vw #ffffff;
+}
+
+.light-type-1 {
   animation: animation calc(220s / var(--i)) linear infinite;
+}
+.light-type-2 {
+  animation: animation calc(219s / var(--i)) linear infinite;
+}
+.light-type-3 {
+  animation: animation calc(218s / var(--i)) linear infinite;
+}
+.light-type-4 {
+  animation: animation calc(217s / var(--i)) linear infinite;
+}
+.light-type-5 {
+  animation: animation calc(216s / var(--i)) linear infinite;
 }
 
 @keyframes animation {
