@@ -424,10 +424,6 @@ export const spanishLanguageweb = {
     value:
       "Este proyecto fue creado para poner en práctica mis conocimientos en desarrollo Web Front-End, además de poder compartir los repositorios de trabajos y proyectos realizados a partir de cursos, proyectos personales y materias del curso de Ingeniería de Computación.",
   },
-  P_WEB_CV_DIRECTORY: {
-    id: "#web-portfolio-directory-cv",
-    value: " Directório",
-  },
   P_WEB_CSHARP: {
     id: "#web-portfolio-csharp",
     value: "Proyecto de desarrollo de aplicación web con ASP.NET Core MVC",

@@ -412,10 +412,6 @@ export const englishLanguageweb = {
     value:
       "This project was set up to put into practice my knowledge in Front-End Web development and also to be able to share the repositories of works and projects carried out from courses, personal projects and Computer Engineering course subjects.",
   },
-  P_WEB_CV_DIRECTORY: {
-    id: "#web-portfolio-directory-cv",
-    value: " Directory",
-  },
   P_WEB_CSHARP: {
     id: "#web-portfolio-csharp",
     value: "Web application development project with ASP.NET Core MVC",
@@ -444,7 +440,7 @@ export const englishLanguageweb = {
   },
   P_WEB_HABITS_DIRECTORY_SERVER: {
     id: "#web-portfolio-habits-nlw-server",
-    value: " Server",
+    value: "Server",
   },
 };
 
