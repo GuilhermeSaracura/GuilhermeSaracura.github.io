@@ -185,9 +185,17 @@ export const englishLanguage = {
     id: "#resume-language-courses",
     value: "Language Courses",
   },
+  RESUME_LANGUAGE_COURSE_PRO1: {
+    id: "#resume-language-course-pro1",
+    value: "English Proficiency Course 1 (C2)",
+  },
+  RESUME_LANGUAGE_COURSE_PRO1_DATE: {
+    id: "#resume-language-course-pro1-date",
+    value: "1° Semester de 2025",
+  },
   RESUME_LANGUAGE_COURSE_ADV3: {
     id: "#resume-language-course-adv3",
-    value: "English course Mainstream Advanced Course 3 (C1)",
+    value: "English Mainstream Advanced Course 3 (C1)",
   },
   RESUME_LANGUAGE_COURSE_ADV3_DATE: {
     id: "#resume-language-course-adv3-date",
@@ -195,7 +203,7 @@ export const englishLanguage = {
   },
   RESUME_LANGUAGE_COURSE_ADV2: {
     id: "#resume-language-course-adv2",
-    value: "English course Mainstream Advanced Course 2 (C1)",
+    value: "English Mainstream Advanced Course 2 (C1)",
   },
   RESUME_LANGUAGE_COURSE_ADV2_DATE: {
     id: "#resume-language-course-adv2-date",
@@ -203,7 +211,7 @@ export const englishLanguage = {
   },
   RESUME_LANGUAGE_COURSE_ADV1: {
     id: "#resume-language-course-adv1",
-    value: "English course Mainstream Advanced Course 1 (C1)",
+    value: "English Mainstream Advanced Course 1 (C1)",
   },
   RESUME_LANGUAGE_COURSE_ADV1_DATE: {
     id: "#resume-language-course-adv1-date",
@@ -211,7 +219,7 @@ export const englishLanguage = {
   },
   RESUME_LANGUAGE_COURSE_UPPER3: {
     id: "#resume-language-course-upper3",
-    value: "English course Upper Intermediate 3 (B2)",
+    value: "English Upper Intermediate 3 (B2)",
   },
   RESUME_LANGUAGE_COURSE_UPPER3_DATE: {
     id: "#resume-language-course-upper3-date",
@@ -219,7 +227,7 @@ export const englishLanguage = {
   },
   RESUME_LANGUAGE_COURSE_UPPER2: {
     id: "#resume-language-course-upper2",
-    value: "English course Upper Intermediate 2 (B2)",
+    value: "English Upper Intermediate 2 (B2)",
   },
   RESUME_LANGUAGE_COURSE_UPPER2_DATE: {
     id: "#resume-language-course-upper2-date",
@@ -227,7 +235,7 @@ export const englishLanguage = {
   },
   RESUME_LANGUAGE_COURSE_UPPER1: {
     id: "#resume-language-course-upper1",
-    value: "English course Upper Intermediate 1 (B2)",
+    value: "English Upper Intermediate 1 (B2)",
   },
   RESUME_LANGUAGE_COURSE_UPPER1_DATE: {
     id: "#resume-language-course-upper1-date",

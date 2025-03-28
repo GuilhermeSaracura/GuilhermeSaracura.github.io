@@ -192,9 +192,17 @@ export const spanishLanguage = {
     id: "#resume-language-courses",
     value: "Cursos de Idiomas",
   },
+  RESUME_LANGUAGE_COURSE_PRO1: {
+    id: "#resume-language-course-pro1",
+    value: "Curso de Inglés Proficiency 1 (C2)",
+  },
+  RESUME_LANGUAGE_COURSE_PRO1_DATE: {
+    id: "#resume-language-course-pro1-date",
+    value: "1° Semestre de 2025",
+  },
   RESUME_LANGUAGE_COURSE_ADV3: {
     id: "#resume-language-course-adv3",
-    value: "Curso de Inglés Mainstream Advanced Course 3 (C1)",
+    value: "Curso de Inglés Mainstream Advanced 3 (C1)",
   },
   RESUME_LANGUAGE_COURSE_ADV3_DATE: {
     id: "#resume-language-course-adv3-date",
@@ -202,7 +210,7 @@ export const spanishLanguage = {
   },
   RESUME_LANGUAGE_COURSE_ADV2: {
     id: "#resume-language-course-adv2",
-    value: "Curso de Inglés Mainstream Advanced Course 2 (C1)",
+    value: "Curso de Inglés Mainstream Advanced 2 (C1)",
   },
   RESUME_LANGUAGE_COURSE_ADV2_DATE: {
     id: "#resume-language-course-adv2-date",
@@ -210,7 +218,7 @@ export const spanishLanguage = {
   },
   RESUME_LANGUAGE_COURSE_ADV1: {
     id: "#resume-language-course-adv1",
-    value: "Curso de Inglés Mainstream Advanced Course 1 (C1)",
+    value: "Curso de Inglés Mainstream Advanced 1 (C1)",
   },
   RESUME_LANGUAGE_COURSE_ADV1_DATE: {
     id: "#resume-language-course-adv1-date",
