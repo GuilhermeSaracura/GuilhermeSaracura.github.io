@@ -43,13 +43,26 @@ export const portugueseLanguage = {
     id: "#resume-professional-experience",
     value: "Experiência Profissional",
   },
+  RESUME_JUNIOR_FIT_DEV: {
+    id: "#resume-junior-fit-dev",
+    value: "Analista de Desenvolvimento de Software I",
+  },
+  RESUME_JUNIOR_FIT_DEV_DATE: {
+    id: "#resume-junior-fit-dev-date",
+    value: "Julho/2025 - Cargo atual",
+  },
+  RESUME_JUNIOR_FIT_DEV_DESCRIPTION: {
+    id: "#resume-junior-fit-dev-description",
+    value:
+      "Realização de tarefas relacionadas ao desenvolvimento de software utilizando React, Material UI, C# .NET e com versionamento de código (Git), desenvolvimento e manutenção de Unit Tests, correção de bugs, revisão de códigos, acompanhamento da rotina com metodologias ágeis (Scrum, Kanban) e participação de reuniões de alinhamento e planejamentos de tarefas.",
+  },
   RESUME_TRAINEE_FIT_DEV: {
     id: "#resume-trainee-fit-dev",
     value: "Analista de Desenvolvimento de Software Trainee",
   },
   RESUME_TRAINEE_FIT_DEV_DATE: {
     id: "#resume-trainee-fit-dev-date",
-    value: "Março/2023 - Cargo atual",
+    value: "Março/2023 - Julho/2025",
   },
   RESUME_TRAINEE_FIT_DEV_DESCRIPTION: {
     id: "#resume-trainee-fit-dev-description",

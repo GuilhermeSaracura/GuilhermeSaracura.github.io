@@ -285,15 +285,5 @@ function createSpans(amount, id) {
 createSpans(48, 1);
 createSpans(51, 2);
 
-// window.onload = function () {
-//   const elements = document.querySelectorAll(".light");
-//   elements.forEach((element) => {
-//     const randomValue = getRandomNumber();
-//     element.style.setProperty("--i", randomValue);
-//     const randomClass = getRandomClass();
-//     element.classList.add(randomClass);
-//   });
-// };
-
 animationContainers();
 window.addEventListener("scroll", animationContainers);

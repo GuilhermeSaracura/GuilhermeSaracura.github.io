@@ -43,13 +43,26 @@ export const englishLanguage = {
     id: "#resume-professional-experience",
     value: "Professional Experience",
   },
+  RESUME_JUNIOR_FIT_DEV: {
+    id: "#resume-junior-fit-dev",
+    value: "Software Development Analyst I",
+  },
+  RESUME_JUNIOR_FIT_DEV_DATE: {
+    id: "#resume-junior-fit-dev-date",
+    value: "July/2025 - Current Job",
+  },
+  RESUME_JUNIOR_FIT_DEV_DESCRIPTION: {
+    id: "#resume-junior-fit-dev-description",
+    value:
+      "Performing tasks related to software development using React, Material UI, C# .NET, and code versioning (Git), developing and maintaining unit tests, fixing bugs, reviewing code, monitoring routines using agile methodologies (Scrum, Kanban), and participating in alignment meetings and task planning.",
+  },
   RESUME_TRAINEE_FIT_DEV: {
     id: "#resume-trainee-fit-dev",
     value: "Software Development Analyst Trainee",
   },
   RESUME_TRAINEE_FIT_DEV_DATE: {
     id: "#resume-trainee-fit-dev-date",
-    value: "March/2023 -  Current Job",
+    value: "March/2023 -  July/2025",
   },
   RESUME_TRAINEE_FIT_DEV_DESCRIPTION: {
     id: "#resume-trainee-fit-dev-description",
